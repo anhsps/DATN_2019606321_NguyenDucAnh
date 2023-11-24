@@ -1,0 +1,788 @@
+fileFormatVersion: 2
+guid: fd1e22795f4a11244b6deac187843093
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3397007592688882910
+    second: darui_0
+  - first:
+      213: -2532356464345543990
+    second: darui_1
+  - first:
+      213: 792671914232203746
+    second: darui_2
+  - first:
+      213: 4849654560478262303
+    second: darui_3
+  - first:
+      213: 1963553178320266323
+    second: darui_4
+  - first:
+      213: -1908665567755198056
+    second: darui_5
+  - first:
+      213: -3993905568191995911
+    second: darui_6
+  - first:
+      213: -1483911242947453824
+    second: darui_7
+  - first:
+      213: 8379463545162249953
+    second: darui_8
+  - first:
+      213: -8569350945355193616
+    second: darui_9
+  - first:
+      213: 6758502220964721671
+    second: darui_10
+  - first:
+      213: -6744441517883055883
+    second: darui_11
+  - first:
+      213: 6552384834051723250
+    second: darui_12
+  - first:
+      213: -4827325481167810500
+    second: darui_13
+  - first:
+      213: -4590534676366571601
+    second: darui
+  - first:
+      213: 6095703311694019281
+    second: darui_15
+  - first:
+      213: 2960524043100484252
+    second: darui_17
+  - first:
+      213: 6166270576154239140
+    second: darui_16
+  - first:
+      213: -4775831569357358164
+    second: darui_17
+  - first:
+      213: 9141662475436150162
+    second: darui_16
+  - first:
+      213: -5674647925353706625
+    second: darui_17
+  - first:
+      213: -8472873366328780679
+    second: darui_16
+  - first:
+      213: -3652470690911347963
+    second: darui_17
+  - first:
+      213: -6622858403002262077
+    second: darui_32
+  - first:
+      213: 4952550644869873586
+    second: darui_33
+  - first:
+      213: -9011092421179245558
+    second: darui_34
+  - first:
+      213: 4766048082463867286
+    second: darui_35
+  - first:
+      213: -1692863922495802995
+    second: darui_36
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: darui_0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 486
+        width: 65
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4968d4868942f20800000000000000
+      internalID: 3397007592688882910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darui_1
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 482
+        width: 60
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca050276334bdcd0800000000000000
+      internalID: -2532356464345543990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darui_2
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 483
+        width: 58
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e94d3ff7e2200b00800000000000000
+      internalID: 792671914232203746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darui_3
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 482
+        width: 67
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14f8a0d02f6d4340800000000000000
+      internalID: 4849654560478262303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darui_4
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 482
+        width: 68
+        height: 78
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3546e5b5631ff3b10800000000000000
+      internalID: 1963553178320266323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darui_5
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 481
+        width: 55
+        height: 78
+      alignment: 9
+      pivot: {x: 0.38, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 891aee657ce0385e0800000000000000
+      internalID: -1908665567755198056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darui_6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 384
+        width: 50
+        height: 80
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff167ddb0cc298c0800000000000000
+      internalID: -3993905568191995911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darui_7
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 382
+        width: 34
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c98ed2696186be0800000000000000
+      internalID: -1483911242947453824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darui_8
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 400
+        width: 73
+        height: 78
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e63bb1b2b5d94470800000000000000
+      internalID: 8379463545162249953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darui_9
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 394
+        width: 85
+        height: 80
+      alignment: 9
+      pivot: {x: 0.8, y: 0.57}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f22272b7bc831980800000000000000
+      internalID: -8569350945355193616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darui_10
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 274
+        width: 54
+        height: 85
+      alignment: 9
+      pivot: {x: 0.58, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7047a4e36f50bcd50800000000000000
+      internalID: 6758502220964721671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darui_11
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 265
+        width: 106
+        height: 78
+      alignment: 9
+      pivot: {x: 0.41, y: 0.71}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f02f2e4c2ee662a0800000000000000
+      internalID: -6744441517883055883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darui_12
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 273
+        width: 70
+        height: 80
+      alignment: 9
+      pivot: {x: 0.62, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff4f416a4fbeea50800000000000000
+      internalID: 6552384834051723250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darui_13
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 275
+        width: 70
+        height: 80
+      alignment: 9
+      pivot: {x: 0.62, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c301dc71d05e10db0800000000000000
+      internalID: -4827325481167810500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darui
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 277
+        width: 45
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7ce0698052b40c0800000000000000
+      internalID: -4590534676366571601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darui_15
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 158
+        width: 43
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dab1b59dd9489450800000000000000
+      internalID: 6095703311694019281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darui_18
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 162
+        width: 32
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92f1028ee4e51920800000000000000
+      internalID: 2960524043100484252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darui_19
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 164
+        width: 41
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a0ed903b6ef29550800000000000000
+      internalID: 6166270576154239140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darui_20
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 179
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cabbb59bd76d8bdb0800000000000000
+      internalID: -4775831569357358164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darui_21
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 175
+        width: 64
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29dc3e83695bdde70800000000000000
+      internalID: 9141662475436150162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darui_22
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 177
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b82e707c99f31b0800000000000000
+      internalID: -5674647925353706625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darui_16
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 158
+        width: 60
+        height: 80
+      alignment: 9
+      pivot: {x: 0.42, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978da15809e4a6a80800000000000000
+      internalID: -8472873366328780679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darui_17
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 176
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b14bb1241df4dc0800000000000000
+      internalID: -3652470690911347963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darui_32
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 41
+        width: 43
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cdd6533f51e614a0800000000000000
+      internalID: -6622858403002262077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darui_33
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 81
+        width: 223
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bfb99f529efab440800000000000000
+      internalID: 4952550644869873586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darui_34
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 74
+        width: 221
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c756d8f2b22f280800000000000000
+      internalID: -9011092421179245558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darui_35
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 32
+        width: 221
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691c0b9ba77642240800000000000000
+      internalID: 4766048082463867286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: darui_36
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 35
+        width: 219
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81309e4b3db188e0800000000000000
+      internalID: -1692863922495802995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

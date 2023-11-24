@@ -1,0 +1,908 @@
+fileFormatVersion: 2
+guid: 2f7b2c14e815c0949b9d0924ae0fab4b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4872671187914592735
+    second: hanzo_0
+  - first:
+      213: 3519521586085333640
+    second: hanzo_1
+  - first:
+      213: 78101017761858211
+    second: hanzo_2
+  - first:
+      213: 7935985963431356505
+    second: hanzo_3
+  - first:
+      213: -2306438891359516830
+    second: hanzo_4
+  - first:
+      213: -5230455697519488370
+    second: hanzo_5
+  - first:
+      213: 410260894791211170
+    second: hanzo_6
+  - first:
+      213: -4624779860730874927
+    second: hanzo_7
+  - first:
+      213: 140770202193930804
+    second: hanzo_8
+  - first:
+      213: 4608148966722915982
+    second: hanzo_9
+  - first:
+      213: 3015492867658313436
+    second: hanzo_10
+  - first:
+      213: -6805765814507395079
+    second: hanzo_11
+  - first:
+      213: 7065916183306000318
+    second: hanzo_12
+  - first:
+      213: 6132140618738946902
+    second: hanzo_13
+  - first:
+      213: -4464482110409338175
+    second: hanzo_14
+  - first:
+      213: 5317062078598295785
+    second: hanzo_15
+  - first:
+      213: -2337768807524296123
+    second: hanzo_17
+  - first:
+      213: -4245615189048646272
+    second: hanzo_18
+  - first:
+      213: 8548080742452494830
+    second: hanzo_19
+  - first:
+      213: -6009022951234326537
+    second: hanzo_21
+  - first:
+      213: -8435154634835647199
+    second: hanzo_22
+  - first:
+      213: 7436619474035443827
+    second: hanzo_23
+  - first:
+      213: 7017781046913035947
+    second: hanzo_24
+  - first:
+      213: 2120502470535734185
+    second: hanzo_25
+  - first:
+      213: 3061934901503907745
+    second: hanzo_26
+  - first:
+      213: 126836361101809236
+    second: hanzo_27
+  - first:
+      213: -3546346027501044152
+    second: hanzo_29
+  - first:
+      213: -2664577898862474961
+    second: hanzo_30
+  - first:
+      213: 2746989537189011908
+    second: hanzo_31
+  - first:
+      213: -4964420562625061148
+    second: hanzo_32
+  - first:
+      213: 2747615143020250971
+    second: hanzo_33
+  - first:
+      213: -2852089300494258696
+    second: hanzo_34
+  - first:
+      213: 7438960279377239223
+    second: hanzo_35
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 28
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hanzo_0
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 813
+        width: 82
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12ee1110f5bc06cb0800000000000000
+      internalID: -4872671187914592735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanzo_1
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 813
+        width: 64
+        height: 75
+      alignment: 9
+      pivot: {x: 0.36, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a8fed3c3ad7d030800000000000000
+      internalID: 3519521586085333640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanzo_2
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 814
+        width: 82
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a2ca4c3678751100800000000000000
+      internalID: 78101017761858211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanzo_3
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 736
+        width: 62
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958efc4ef29422e60800000000000000
+      internalID: 7935985963431356505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanzo_4
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 732
+        width: 57
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267ce506c02edffd0800000000000000
+      internalID: -2306438891359516830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanzo_5
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 733
+        width: 53
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e82dee75140b967b0800000000000000
+      internalID: -5230455697519488370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanzo_6
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 732
+        width: 63
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a893433c1a81b500800000000000000
+      internalID: 410260894791211170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanzo_7
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 732
+        width: 65
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d371c4483b71dfb0800000000000000
+      internalID: -4624779860730874927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanzo_8
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 731
+        width: 53
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43aaab8c0cd14f100800000000000000
+      internalID: 140770202193930804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanzo_9
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 647
+        width: 50
+        height: 75
+      alignment: 9
+      pivot: {x: 0.325, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e4a99f11f63ff30800000000000000
+      internalID: 4608148966722915982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanzo_10
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 651
+        width: 37
+        height: 75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde6f7f49ce29d920800000000000000
+      internalID: 3015492867658313436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanzo_11
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 660
+        width: 69
+        height: 70
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f72ac9dc001d81a0800000000000000
+      internalID: -6805765814507395079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanzo_12
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 655
+        width: 83
+        height: 75
+      alignment: 9
+      pivot: {x: 0.65, y: 0.63}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb753a6f45d2f0260800000000000000
+      internalID: 7065916183306000318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanzo_13
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 541
+        width: 49
+        height: 83
+      alignment: 9
+      pivot: {x: 0.305, y: 0.452}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653ddac376db91550800000000000000
+      internalID: 6132140618738946902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanzo_14
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 542
+        width: 77
+        height: 75
+      alignment: 9
+      pivot: {x: 0.129, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c217f6ac29fa02c0800000000000000
+      internalID: -4464482110409338175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanzo_15
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 541
+        width: 92
+        height: 82
+      alignment: 9
+      pivot: {x: 0.391, y: 0.46}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e03d8b1acff9c940800000000000000
+      internalID: 5317062078598295785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanzo_17
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 539
+        width: 70
+        height: 82
+      alignment: 9
+      pivot: {x: 0.485, y: 0.46}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a9684d7a39e8fd0800000000000000
+      internalID: -2337768807524296123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanzo_18
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 421
+        width: 72
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 085a0c3da7b8415c0800000000000000
+      internalID: -4245615189048646272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanzo_19
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 427
+        width: 74
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee10d354522e0a670800000000000000
+      internalID: 8548080742452494830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanzo_21
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 427
+        width: 96
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff22888679ab9ca0800000000000000
+      internalID: -6009022951234326537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanzo_22
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 427
+        width: 111
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 125a12d0d8f40fa80800000000000000
+      internalID: -8435154634835647199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanzo_23
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 427
+        width: 104
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37882afb20e243760800000000000000
+      internalID: 7436619474035443827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanzo_24
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 313
+        width: 102
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae68bc2eaa246160800000000000000
+      internalID: 7017781046913035947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanzo_25
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 311
+        width: 74
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3ee9513c98d6d10800000000000000
+      internalID: 2120502470535734185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanzo_26
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 357
+        width: 110
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a7d281f19d2e7a20800000000000000
+      internalID: 3061934901503907745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanzo_27
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 354
+        width: 100
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45693189ffc92c100800000000000000
+      internalID: 126836361101809236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanzo_29
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 183
+        width: 71
+        height: 75
+      alignment: 9
+      pivot: {x: 0.492, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ebe2cc319d8cec0800000000000000
+      internalID: -3546346027501044152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanzo_30
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 177
+        width: 133
+        height: 75
+      alignment: 9
+      pivot: {x: 0.052, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2902fdb484850bd0800000000000000
+      internalID: -2664577898862474961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanzo_31
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 175
+        width: 225
+        height: 75
+      alignment: 9
+      pivot: {x: 0.031, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1addd0e644f1620800000000000000
+      internalID: 2746989537189011908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanzo_32
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 165
+        width: 167
+        height: 144
+      alignment: 9
+      pivot: {x: 0.042, y: 0.26}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee96190dc5da1bb0800000000000000
+      internalID: -4964420562625061148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanzo_33
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 31
+        width: 110
+        height: 137
+      alignment: 9
+      pivot: {x: 0.063, y: 0.273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b57c4334a6d712620800000000000000
+      internalID: 2747615143020250971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanzo_34
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 32
+        width: 41
+        height: 125
+      alignment: 9
+      pivot: {x: 0.17, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fde85864e75b68d0800000000000000
+      internalID: -2852089300494258696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanzo_35
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 32
+        width: 61
+        height: 82
+      alignment: 9
+      pivot: {x: 0.442, y: 0.458}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc5586f5fe7c3760800000000000000
+      internalID: 7438960279377239223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1052 @@
+fileFormatVersion: 2
+guid: 1360701e5b39bcd49a3dea04e18f0a6e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8005297531835495931
+    second: kidomaru_0
+  - first:
+      213: 6533565195434684010
+    second: kidomaru_1
+  - first:
+      213: -400699959410123152
+    second: kidomaru_2
+  - first:
+      213: 7747160801030601912
+    second: kidomaru_3
+  - first:
+      213: -5921991520200518793
+    second: kidomaru_4
+  - first:
+      213: -9183114685234213970
+    second: kidomaru_5
+  - first:
+      213: 7664538309104273892
+    second: kidomaru_6
+  - first:
+      213: -7736412658852500882
+    second: kidomaru_7
+  - first:
+      213: -4995978994210462831
+    second: kidomaru_8
+  - first:
+      213: -6007023852818048021
+    second: kidomaru_9
+  - first:
+      213: -2438209188649480241
+    second: kidomaru_10
+  - first:
+      213: -5082619711477034926
+    second: kidomaru_11
+  - first:
+      213: 3631162252191147225
+    second: kidomaru_12
+  - first:
+      213: 7257041368425918932
+    second: kidomaru_13
+  - first:
+      213: -4448035318928490165
+    second: kidomaru_14
+  - first:
+      213: 8025066767597884912
+    second: kidomaru_15
+  - first:
+      213: -5376941186341212705
+    second: kidomaru_16
+  - first:
+      213: 5532128709541021230
+    second: kidomaru_17
+  - first:
+      213: 5442656317962551153
+    second: kidomaru_18
+  - first:
+      213: 6654917425774797502
+    second: kidomaru_19
+  - first:
+      213: -8443947043324423820
+    second: kidomaru_20
+  - first:
+      213: 8094102611976677596
+    second: kidomaru_21
+  - first:
+      213: -4096203369906820267
+    second: kidomaru_22
+  - first:
+      213: -6665892728168365243
+    second: kidomaru_23
+  - first:
+      213: 5886426496750041099
+    second: kidomaru_24
+  - first:
+      213: -9056908682545912416
+    second: kidomaru_25
+  - first:
+      213: 7464498795897122420
+    second: kidomaru_26
+  - first:
+      213: -2468826768532842679
+    second: kidomaru_27
+  - first:
+      213: -5892815735605250756
+    second: kidomaru_28
+  - first:
+      213: -7910466387261125430
+    second: kidomaru_29
+  - first:
+      213: 2850136293324575269
+    second: kidomaru_30
+  - first:
+      213: -4705368979735202904
+    second: kidomaru_31
+  - first:
+      213: -7417476805864948324
+    second: kidomaru_32
+  - first:
+      213: 8507982081137359645
+    second: kidomaru_33
+  - first:
+      213: -9207897251537088220
+    second: kidomaru_34
+  - first:
+      213: -5958404076938535838
+    second: kidomaru_35
+  - first:
+      213: -7253443857431676367
+    second: kidomaru_36
+  - first:
+      213: 836187863467909452
+    second: kidomaru_37
+  - first:
+      213: 244342408207685558
+    second: kidomaru_41
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kidomaru_0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 620
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf5bd5af0b7881f60800000000000000
+      internalID: 8005297531835495931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidomaru_1
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 620
+        width: 57
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e6dbecde2ebaa50800000000000000
+      internalID: 6533565195434684010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidomaru_2
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 620
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e98d9828d607af0800000000000000
+      internalID: -400699959410123152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidomaru_3
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 620
+        width: 57
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc724bc3b1738b60800000000000000
+      internalID: 7747160801030601912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidomaru_4
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 620
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7739293a61cd0dda0800000000000000
+      internalID: -5921991520200518793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidomaru_5
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 619
+        width: 56
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab01f619d50f8080800000000000000
+      internalID: -9183114685234213970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidomaru_6
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 494
+        width: 54
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e98881dbf8ed5a60800000000000000
+      internalID: 7664538309104273892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidomaru_7
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 494
+        width: 51
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ae2411dadb2a490800000000000000
+      internalID: -7736412658852500882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidomaru_8
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 494
+        width: 59
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193a5c81397baaab0800000000000000
+      internalID: -4995978994210462831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidomaru_9
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 494
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb5b77e1a3c2aca0800000000000000
+      internalID: -6007023852818048021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidomaru_10
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 495
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcf447e39adb92ed0800000000000000
+      internalID: -2438209188649480241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidomaru_11
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 494
+        width: 62
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25053012d48e679b0800000000000000
+      internalID: -5082619711477034926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidomaru_12
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 394
+        width: 57
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d429a364da746230800000000000000
+      internalID: 3631162252191147225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidomaru_13
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 390
+        width: 51
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d17755dca036b460800000000000000
+      internalID: 7257041368425918932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidomaru_14
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 387
+        width: 41
+        height: 78
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4140e2b1776542c0800000000000000
+      internalID: -4448035318928490165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidomaru_15
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 384
+        width: 53
+        height: 80
+      alignment: 9
+      pivot: {x: 0.75, y: 0.46}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f5d67dd4b3ce5f60800000000000000
+      internalID: 8025066767597884912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidomaru_16
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 295
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdde6f1ba744165b0800000000000000
+      internalID: -5376941186341212705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidomaru_17
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 306
+        width: 78
+        height: 41
+      alignment: 9
+      pivot: {x: 0.75, y: 0.8}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26cee730c116cc40800000000000000
+      internalID: 5532128709541021230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidomaru_18
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 308
+        width: 90
+        height: 75
+      alignment: 9
+      pivot: {x: 0.7, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f71b2b513388b40800000000000000
+      internalID: 5442656317962551153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidomaru_19
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 309
+        width: 74
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb22dd4b3240b5c50800000000000000
+      internalID: 6654917425774797502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidomaru_20
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 304
+        width: 62
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 471107ce6e211da80800000000000000
+      internalID: -8443947043324423820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidomaru_21
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 190
+        width: 56
+        height: 75
+      alignment: 9
+      pivot: {x: 0.65, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd86e62f077045070800000000000000
+      internalID: 8094102611976677596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidomaru_22
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 190
+        width: 61
+        height: 75
+      alignment: 9
+      pivot: {x: 0.68, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b22f8dcbc5727c0800000000000000
+      internalID: -4096203369906820267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidomaru_23
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 191
+        width: 55
+        height: 75
+      alignment: 9
+      pivot: {x: 0.64, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5434aa291edfd73a0800000000000000
+      internalID: -6665892728168365243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidomaru_24
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 190
+        width: 58
+        height: 75
+      alignment: 9
+      pivot: {x: 0.56, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b08bb3f06b9c0b150800000000000000
+      internalID: 5886426496750041099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidomaru_25
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 203
+        width: 60
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a523bde9856f4280800000000000000
+      internalID: -9056908682545912416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidomaru_26
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 201
+        width: 64
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e67c33b1a379760800000000000000
+      internalID: 7464498795897122420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidomaru_27
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 39
+        width: 62
+        height: 74
+      alignment: 9
+      pivot: {x: 0.67, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947df996227fcbdd0800000000000000
+      internalID: -2468826768532842679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidomaru_28
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 38
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35ba685f43883ea0800000000000000
+      internalID: -5892815735605250756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidomaru_29
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 36
+        width: 51
+        height: 81
+      alignment: 9
+      pivot: {x: 0.53, y: 0.47}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc02a37bb0683290800000000000000
+      internalID: -7910466387261125430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidomaru_30
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 36
+        width: 49
+        height: 81
+      alignment: 9
+      pivot: {x: 0.55, y: 0.47}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5225f0dabd7bd8720800000000000000
+      internalID: 2850136293324575269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidomaru_31
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 35
+        width: 49
+        height: 81
+      alignment: 9
+      pivot: {x: 0.57, y: 0.47}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a3bdb1d7db23beb0800000000000000
+      internalID: -4705368979735202904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidomaru_32
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 35
+        width: 51
+        height: 77
+      alignment: 9
+      pivot: {x: 0.57, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d78b00524df0990800000000000000
+      internalID: -7417476805864948324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidomaru_33
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 56
+        width: 66
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1bb49520ac621670800000000000000
+      internalID: 8507982081137359645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidomaru_34
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 57
+        width: 63
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42116d93c3af63080800000000000000
+      internalID: -9207897251537088220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidomaru_35
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 60
+        width: 66
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26cd6dd9f0f7f4da0800000000000000
+      internalID: -5958404076938535838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidomaru_36
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 54
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13abb87fd37965b90800000000000000
+      internalID: -7253443857431676367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidomaru_37
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 55
+        width: 59
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c416f777e6cba9b00800000000000000
+      internalID: 836187863467909452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidomaru_41
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 56
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b758cc2024146300800000000000000
+      internalID: 244342408207685558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

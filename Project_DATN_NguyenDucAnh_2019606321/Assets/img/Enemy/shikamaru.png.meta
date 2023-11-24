@@ -1,0 +1,1844 @@
+fileFormatVersion: 2
+guid: 98eb386aafe4c5c47831f73fdbb88286
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1839239541081113624
+    second: shikamaru_0
+  - first:
+      213: -3708359606238248074
+    second: shikamaru_1
+  - first:
+      213: -1248640725062552071
+    second: shikamaru_2
+  - first:
+      213: -3706768554189828414
+    second: shikamaru_3
+  - first:
+      213: 2336616463533331881
+    second: shikamaru_4
+  - first:
+      213: -3629480664794574098
+    second: shikamaru_5
+  - first:
+      213: -1302661145725928602
+    second: shikamaru_6
+  - first:
+      213: -1091384075676158829
+    second: shikamaru_7
+  - first:
+      213: 8338138057386350862
+    second: shikamaru_8
+  - first:
+      213: -863495275166413539
+    second: shikamaru_9
+  - first:
+      213: -1624952897724740678
+    second: shikamaru_10
+  - first:
+      213: -625979737775063404
+    second: shikamaru_11
+  - first:
+      213: 8852932410793549153
+    second: shikamaru_12
+  - first:
+      213: -8501193792799595619
+    second: shikamaru_13
+  - first:
+      213: 248266339428966503
+    second: shikamaru_14
+  - first:
+      213: -8915025747304573674
+    second: shikamaru_15
+  - first:
+      213: -4650774730852017921
+    second: shikamaru_16
+  - first:
+      213: 8440776265586453437
+    second: shikamaru_17
+  - first:
+      213: -4336333992944273202
+    second: shikamaru_18
+  - first:
+      213: 2097821710176892651
+    second: shikamaru_19
+  - first:
+      213: 1412546081409612200
+    second: shikamaru_20
+  - first:
+      213: 3937662582421845344
+    second: shikamaru_21
+  - first:
+      213: 8131336151938827049
+    second: shikamaru_22
+  - first:
+      213: 1792684203872740990
+    second: shikamaru_23
+  - first:
+      213: -2143038881732893452
+    second: shikamaru_24
+  - first:
+      213: -7211433795141530476
+    second: shikamaru_25
+  - first:
+      213: -85984843616691737
+    second: shikamaru_26
+  - first:
+      213: -1312238110630494706
+    second: shikamaru_27
+  - first:
+      213: -3742356707897135916
+    second: shikamaru_28
+  - first:
+      213: 3023890299403379412
+    second: shikamaru_29
+  - first:
+      213: 495913380746516315
+    second: shikamaru_32
+  - first:
+      213: -3877385642769973499
+    second: shikamaru_35
+  - first:
+      213: -8979452287200223935
+    second: shikamaru_43
+  - first:
+      213: 113606503105411936
+    second: shikamaru_46
+  - first:
+      213: 1226051808608421775
+    second: shikamaru_47
+  - first:
+      213: -6398375184389960416
+    second: shikamaru_48
+  - first:
+      213: 6072711599836853471
+    second: shikamaru_49
+  - first:
+      213: -1500933363307394044
+    second: shikamaru_50
+  - first:
+      213: -5529405495903328865
+    second: shikamaru_51
+  - first:
+      213: 6266798878096673044
+    second: shikamaru_52
+  - first:
+      213: -3865752204953432585
+    second: shikamaru_53
+  - first:
+      213: -7327012915960843397
+    second: shikamaru_54
+  - first:
+      213: 3626060597204407508
+    second: shikamaru_55
+  - first:
+      213: -5305206731815743902
+    second: shikamaru_56
+  - first:
+      213: 2401153086155623008
+    second: shikamaru_57
+  - first:
+      213: -8579956560153207165
+    second: shikamaru_58
+  - first:
+      213: 6993868293447321010
+    second: shikamaru_59
+  - first:
+      213: 8432715588575826101
+    second: shikamaru_60
+  - first:
+      213: 7701466296494280524
+    second: shikamaru_61
+  - first:
+      213: -8839989388029812533
+    second: shikamaru_62
+  - first:
+      213: -1468840045818146076
+    second: shikamaru_63
+  - first:
+      213: -106550985853029589
+    second: shikamaru_64
+  - first:
+      213: 4742439506652562424
+    second: shikamaru_67
+  - first:
+      213: 8447554573591907262
+    second: shikamaru_68
+  - first:
+      213: -15383049947995456
+    second: shikamaru_71
+  - first:
+      213: -6495176609323421577
+    second: shikamaru_72
+  - first:
+      213: 5457194592205683334
+    second: shikamaru_73
+  - first:
+      213: -2531131714605385686
+    second: shikamaru_74
+  - first:
+      213: 6702322861820036210
+    second: shikamaru_76
+  - first:
+      213: 6651005185599070437
+    second: shikamaru_78
+  - first:
+      213: 8608042705075954555
+    second: shikamaru_80
+  - first:
+      213: 1156168063018929233
+    second: shikamaru_82
+  - first:
+      213: 102409488678321860
+    second: shikamaru_84
+  - first:
+      213: -7804760137119683998
+    second: shikamaru_86
+  - first:
+      213: 7871035406579505000
+    second: shikamaru_88
+  - first:
+      213: 6137095128399669641
+    second: shikamaru_90
+  - first:
+      213: 4848298007611562323
+    second: shikamaru_91
+  - first:
+      213: 5188390980976198781
+    second: shikamaru_92
+  - first:
+      213: 5689635905629379529
+    second: shikamaru_93
+  - first:
+      213: -3635391521455572721
+    second: shikamaru_98
+  - first:
+      213: 5134712775910704158
+    second: shikamaru_99
+  - first:
+      213: 1663053837199034168
+    second: shikamaru_100
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: shikamaru_0
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1028
+        width: 30
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ebf101d165b976e0800000000000000
+      internalID: -1839239541081113624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1028
+        width: 44
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67303caf592498cc0800000000000000
+      internalID: -3708359606238248074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_2
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1028
+        width: 60
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f57f8a40efebaee0800000000000000
+      internalID: -1248640725062552071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_3
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1028
+        width: 57
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce4de6a3a9ee8cc0800000000000000
+      internalID: -3706768554189828414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_4
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1028
+        width: 45
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5db3d2b445d6020800000000000000
+      internalID: 2336616463533331881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_5
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 1028
+        width: 62
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee255cfa09e71adc0800000000000000
+      internalID: -3629480664794574098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_6
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1028
+        width: 56
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b7d4af6940cede0800000000000000
+      internalID: -1302661145725928602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_7
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 917
+        width: 43
+        height: 82
+      alignment: 9
+      pivot: {x: 0.57, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394fdcf27ff9ad0f0800000000000000
+      internalID: -1091384075676158829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_8
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 917
+        width: 48
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e09dda6c26407b370800000000000000
+      internalID: 8338138057386350862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_9
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 917
+        width: 33
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d4a7a4f9f3404f0800000000000000
+      internalID: -863495275166413539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_10
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 918
+        width: 52
+        height: 82
+      alignment: 9
+      pivot: {x: 0.85, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb006ae2f10379e0800000000000000
+      internalID: -1624952897724740678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_11
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 917
+        width: 64
+        height: 50
+      alignment: 9
+      pivot: {x: 0.85, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e335dbeb21057f0800000000000000
+      internalID: -625979737775063404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_12
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 917
+        width: 60
+        height: 82
+      alignment: 9
+      pivot: {x: 1, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d54ed6f1febda70800000000000000
+      internalID: 8852932410793549153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_13
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 917
+        width: 75
+        height: 82
+      alignment: 9
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d93ac656941b50a80800000000000000
+      internalID: -8501193792799595619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_14
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 917
+        width: 79
+        height: 82
+      alignment: 9
+      pivot: {x: 1, y: 0.58}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760a95b9be4027300800000000000000
+      internalID: 248266339428966503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_15
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 808
+        width: 49
+        height: 82
+      alignment: 9
+      pivot: {x: 0.64, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61513701157774480800000000000000
+      internalID: -8915025747304573674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_16
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 808
+        width: 49
+        height: 82
+      alignment: 9
+      pivot: {x: 0.64, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff8d33de501257fb0800000000000000
+      internalID: -4650774730852017921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_17
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 808
+        width: 59
+        height: 82
+      alignment: 9
+      pivot: {x: 0.53, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb24dada49a32570800000000000000
+      internalID: 8440776265586453437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_18
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 809
+        width: 71
+        height: 82
+      alignment: 9
+      pivot: {x: 0.39, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8fa13553f32d3c0800000000000000
+      internalID: -4336333992944273202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_19
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 809
+        width: 67
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6323d0bb5fc1d10800000000000000
+      internalID: 2097821710176892651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_20
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 809
+        width: 94
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a93a435d2f5a9310800000000000000
+      internalID: 1412546081409612200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_21
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 809
+        width: 79
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 065f99e814365a630800000000000000
+      internalID: 3937662582421845344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_22
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 809
+        width: 79
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9230b95062f48d070800000000000000
+      internalID: 8131336151938827049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_23
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 705
+        width: 59
+        height: 82
+      alignment: 9
+      pivot: {x: 0.73, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e76e94e09c4e0e810800000000000000
+      internalID: 1792684203872740990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_24
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 705
+        width: 100
+        height: 82
+      alignment: 9
+      pivot: {x: 0.32, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f4e57acd756242e0800000000000000
+      internalID: -2143038881732893452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_25
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 705
+        width: 100
+        height: 82
+      alignment: 9
+      pivot: {x: 0.32, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c875fcb27dbeb90800000000000000
+      internalID: -7211433795141530476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_26
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 604
+        width: 37
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e9d8248d358ecef0800000000000000
+      internalID: -85984843616691737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_27
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 601
+        width: 46
+        height: 82
+      alignment: 9
+      pivot: {x: 0.65, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0eb323146ef9cde0800000000000000
+      internalID: -1312238110630494706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_28
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 601
+        width: 63
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dcadfae66a701cc0800000000000000
+      internalID: -3742356707897135916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_29
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 606
+        width: 102
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d220bfb43407f920800000000000000
+      internalID: 3023890299403379412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_32
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 602
+        width: 66
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5752c2a796d1e600800000000000000
+      internalID: 495913380746516315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_35
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 602
+        width: 95
+        height: 21
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ffe791d42c03ac0800000000000000
+      internalID: -3877385642769973499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_43
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 602
+        width: 123
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d9cdf48b3926380800000000000000
+      internalID: -8979452287200223935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_46
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 602
+        width: 117
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06bb5cd338c939100800000000000000
+      internalID: 113606503105411936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_47
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 602
+        width: 108
+        height: 58
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f878450cf9fc30110800000000000000
+      internalID: 1226051808608421775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_48
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 431
+        width: 45
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d03ca7ba76437a0800000000000000
+      internalID: -6398375184389960416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_49
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 428
+        width: 37
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd47ba3860b964450800000000000000
+      internalID: 6072711599836853471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_50
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 424
+        width: 38
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40cc780fe0d9b2be0800000000000000
+      internalID: -1500933363307394044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_51
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 422
+        width: 41
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f95e69d5ffa9343b0800000000000000
+      internalID: -5529405495903328865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_52
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 422
+        width: 41
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 419c4cf606428f650800000000000000
+      internalID: 6266798878096673044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_53
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 424
+        width: 41
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd411ae9d61a5ac0800000000000000
+      internalID: -3865752204953432585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_54
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 424
+        width: 41
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b737477b298315a90800000000000000
+      internalID: -7327012915960843397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_55
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 425
+        width: 41
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d4d866c6ea525230800000000000000
+      internalID: 3626060597204407508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_56
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 421
+        width: 41
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e8c1ae59e1066b0800000000000000
+      internalID: -5305206731815743902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_57
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 421
+        width: 45
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a83af820c925120800000000000000
+      internalID: 2401153086155623008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_58
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 421
+        width: 45
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e19c397fedde880800000000000000
+      internalID: -8579956560153207165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_59
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 424
+        width: 80
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b58bc468263f0160800000000000000
+      internalID: 6993868293447321010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_60
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 424
+        width: 77
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b016fc3626070570800000000000000
+      internalID: 8432715588575826101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_61
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 424
+        width: 75
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f4f24eaca11ea60800000000000000
+      internalID: 7701466296494280524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_62
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 424
+        width: 63
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0a244ec7c025580800000000000000
+      internalID: -8839989388029812533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_63
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 424
+        width: 62
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e21425b2c1ad9be0800000000000000
+      internalID: -1468840045818146076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_64
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 424
+        width: 65
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2333c16174758ef0800000000000000
+      internalID: -106550985853029589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_67
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 424
+        width: 90
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f30ec2da9780d140800000000000000
+      internalID: 4742439506652562424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_68
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 424
+        width: 84
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb0caba02ebb3570800000000000000
+      internalID: 8447554573591907262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_71
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 298
+        width: 37
+        height: 82
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c2a944923959cff0800000000000000
+      internalID: -15383049947995456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_72
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 299
+        width: 45
+        height: 82
+      alignment: 9
+      pivot: {x: 0.46, y: 0.51}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 770f9d7694f7cd5a0800000000000000
+      internalID: -6495176609323421577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_73
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 299
+        width: 52
+        height: 82
+      alignment: 9
+      pivot: {x: 0.39, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a3a927199dbbb40800000000000000
+      internalID: 5457194592205683334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_74
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 297
+        width: 61
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a287837bd1d9fdcd0800000000000000
+      internalID: -2531131714605385686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_76
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 304
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27443c4e12f630d50800000000000000
+      internalID: 6702322861820036210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_78
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 304
+        width: 69
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0e9ee4afd1d4c50800000000000000
+      internalID: 6651005185599070437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_80
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 304
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b73e17f9b39e57770800000000000000
+      internalID: 8608042705075954555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_82
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 304
+        width: 93
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c05e84ab88b0010800000000000000
+      internalID: 1156168063018929233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_84
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 303
+        width: 107
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cefc4a23e4db6100800000000000000
+      internalID: 102409488678321860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_86
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 302
+        width: 144
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a2ad5b10cefa390800000000000000
+      internalID: -7804760137119683998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_88
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 193
+        width: 181
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86791bfeff88b3d60800000000000000
+      internalID: 7871035406579505000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_90
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 190
+        width: 187
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989ea09e0875b2550800000000000000
+      internalID: 6137095128399669641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_91
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 175
+        width: 220
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359dbecb95d984340800000000000000
+      internalID: 4848298007611562323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_92
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 174
+        width: 254
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d744de0ab1ed00840800000000000000
+      internalID: 5188390980976198781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_93
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 171
+        width: 284
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cbd85016b5a5fe40800000000000000
+      internalID: 5689635905629379529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_98
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 41
+        width: 323
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f097c202cae7c8dc0800000000000000
+      internalID: -3635391521455572721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_99
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 35
+        width: 371
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1441d7901a224740800000000000000
+      internalID: 5134712775910704158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shikamaru_100
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 32
+        width: 440
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 837499857aa541710800000000000000
+      internalID: 1663053837199034168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

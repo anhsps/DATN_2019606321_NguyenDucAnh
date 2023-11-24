@@ -1,0 +1,674 @@
+fileFormatVersion: 2
+guid: 40f6f45d15284f34b93e3c914d63abd8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2773655582344285030
+    second: sasuke akatsuki_0
+  - first:
+      213: -6359353736683376072
+    second: sasuke akatsuki_1
+  - first:
+      213: 2770637015775469075
+    second: sasuke akatsuki_2
+  - first:
+      213: -7198703219777389551
+    second: sasuke akatsuki_3
+  - first:
+      213: 4701238541365018731
+    second: sasuke akatsuki_4
+  - first:
+      213: 7512256278750658808
+    second: sasuke akatsuki_5
+  - first:
+      213: -3855719988217950720
+    second: sasuke akatsuki_6
+  - first:
+      213: 2025178381201910545
+    second: sasuke akatsuki_7
+  - first:
+      213: 970982390389631981
+    second: sasuke akatsuki_8
+  - first:
+      213: -6194698156165426505
+    second: sasuke akatsuki_9
+  - first:
+      213: -9109330057459201842
+    second: sasuke akatsuki_10
+  - first:
+      213: 4455672039580359879
+    second: sasuke akatsuki_11
+  - first:
+      213: -605204130914550154
+    second: sasuke akatsuki_12
+  - first:
+      213: 8224027346918445800
+    second: sasuke akatsuki_12
+  - first:
+      213: 4121590229295814960
+    second: sasuke akatsuki_12
+  - first:
+      213: 5923788031603592476
+    second: sasuke akatsuki_15
+  - first:
+      213: -1925624144040273436
+    second: sasuke akatsuki_16
+  - first:
+      213: -35618101725940366
+    second: sasuke akatsuki_16
+  - first:
+      213: 5247951085246750311
+    second: sasuke akatsuki_18
+  - first:
+      213: 8623110644753347071
+    second: sasuke akatsuki_19
+  - first:
+      213: 3780317438740066198
+    second: sasuke akatsuki_18
+  - first:
+      213: 1396922861532040920
+    second: sasuke akatsuki_20
+  - first:
+      213: 4037378511476848070
+    second: sasuke akatsuki_21
+  - first:
+      213: -335421254039417407
+    second: sasuke akatsuki_22
+  - first:
+      213: 849191667499051251
+    second: sasuke akatsuki_19
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sasuke akatsuki_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 527
+        width: 41
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b09e28e010e7620800000000000000
+      internalID: 2773655582344285030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke akatsuki_1
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 527
+        width: 41
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8323fe348790fb7a0800000000000000
+      internalID: -6359353736683376072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke akatsuki_2
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 527
+        width: 41
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e58d6bfa7437620800000000000000
+      internalID: 2770637015775469075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke akatsuki_3
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 528
+        width: 41
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c35bddf81191c90800000000000000
+      internalID: -7198703219777389551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke akatsuki_4
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 528
+        width: 41
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b60007e8b872e3140800000000000000
+      internalID: 4701238541365018731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke akatsuki_5
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 528
+        width: 41
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f081aca845e04860800000000000000
+      internalID: 7512256278750658808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke akatsuki_6
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 445
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e45e4691bbd7ac0800000000000000
+      internalID: -3855719988217950720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke akatsuki_7
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 445
+        width: 81
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11b27520201ea1c10800000000000000
+      internalID: 2025178381201910545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke akatsuki_8
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 444
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb655ee65f997d00800000000000000
+      internalID: 970982390389631981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke akatsuki_9
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 445
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b21efe09d2080aa0800000000000000
+      internalID: -6194698156165426505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke akatsuki_10
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 444
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec80b577398259180800000000000000
+      internalID: -9109330057459201842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke akatsuki_11
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 449
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ccd3d2ec1ab5dd30800000000000000
+      internalID: 4455672039580359879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke akatsuki_13
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 336
+        width: 76
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e3d38ac02e997f0800000000000000
+      internalID: -605204130914550154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke akatsuki_14
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 333
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e21c2c9c4d912270800000000000000
+      internalID: 8224027346918445800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke akatsuki_12
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 245
+        width: 76
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 039d5e6f974d23930800000000000000
+      internalID: 4121590229295814960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke akatsuki_15
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 233
+        width: 83
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d417444d5853250800000000000000
+      internalID: 5923788031603592476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke akatsuki_17
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 111
+        width: 48
+        height: 84
+      alignment: 9
+      pivot: {x: 0.9, y: 0.47}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9509b1b0fc645e0800000000000000
+      internalID: -1925624144040273436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke akatsuki_16
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 114
+        width: 77
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2753d037685718ff0800000000000000
+      internalID: -35618101725940366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke akatsuki_18
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 23
+        width: 81
+        height: 80
+      alignment: 9
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69fe05a7ea2667430800000000000000
+      internalID: 3780317438740066198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke akatsuki_20
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 30
+        width: 69
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de4d3cf0fdd26310800000000000000
+      internalID: 1396922861532040920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke akatsuki_21
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 12
+        width: 74
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c57f508d56a70830800000000000000
+      internalID: 4037378511476848070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke akatsuki_22
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 22
+        width: 64
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd4dd68528585bf0800000000000000
+      internalID: -335421254039417407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke akatsuki_19
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 31
+        width: 82
+        height: 88
+      alignment: 9
+      pivot: {x: 1.1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8a087825fe8cb00800000000000000
+      internalID: 849191667499051251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

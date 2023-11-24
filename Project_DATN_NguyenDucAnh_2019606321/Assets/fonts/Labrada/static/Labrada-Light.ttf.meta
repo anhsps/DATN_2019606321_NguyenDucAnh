@@ -1,0 +1,36 @@
+fileFormatVersion: 2
+guid: cb9f4a7e711bc85429fdca42cf6bcdb8
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Labrada
+  fontNames:
+  - Labrada
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 42de4cc0e042b26409655630c9e6c411, type: 3}
+  - {fileID: 12800000, guid: 50e91b3218d3e3547907403090cf2fe9, type: 3}
+  - {fileID: 12800000, guid: 58b4e2f227e159c4cbf05cbecb4923ca, type: 3}
+  - {fileID: 12800000, guid: a725fe030995fac47a729c0b492fe0fc, type: 3}
+  - {fileID: 12800000, guid: 357d30633e677224faa7faaeded2243f, type: 3}
+  - {fileID: 12800000, guid: 39fb44a3be53a44419b38b84e2baeb27, type: 3}
+  - {fileID: 12800000, guid: 634292e33bc3cee41b5eb89dfa6ec2b6, type: 3}
+  - {fileID: 12800000, guid: c01874e3ae34fca49a3758b53a3e9dc9, type: 3}
+  - {fileID: 12800000, guid: 995fd7043607ac945a96a11aa14cb7f7, type: 3}
+  - {fileID: 12800000, guid: 79ea2077f6097b34aac028034f892126, type: 3}
+  - {fileID: 12800000, guid: cbd8eaf9ab7c3f147a3c94bdb3521db2, type: 3}
+  - {fileID: 12800000, guid: 076a81ac3c2dc0b4c8fc0bbd11afca7e, type: 3}
+  - {fileID: 12800000, guid: 0b72e05f44f7059429749a8a95b59034, type: 3}
+  - {fileID: 12800000, guid: 81f66edfe81d1514d865bba15ab4b259, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

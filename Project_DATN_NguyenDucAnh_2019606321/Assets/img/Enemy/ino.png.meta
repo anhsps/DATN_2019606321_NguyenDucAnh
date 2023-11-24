@@ -1,0 +1,1016 @@
+fileFormatVersion: 2
+guid: d76e1a84e8e28ac498902a2c9a958908
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6551852187772773398
+    second: ino_0
+  - first:
+      213: -5882447894327977938
+    second: ino_1
+  - first:
+      213: -4341085683917017676
+    second: ino_2
+  - first:
+      213: 5844162389177854915
+    second: ino_3
+  - first:
+      213: 8336746291402955225
+    second: ino_4
+  - first:
+      213: -7284132939823096957
+    second: ino_5
+  - first:
+      213: -2111492416407708468
+    second: ino_6
+  - first:
+      213: 3990788176344096535
+    second: ino_7
+  - first:
+      213: 1305384983254993952
+    second: ino_8
+  - first:
+      213: 8709179246703144317
+    second: ino_9
+  - first:
+      213: 9115299502907149991
+    second: ino_10
+  - first:
+      213: -64594421846941472
+    second: ino_11
+  - first:
+      213: -7163135734101072888
+    second: ino_12
+  - first:
+      213: -6864495564934647760
+    second: ino_13
+  - first:
+      213: 4924862069589347210
+    second: ino_14
+  - first:
+      213: -8410654031191836723
+    second: ino_15
+  - first:
+      213: -4833340366924670026
+    second: ino_16
+  - first:
+      213: 2849923719266240810
+    second: ino_17
+  - first:
+      213: 2884284473489821492
+    second: ino_18
+  - first:
+      213: -2530931659642024962
+    second: ino_19
+  - first:
+      213: -4102544520175889408
+    second: ino_20
+  - first:
+      213: -1902115991922377211
+    second: ino_21
+  - first:
+      213: 5510543731159145156
+    second: ino_22
+  - first:
+      213: -7531517767819918371
+    second: ino_23
+  - first:
+      213: 3333834414612041324
+    second: ino_24
+  - first:
+      213: -8500798727367534644
+    second: ino_25
+  - first:
+      213: 4351810245988980846
+    second: ino_26
+  - first:
+      213: -3095564734685229642
+    second: ino_27
+  - first:
+      213: -2239407738404326634
+    second: ino_28
+  - first:
+      213: 8794694382296423955
+    second: ino_29
+  - first:
+      213: 6605817679613458997
+    second: ino_30
+  - first:
+      213: -6831407959114035203
+    second: ino_31
+  - first:
+      213: -304591035140409962
+    second: ino_32
+  - first:
+      213: -4705510209831883425
+    second: ino_33
+  - first:
+      213: 3763711874756286802
+    second: ino_34
+  - first:
+      213: 8008617441162640882
+    second: ino_35
+  - first:
+      213: -3121109535179590884
+    second: ino_36
+  - first:
+      213: 4994914019652106044
+    second: ino_37
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ino_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 545
+        width: 37
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb10fef5252315a0800000000000000
+      internalID: -6551852187772773398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ino_1
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 546
+        width: 37
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2816d08ec85d5ea0800000000000000
+      internalID: -5882447894327977938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ino_2
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 547
+        width: 37
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bda79e029d51c3c0800000000000000
+      internalID: -4341085683917017676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ino_3
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 547
+        width: 37
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cbe4a0bab2aa1150800000000000000
+      internalID: 5844162389177854915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ino_4
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 549
+        width: 32
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9d0a1059212b370800000000000000
+      internalID: 8336746291402955225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ino_5
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 442
+        width: 64
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b5f192faf89ea90800000000000000
+      internalID: -7284132939823096957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ino_6
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 440
+        width: 66
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc561e95d872b2e0800000000000000
+      internalID: -2111492416407708468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ino_7
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 441
+        width: 48
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f91d8c3b0226730800000000000000
+      internalID: 3990788176344096535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ino_8
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 442
+        width: 64
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c0b0ed9b8ad1210800000000000000
+      internalID: 1305384983254993952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ino_9
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 440
+        width: 66
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7de1f4b1683dd870800000000000000
+      internalID: 8709179246703144317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ino_10
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 441
+        width: 48
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae431c5a9c008e70800000000000000
+      internalID: 9115299502907149991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ino_11
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 334
+        width: 46
+        height: 75
+      alignment: 9
+      pivot: {x: 0.8, y: 0.47}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e0675f27b38a1ff0800000000000000
+      internalID: -64594421846941472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ino_12
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 334
+        width: 43
+        height: 70
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804aff2700e679c90800000000000000
+      internalID: -7163135734101072888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ino_13
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 329
+        width: 71
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03073d147a96cb0a0800000000000000
+      internalID: -6864495564934647760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ino_14
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 325
+        width: 78
+        height: 70
+      alignment: 9
+      pivot: {x: 1, y: 0.74}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b0ba195ff985440800000000000000
+      internalID: 4924862069589347210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ino_15
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 337
+        width: 67
+        height: 73
+      alignment: 9
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc77a1e58ba574b80800000000000000
+      internalID: -8410654031191836723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ino_16
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 338
+        width: 57
+        height: 73
+      alignment: 9
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb16ee5b868cecb0800000000000000
+      internalID: -4833340366924670026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ino_17
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 338
+        width: 33
+        height: 71
+      alignment: 9
+      pivot: {x: 0.65, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2903dbe586fc8720800000000000000
+      internalID: 2849923719266240810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ino_18
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 233
+        width: 50
+        height: 70
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f09817279070820800000000000000
+      internalID: 2884284473489821492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ino_19
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 233
+        width: 60
+        height: 71
+      alignment: 9
+      pivot: {x: 0.31, y: 0.49}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb4f34a01350ecd0800000000000000
+      internalID: -2530931659642024962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ino_20
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 231
+        width: 37
+        height: 71
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004d0bfbe75d017c0800000000000000
+      internalID: -4102544520175889408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ino_21
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 232
+        width: 39
+        height: 71
+      alignment: 9
+      pivot: {x: 0.38, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e70eb45935a95e0800000000000000
+      internalID: -1902115991922377211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ino_22
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 232
+        width: 33
+        height: 73
+      alignment: 9
+      pivot: {x: 0.46, y: 0.49}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca1ffec352697c40800000000000000
+      internalID: 5510543731159145156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ino_23
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 232
+        width: 63
+        height: 72
+      alignment: 9
+      pivot: {x: 0.36, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd30d8d6e7caa7790800000000000000
+      internalID: -7531517767819918371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ino_24
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 230
+        width: 58
+        height: 73
+      alignment: 9
+      pivot: {x: 0.48, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e4ce69cb8244e20800000000000000
+      internalID: 3333834414612041324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ino_25
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 232
+        width: 41
+        height: 73
+      alignment: 9
+      pivot: {x: 0.53, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc75a2cb898170a80800000000000000
+      internalID: -8500798727367534644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ino_26
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 134
+        width: 37
+        height: 70
+      alignment: 9
+      pivot: {x: 1.09, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e681412ac5cb46c30800000000000000
+      internalID: 4351810245988980846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ino_27
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 134
+        width: 46
+        height: 83
+      alignment: 9
+      pivot: {x: 1.04, y: 0.42}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd4cd956485a05d0800000000000000
+      internalID: -3095564734685229642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ino_28
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 133
+        width: 64
+        height: 86
+      alignment: 9
+      pivot: {x: 0.6, y: 0.405}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 613362dd6860ce0e0800000000000000
+      internalID: -2239407738404326634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ino_29
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 134
+        width: 75
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ed6e4c1f70d0a70800000000000000
+      internalID: 8794694382296423955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ino_30
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 135
+        width: 59
+        height: 75
+      alignment: 9
+      pivot: {x: 0.59, y: 0.46}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53afa543e249cab50800000000000000
+      internalID: 6605817679613458997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ino_31
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 26
+        width: 34
+        height: 74
+      alignment: 9
+      pivot: {x: 0.33, y: 0.47}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff4b31d7a6f131a0800000000000000
+      internalID: -6831407959114035203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ino_32
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 26
+        width: 50
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695ffac3110e5cbf0800000000000000
+      internalID: -304591035140409962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ino_33
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 25
+        width: 53
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d2fff156ba2beb0800000000000000
+      internalID: -4705510209831883425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ino_34
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 25
+        width: 36
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25994c352046b3430800000000000000
+      internalID: 3763711874756286802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ino_35
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 25
+        width: 27
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd3f7a9123542f60800000000000000
+      internalID: 8008617441162640882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ino_36
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 25
+        width: 28
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1339820a679fa4d0800000000000000
+      internalID: -3121109535179590884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ino_37
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 25
+        width: 35
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c377bf036df715540800000000000000
+      internalID: 4994914019652106044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

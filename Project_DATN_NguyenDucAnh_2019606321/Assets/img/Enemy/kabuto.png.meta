@@ -1,0 +1,1460 @@
+fileFormatVersion: 2
+guid: 6409ecdaa160ab243852ff6a453cf6db
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4850728057403538418
+    second: kabuto_0
+  - first:
+      213: 3606930931704285193
+    second: kabuto_1
+  - first:
+      213: -2690899003417381351
+    second: kabuto_2
+  - first:
+      213: -2939255531587623712
+    second: kabuto_3
+  - first:
+      213: 5521105277396966040
+    second: kabuto_4
+  - first:
+      213: -1777037962639910660
+    second: kabuto_5
+  - first:
+      213: 1297479726190804731
+    second: kabuto_6
+  - first:
+      213: -8672698921974238311
+    second: kabuto_7
+  - first:
+      213: -8890304784298146042
+    second: kabuto_8
+  - first:
+      213: -1771431902652887827
+    second: kabuto_9
+  - first:
+      213: 588842170729519347
+    second: kabuto_10
+  - first:
+      213: -6959691632209549270
+    second: kabuto_11
+  - first:
+      213: 2355737397904189965
+    second: kabuto_12
+  - first:
+      213: -8588940346434041145
+    second: kabuto_13
+  - first:
+      213: -3403768567423367254
+    second: kabuto_14
+  - first:
+      213: 858943886669201945
+    second: kabuto_15
+  - first:
+      213: 4402374295807694123
+    second: kabuto_16
+  - first:
+      213: 1092541069472441321
+    second: kabuto_17
+  - first:
+      213: 8896739869091014768
+    second: kabuto_18
+  - first:
+      213: 9145394630312400008
+    second: kabuto_19
+  - first:
+      213: -182756330689833166
+    second: kabuto_20
+  - first:
+      213: 8193840151378754891
+    second: kabuto_21
+  - first:
+      213: -5800826000929842446
+    second: kabuto_22
+  - first:
+      213: -6071188606024757127
+    second: kabuto_23
+  - first:
+      213: -8797181015262825195
+    second: kabuto_24
+  - first:
+      213: -6886762371075641588
+    second: kabuto_25
+  - first:
+      213: -1580007520901057609
+    second: kabuto_27
+  - first:
+      213: 4817376708387525747
+    second: kabuto_29
+  - first:
+      213: 1506274312648034665
+    second: kabuto_30
+  - first:
+      213: -7186576302459444047
+    second: kabuto_32
+  - first:
+      213: -5125079668445770016
+    second: kabuto_36
+  - first:
+      213: 1170084224789602169
+    second: kabuto_37
+  - first:
+      213: 2915210898012519214
+    second: kabuto_38
+  - first:
+      213: -2605833433978728552
+    second: kabuto_39
+  - first:
+      213: -2837867901448992446
+    second: kabuto_41
+  - first:
+      213: -2808386626257172908
+    second: kabuto_42
+  - first:
+      213: -1462240141374366596
+    second: kabuto_43
+  - first:
+      213: -5656334209460320703
+    second: kabuto_44
+  - first:
+      213: 7861999980807914133
+    second: kabuto_45
+  - first:
+      213: -2903113345621312033
+    second: kabuto_46
+  - first:
+      213: 8747511992556144074
+    second: kabuto_47
+  - first:
+      213: -7441934736520899355
+    second: kabuto_49
+  - first:
+      213: -4918920019973428287
+    second: kabuto_50
+  - first:
+      213: 3016786478254533188
+    second: kabuto_51
+  - first:
+      213: 291116083343609703
+    second: kabuto_52
+  - first:
+      213: 2775527019335025253
+    second: kabuto_53
+  - first:
+      213: -4663056529819573446
+    second: kabuto_54
+  - first:
+      213: 2342493536575476636
+    second: kabuto_55
+  - first:
+      213: -7324576182034176622
+    second: kabuto_56
+  - first:
+      213: -5414607369010545048
+    second: kabuto_57
+  - first:
+      213: -7645704491952357149
+    second: kabuto_58
+  - first:
+      213: -1660569213852435863
+    second: kabuto_59
+  - first:
+      213: 2169613212546171162
+    second: kabuto_60
+  - first:
+      213: -4911512846911874560
+    second: kabuto_61
+  - first:
+      213: 2779783364029089650
+    second: kabuto_62
+  - first:
+      213: -386030471180068773
+    second: kabuto_63
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 28
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kabuto_0
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 682
+        width: 52
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0401743880ceacb0800000000000000
+      internalID: -4850728057403538418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_1
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 682
+        width: 52
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9084a9172946e0230800000000000000
+      internalID: 3606930931704285193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_2
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 682
+        width: 57
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 916bad60d9108aad0800000000000000
+      internalID: -2690899003417381351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_3
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 686
+        width: 67
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e42e97baaaa537d0800000000000000
+      internalID: -2939255531587623712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_4
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 683
+        width: 56
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ad7ca6ff7ee9c40800000000000000
+      internalID: 5521105277396966040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_5
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 607
+        width: 64
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf8d67c5361b657e0800000000000000
+      internalID: -1777037962639910660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_6
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 606
+        width: 60
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfebfd6cfe2910210800000000000000
+      internalID: 1297479726190804731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_7
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 607
+        width: 55
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 993ffc7c74264a780800000000000000
+      internalID: -8672698921974238311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_8
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 607
+        width: 62
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60704fac6ea4f9480800000000000000
+      internalID: -8890304784298146042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_9
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 607
+        width: 61
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec849ae11c9a67e0800000000000000
+      internalID: -1771431902652887827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_10
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 606
+        width: 55
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f85a1f95dcfb2800800000000000000
+      internalID: 588842170729519347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_11
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 486
+        width: 53
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2824e3a5553a6f90800000000000000
+      internalID: -6959691632209549270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_12
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 486
+        width: 53
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0aae22aea241b020800000000000000
+      internalID: 2355737397904189965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_13
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 486
+        width: 56
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca47c5d244fdc880800000000000000
+      internalID: -8588940346434041145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_14
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 486
+        width: 55
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa70719958263c0d0800000000000000
+      internalID: -3403768567423367254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_15
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 486
+        width: 56
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91249eef9e49beb00800000000000000
+      internalID: 858943886669201945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_16
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 486
+        width: 56
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b259de5e810681d30800000000000000
+      internalID: 4402374295807694123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_17
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 490
+        width: 49
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e32e6c605c792f00800000000000000
+      internalID: 1092541069472441321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_18
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 491
+        width: 97
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 078a93426c1977b70800000000000000
+      internalID: 8896739869091014768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_19
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 371
+        width: 106
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 884198e36f7faee70800000000000000
+      internalID: 9145394630312400008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_20
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 372
+        width: 60
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23757c4e518b67df0800000000000000
+      internalID: -182756330689833166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_21
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 372
+        width: 67
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d7341743e56b170800000000000000
+      internalID: 8193840151378754891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_22
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 372
+        width: 70
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa1aba7c735f7fa0800000000000000
+      internalID: -5800826000929842446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_23
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 371
+        width: 84
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 970de7d112ecebba0800000000000000
+      internalID: -6071188606024757127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_24
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 371
+        width: 84
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 515f270e9722ae580800000000000000
+      internalID: -8797181015262825195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_25
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 371
+        width: 100
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f62837c1e4d60a0800000000000000
+      internalID: -6886762371075641588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_27
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 371
+        width: 124
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b33f3ee78fa21ae0800000000000000
+      internalID: -1580007520901057609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_29
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 371
+        width: 116
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374ddacb792cad240800000000000000
+      internalID: 4817376708387525747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_30
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 371
+        width: 119
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9698eabb18c57e410800000000000000
+      internalID: 1506274312648034665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_32
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 371
+        width: 80
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b42aa4dde6244c90800000000000000
+      internalID: -7186576302459444047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_36
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 201
+        width: 60
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee86b4023f00e8b0800000000000000
+      internalID: -5125079668445770016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_37
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 201
+        width: 67
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f5fdf2769fc3010800000000000000
+      internalID: 1170084224789602169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_38
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 201
+        width: 88
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b3265cdd8e47820800000000000000
+      internalID: 2915210898012519214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_39
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 201
+        width: 89
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f8cdf4c4836dbd0800000000000000
+      internalID: -2605833433978728552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_41
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 201
+        width: 89
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24946a6ed2edd98d0800000000000000
+      internalID: -2837867901448992446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_42
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 201
+        width: 105
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 456cbfd2e3b9609d0800000000000000
+      internalID: -2808386626257172908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_43
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 233
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c5015b65415bbe0800000000000000
+      internalID: -1462240141374366596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_44
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 232
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1464a3a410aa081b0800000000000000
+      internalID: -5656334209460320703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_45
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 212
+        width: 78
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5920f20f35f6b1d60800000000000000
+      internalID: 7861999980807914133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_46
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 211
+        width: 89
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fddbb832bc116b7d0800000000000000
+      internalID: -2903113345621312033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_47
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 205
+        width: 54
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac547c89fc7656970800000000000000
+      internalID: 8747511992556144074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_49
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 40
+        width: 60
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e4180449cfe8b890800000000000000
+      internalID: -7441934736520899355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_50
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 40
+        width: 67
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb2deaad4c7cbbb0800000000000000
+      internalID: -4918920019973428287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_51
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 40
+        width: 70
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a209f7157cdd920800000000000000
+      internalID: 3016786478254533188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_52
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 36
+        width: 74
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f491019804a0400800000000000000
+      internalID: 291116083343609703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_53
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 36
+        width: 84
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56286f36e17a48620800000000000000
+      internalID: 2775527019335025253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_54
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 40
+        width: 37
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33e984cace794fb0800000000000000
+      internalID: -4663056529819573446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_55
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 40
+        width: 66
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93da30e575328020800000000000000
+      internalID: 2342493536575476636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_56
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 40
+        width: 66
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295e09b05c0e95a90800000000000000
+      internalID: -7324576182034176622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_57
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 40
+        width: 66
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ef9e329437bd4b0800000000000000
+      internalID: -5414607369010545048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_58
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 40
+        width: 40
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e04293f54005e590800000000000000
+      internalID: -7645704491952357149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_59
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 40
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a306b191974f8e0800000000000000
+      internalID: -1660569213852435863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_60
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 40
+        width: 79
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a110fc1c8b30c1e10800000000000000
+      internalID: 2169613212546171162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_61
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 40
+        width: 79
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00adc0a861dc6dbb0800000000000000
+      internalID: -4911512846911874560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_62
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 40
+        width: 75
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2778e7ddd36c39620800000000000000
+      internalID: 2779783364029089650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabuto_63
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 40
+        width: 70
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b58d5dce45b84aaf0800000000000000
+      internalID: -386030471180068773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

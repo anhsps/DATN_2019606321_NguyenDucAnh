@@ -1,0 +1,2396 @@
+fileFormatVersion: 2
+guid: 59cf01f48fc3e4c4f85da3ee44bceddb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2258337502272374089
+    second: sasuke2 akatsuki_0
+  - first:
+      213: 1267884572299425961
+    second: sasuke2 akatsuki_1
+  - first:
+      213: -8823762043454029465
+    second: sasuke2 akatsuki_2
+  - first:
+      213: -7251490532096895687
+    second: sasuke2 akatsuki_3
+  - first:
+      213: 3156455984795397563
+    second: sasuke2 akatsuki_4
+  - first:
+      213: 1621962012853493170
+    second: sasuke2 akatsuki_4
+  - first:
+      213: -5502768822605406879
+    second: sasuke2 akatsuki_6
+  - first:
+      213: -6133119236595269493
+    second: sasuke2 akatsuki_5
+  - first:
+      213: 2148338751413269194
+    second: sasuke2 akatsuki_8
+  - first:
+      213: 5478221657506545199
+    second: sasuke2 akatsuki_6
+  - first:
+      213: 1473976858011936703
+    second: sasuke2 akatsuki_10
+  - first:
+      213: 4540416617970453478
+    second: sasuke2 akatsuki_7
+  - first:
+      213: 1311728981534966006
+    second: sasuke2 akatsuki_12
+  - first:
+      213: 7295361158943124226
+    second: sasuke2 akatsuki_8
+  - first:
+      213: -6993908742049164139
+    second: sasuke2 akatsuki_14
+  - first:
+      213: -3154483574437628285
+    second: sasuke2 akatsuki_9
+  - first:
+      213: 943274155885077568
+    second: sasuke2 akatsuki_16
+  - first:
+      213: 4622645536742497008
+    second: sasuke2 akatsuki_10
+  - first:
+      213: 2815520772021880340
+    second: sasuke2 akatsuki_18
+  - first:
+      213: 5945634070700245036
+    second: sasuke2 akatsuki_11
+  - first:
+      213: -4338630191628304739
+    second: sasuke2 akatsuki_20
+  - first:
+      213: 834482863249878042
+    second: sasuke2 akatsuki_12
+  - first:
+      213: 4933854063738022743
+    second: sasuke2 akatsuki_22
+  - first:
+      213: -1407747177599246372
+    second: sasuke2 akatsuki_13
+  - first:
+      213: -4858162745861729531
+    second: sasuke2 akatsuki_14
+  - first:
+      213: 7662512602551749455
+    second: hd3
+  - first:
+      213: -3243829813147241909
+    second: sasuke2 akatsuki_16
+  - first:
+      213: 6116485943850184102
+    second: hd7
+  - first:
+      213: 229624098375199019
+    second: sasuke2 akatsuki_15
+  - first:
+      213: -7039664941580186924
+    second: hd5
+  - first:
+      213: -5410472664148397292
+    second: sasuke2 akatsuki_18
+  - first:
+      213: -8264321848479163720
+    second: sasuke2 akatsuki_17
+  - first:
+      213: -540258189738410002
+    second: hd9
+  - first:
+      213: -1955420892028938955
+    second: sasuke2 akatsuki_19
+  - first:
+      213: 5155791441435131686
+    second: sasuke2 akatsuki_20
+  - first:
+      213: 7656819461050856462
+    second: sasuke2 akatsuki_21
+  - first:
+      213: -8227050828131857462
+    second: hd1
+  - first:
+      213: 1477684824834911185
+    second: hd2
+  - first:
+      213: 8189458009095625606
+    second: hd3
+  - first:
+      213: -4931965676800774439
+    second: hd6
+  - first:
+      213: 4161255903796954206
+    second: hd7
+  - first:
+      213: -3725724040167839337
+    second: hd20
+  - first:
+      213: -2805796536157895404
+    second: sasuke2 akatsuki_22
+  - first:
+      213: -7768177890827831458
+    second: hd4
+  - first:
+      213: -7121462948400240959
+    second: hd5
+  - first:
+      213: -2129884854941648913
+    second: hd23
+  - first:
+      213: 203628796691325590
+    second: hd24
+  - first:
+      213: -1552662750679981102
+    second: hd25
+  - first:
+      213: -2648914114697211953
+    second: hd26
+  - first:
+      213: 2284572059622474591
+    second: hd27
+  - first:
+      213: -8481242001624794073
+    second: sasuke2 akatsuki_99
+  - first:
+      213: 6287769031847213203
+    second: sasuke2 akatsuki_100
+  - first:
+      213: -700916747228774881
+    second: sasuke2 akatsuki_101
+  - first:
+      213: -6814707468029633656
+    second: sasuke2 akatsuki_102
+  - first:
+      213: 8762485314256904105
+    second: sasuke2 akatsuki_103
+  - first:
+      213: 4232776347152799544
+    second: sasuke2 akatsuki_104
+  - first:
+      213: 2247952455235969767
+    second: sasuke2 akatsuki_106
+  - first:
+      213: 3077990804742494610
+    second: sasuke2 akatsuki_107
+  - first:
+      213: -4919428543496383397
+    second: sasuke2 akatsuki_108
+  - first:
+      213: 3741059162289544510
+    second: sasuke2 akatsuki_109
+  - first:
+      213: 3374127596795398760
+    second: sasuke2 akatsuki_109
+  - first:
+      213: -6547747471860193539
+    second: sasuke2 akatsuki_109
+  - first:
+      213: 1318711749938685590
+    second: sasuke2 akatsuki_109
+  - first:
+      213: -8496056702984670266
+    second: sasuke2 akatsuki_109
+  - first:
+      213: -3902237488795396724
+    second: sasuke2 akatsuki_110
+  - first:
+      213: -4785738937267223070
+    second: sasuke2 akatsuki_115
+  - first:
+      213: -1392567083371488530
+    second: sasuke2 akatsuki_117
+  - first:
+      213: 1453352594390519055
+    second: sasuke2 akatsuki_118
+  - first:
+      213: 8163850987216364452
+    second: sasuke2 akatsuki_114
+  - first:
+      213: 4600574289836950833
+    second: sasuke2 akatsuki_120
+  - first:
+      213: -5104446017593158101
+    second: sasuke2 akatsuki_115
+  - first:
+      213: -5333538255913651054
+    second: sasuke2 akatsuki_116
+  - first:
+      213: -3727291779151965960
+    second: sasuke2 akatsuki_117
+  - first:
+      213: 2975132680244281795
+    second: sasuke2 akatsuki_118
+  - first:
+      213: 5980481066888449764
+    second: sasuke2 akatsuki_119
+  - first:
+      213: 959209533245172101
+    second: sasuke2 akatsuki_159
+  - first:
+      213: 6803652366832594551
+    second: sasuke2 akatsuki_161
+  - first:
+      213: 1803539568199555435
+    second: sasuke2 akatsuki_163
+  - first:
+      213: 5314247651111312104
+    second: sasuke2 akatsuki_165
+  - first:
+      213: 2683574670082087756
+    second: sasuke2 akatsuki_167
+  - first:
+      213: 7902950410298455343
+    second: sasuke2 akatsuki_169
+  - first:
+      213: 1802755775963408083
+    second: sasuke2 akatsuki_170
+  - first:
+      213: -3199412581838923341
+    second: sasuke2 akatsuki_171
+  - first:
+      213: 6691950012892230699
+    second: sasuke2 akatsuki_172
+  - first:
+      213: -4368151646294252549
+    second: sasuke2 akatsuki_173
+  - first:
+      213: -8540630952705478627
+    second: sasuke2 akatsuki_174
+  - first:
+      213: 8879591710933610835
+    second: sasuke2 akatsuki_175
+  - first:
+      213: -6426349224050976426
+    second: sasuke2 akatsuki_178
+  - first:
+      213: 8181595409122010827
+    second: sasuke2 akatsuki_179
+  - first:
+      213: -5753118710226182041
+    second: sasuke2 akatsuki_183
+  - first:
+      213: 4442164478889198557
+    second: sasuke2 akatsuki_184
+  - first:
+      213: -2428536236632081626
+    second: sasuke2 akatsuki_188
+  - first:
+      213: 2286330753984984967
+    second: sasuke2 akatsuki_189
+  - first:
+      213: 6336571108784591359
+    second: sasuke2 akatsuki_190
+  - first:
+      213: 3882704746075467697
+    second: sasuke2 akatsuki_191
+  - first:
+      213: 3309880624735511121
+    second: sasuke2 akatsuki_192
+  - first:
+      213: -5074732216312301644
+    second: sasuke2 akatsuki_193
+  - first:
+      213: 7088555749627843150
+    second: sasuke2 akatsuki_194
+  - first:
+      213: 6642238326578186733
+    second: sasuke2 akatsuki_196
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_0
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1616
+        width: 41
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94543ed3ef9375f10800000000000000
+      internalID: 2258337502272374089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_1
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1616
+        width: 58
+        height: 83
+      alignment: 9
+      pivot: {x: 0.44, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a8fa1c0d4e689110800000000000000
+      internalID: 1267884572299425961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_2
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 1616
+        width: 39
+        height: 83
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7610959fb23bb8580800000000000000
+      internalID: -8823762043454029465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_3
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 1616
+        width: 64
+        height: 83
+      alignment: 9
+      pivot: {x: 0.82, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9359146f7c78d5b90800000000000000
+      internalID: -7251490532096895687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_4
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 1616
+        width: 83
+        height: 83
+      alignment: 9
+      pivot: {x: 0.86, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbda2ea9efbfdcb20800000000000000
+      internalID: 3156455984795397563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_5
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 1616
+        width: 83
+        height: 83
+      alignment: 9
+      pivot: {x: 0.86, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd5f4f6bdd528610800000000000000
+      internalID: 1621962012853493170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_6
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 1616
+        width: 92
+        height: 83
+      alignment: 9
+      pivot: {x: 0.78, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d928729ec32a3b0800000000000000
+      internalID: -5502768822605406879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_7
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1616
+        width: 86
+        height: 83
+      alignment: 9
+      pivot: {x: 0.835, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80cf998c88c2eaa0800000000000000
+      internalID: -6133119236595269493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_8
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 1616
+        width: 83
+        height: 83
+      alignment: 9
+      pivot: {x: 0.86, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2b13746be60dd10800000000000000
+      internalID: 2148338751413269194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_9
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1528
+        width: 89
+        height: 81
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e7788929d860c40800000000000000
+      internalID: 5478221657506545199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_10
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1528
+        width: 84
+        height: 81
+      alignment: 9
+      pivot: {x: 0.85, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7a2f4942e947410800000000000000
+      internalID: 1473976858011936703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_11
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 1527
+        width: 97
+        height: 83
+      alignment: 9
+      pivot: {x: 0.735, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ebc86e9bdcc20f30800000000000000
+      internalID: 4540416617970453478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_12
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1527
+        width: 97
+        height: 83
+      alignment: 9
+      pivot: {x: 0.735, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f00af11f82343210800000000000000
+      internalID: 1311728981534966006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_13
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1527
+        width: 97
+        height: 83
+      alignment: 9
+      pivot: {x: 0.735, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20bacf252545e3560800000000000000
+      internalID: 7295361158943124226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_14
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 1527
+        width: 115
+        height: 83
+      alignment: 9
+      pivot: {x: 0.777, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59419aeed05a0fe90800000000000000
+      internalID: -6993908742049164139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_15
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 1527
+        width: 100
+        height: 83
+      alignment: 9
+      pivot: {x: 0.715, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38637d7f6e50934d0800000000000000
+      internalID: -3154483574437628285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_16
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 1527
+        width: 86
+        height: 83
+      alignment: 9
+      pivot: {x: 0.83, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 044265bd8de271d00800000000000000
+      internalID: 943274155885077568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_17
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1431
+        width: 83
+        height: 83
+      alignment: 9
+      pivot: {x: 0.86, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fad414bf9fe62040800000000000000
+      internalID: 4622645536742497008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_18
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1431
+        width: 83
+        height: 83
+      alignment: 9
+      pivot: {x: 0.86, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4160912993db21720800000000000000
+      internalID: 2815520772021880340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_19
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1431
+        width: 83
+        height: 83
+      alignment: 9
+      pivot: {x: 0.86, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c204c8c9fa2238250800000000000000
+      internalID: 5945634070700245036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_20
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1431
+        width: 39
+        height: 83
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9eb538e3d61ac3c0800000000000000
+      internalID: -4338630191628304739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_21
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1431
+        width: 58
+        height: 83
+      alignment: 9
+      pivot: {x: 0.44, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ce82b2ebda49b00800000000000000
+      internalID: 834482863249878042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_22
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1431
+        width: 41
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75be8ba5122987440800000000000000
+      internalID: 4933854063738022743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd1
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 1455
+        width: 57
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf53a9866da67ce0800000000000000
+      internalID: -1407747177599246372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd2
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1446
+        width: 121
+        height: 39
+      alignment: 9
+      pivot: {x: 0.24, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50310e7e8b6549cb0800000000000000
+      internalID: -4858162745861729531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd3
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1442
+        width: 229
+        height: 55
+      alignment: 9
+      pivot: {x: 0.13, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b0d024d96b65a60800000000000000
+      internalID: 7662512602551749455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd6
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1258
+        width: 223
+        height: 126
+      alignment: 9
+      pivot: {x: 0.13, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b427983b8f99bf2d0800000000000000
+      internalID: -3243829813147241909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd7
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 1266
+        width: 222
+        height: 130
+      alignment: 9
+      pivot: {x: 0.13, y: 0.11}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad2cd43f8f12e450800000000000000
+      internalID: 6116485943850184102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd4
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1274
+        width: 235
+        height: 103
+      alignment: 9
+      pivot: {x: 0.12, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29e58f96e9cf2300800000000000000
+      internalID: 229624098375199019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd5
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1254
+        width: 234
+        height: 121
+      alignment: 9
+      pivot: {x: 0.12, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4da875b88061e4e90800000000000000
+      internalID: -7039664941580186924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd10
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 1117
+        width: 144
+        height: 120
+      alignment: 9
+      pivot: {x: -0.3, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 413397227c32ae4b0800000000000000
+      internalID: -5410472664148397292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd8
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1121
+        width: 222
+        height: 131
+      alignment: 9
+      pivot: {x: 0.13, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba56e7a01b3f4d80800000000000000
+      internalID: -8264321848479163720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd9
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1120
+        width: 215
+        height: 113
+      alignment: 9
+      pivot: {x: 0.13, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef75a1f90e9088f0800000000000000
+      internalID: -540258189738410002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd11
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 1117
+        width: 126
+        height: 106
+      alignment: 9
+      pivot: {x: -0.4, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 535dc381f03fcd4e0800000000000000
+      internalID: -1955420892028938955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd12
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 1118
+        width: 110
+        height: 92
+      alignment: 9
+      pivot: {x: -0.48, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f7dbadffc0d8740800000000000000
+      internalID: 5155791441435131686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd13
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 1124
+        width: 140
+        height: 75
+      alignment: 9
+      pivot: {x: -0.1, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e04fb357bbc724a60800000000000000
+      internalID: 7656819461050856462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd15
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 972
+        width: 96
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb0e105cd4a3dd80800000000000000
+      internalID: -8227050828131857462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd16
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 968
+        width: 108
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db2542e48ac18410800000000000000
+      internalID: 1477684824834911185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd17
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 967
+        width: 113
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b5f1f6bacc6a170800000000000000
+      internalID: 8189458009095625606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd18
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 968
+        width: 106
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9deeeddf8532e8bb0800000000000000
+      internalID: -4931965676800774439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd19
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 968
+        width: 102
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54805d7230cfb930800000000000000
+      internalID: 4161255903796954206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd20
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 973
+        width: 99
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799a9a6a9b19b4cc0800000000000000
+      internalID: -3725724040167839337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd14
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 995
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41589468aeecf09d0800000000000000
+      internalID: -2805796536157895404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd21
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 982
+        width: 93
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57f929ad53e13490800000000000000
+      internalID: -7768177890827831458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd22
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 860
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c66f77fd2b7b2d90800000000000000
+      internalID: -7121462948400240959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hd23
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 874
+        width: 47
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe7f7b052012172e0800000000000000
+      internalID: -2129884854941648913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_99
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 763
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72cf707c5539c4a80800000000000000
+      internalID: -8481242001624794073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_100
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 763
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39874f4de94a24750800000000000000
+      internalID: 6287769031847213203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_101
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 763
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e7e489ee7d546f0800000000000000
+      internalID: -700916747228774881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_102
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 763
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b54e7e9ab4d61a0800000000000000
+      internalID: -6814707468029633656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_103
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 763
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af1cd9b7f99a9970800000000000000
+      internalID: 8762485314256904105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_104
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 763
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 837d7b959a7ddba30800000000000000
+      internalID: 4232776347152799544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_106
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 665
+        width: 43
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e2ae4e09d4523f10800000000000000
+      internalID: 2247952455235969767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_107
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 665
+        width: 54
+        height: 84
+      alignment: 9
+      pivot: {x: 0.47, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 299589a345837ba20800000000000000
+      internalID: 3077990804742494610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_108
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 665
+        width: 54
+        height: 84
+      alignment: 9
+      pivot: {x: 0.47, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b541bfecdcdaabbb0800000000000000
+      internalID: -4919428543496383397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_111
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 685
+        width: 85
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d1df3bc79eae330800000000000000
+      internalID: 3741059162289544510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_112
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 672
+        width: 95
+        height: 141
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a05d12c2f43de20800000000000000
+      internalID: 3374127596795398760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_113
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 667
+        width: 102
+        height: 143
+      alignment: 9
+      pivot: {x: 0.58, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6afc4ad5ab125a0800000000000000
+      internalID: -6547747471860193539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_109
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 667
+        width: 80
+        height: 81
+      alignment: 9
+      pivot: {x: 0.57, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696aa3889510d4210800000000000000
+      internalID: 1318711749938685590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_110
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 688
+        width: 95
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c3b5035171f71a80800000000000000
+      internalID: -8496056702984670266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_114
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 512
+        width: 113
+        height: 142
+      alignment: 9
+      pivot: {x: 0.53, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85532bcda778d9c0800000000000000
+      internalID: -3902237488795396724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_115
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 513
+        width: 120
+        height: 140
+      alignment: 9
+      pivot: {x: 0.56, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e58e60eac3a59db0800000000000000
+      internalID: -4785738937267223070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_117
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 503
+        width: 102
+        height: 141
+      alignment: 9
+      pivot: {x: 0.52, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea9db5ad9b9cace0800000000000000
+      internalID: -1392567083371488530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_118
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 504
+        width: 101
+        height: 142
+      alignment: 9
+      pivot: {x: 0.54, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d0a020c785b2410800000000000000
+      internalID: 1453352594390519055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_119
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 499
+        width: 107
+        height: 143
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3e04c0833db4170800000000000000
+      internalID: 8163850987216364452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_120
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 493
+        width: 102
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 135c68411f588df30800000000000000
+      internalID: 4600574289836950833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_129
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 483
+        width: 112
+        height: 144
+      alignment: 9
+      pivot: {x: 0.53, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26d33a346d5929b0800000000000000
+      internalID: -5104446017593158101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_116
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 510
+        width: 118
+        height: 142
+      alignment: 9
+      pivot: {x: 0.58, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2947f4ce6377bf5b0800000000000000
+      internalID: -5333538255913651054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_130
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 413
+        width: 108
+        height: 99
+      alignment: 9
+      pivot: {x: 0.53, y: 0.715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f0d969ffdff54cc0800000000000000
+      internalID: -3727291779151965960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_131
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 415
+        width: 108
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1cd95e86bc94920800000000000000
+      internalID: 2975132680244281795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_132
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 408
+        width: 112
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eec5d928dfeef250800000000000000
+      internalID: 5980481066888449764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_159
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 250
+        width: 83
+        height: 83
+      alignment: 9
+      pivot: {x: 0.86, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5892f360dfbcf4d00800000000000000
+      internalID: 959209533245172101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_161
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 250
+        width: 83
+        height: 83
+      alignment: 9
+      pivot: {x: 0.86, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e6d44c7cd6b6e50800000000000000
+      internalID: 6803652366832594551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_163
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 250
+        width: 83
+        height: 83
+      alignment: 9
+      pivot: {x: 0.86, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6955e48ea5770910800000000000000
+      internalID: 1803539568199555435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_165
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 250
+        width: 83
+        height: 83
+      alignment: 9
+      pivot: {x: 0.86, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea91f4251000c940800000000000000
+      internalID: 5314247651111312104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_167
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 250
+        width: 83
+        height: 83
+      alignment: 9
+      pivot: {x: 0.86, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b9a7ab1f8fd3520800000000000000
+      internalID: 2683574670082087756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_169
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 250
+        width: 83
+        height: 83
+      alignment: 9
+      pivot: {x: 0.86, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25fd5bc68becad60800000000000000
+      internalID: 7902950410298455343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_170
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 254
+        width: 48
+        height: 80
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d6251ba3dca40910800000000000000
+      internalID: 1802755775963408083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_171
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 255
+        width: 48
+        height: 80
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9539145376993d0800000000000000
+      internalID: -3199412581838923341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_172
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 233
+        width: 59
+        height: 98
+      alignment: 9
+      pivot: {x: 0.72, y: 0.64}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24bc1dc4159edc50800000000000000
+      internalID: 6691950012892230699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_173
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 229
+        width: 67
+        height: 97
+      alignment: 9
+      pivot: {x: 0.74, y: 0.68}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf3e79d98353163c0800000000000000
+      internalID: -4368151646294252549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_174
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 229
+        width: 72
+        height: 98
+      alignment: 9
+      pivot: {x: 0.69, y: 0.68}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10b8421665997980800000000000000
+      internalID: -8540630952705478627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_175
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 229
+        width: 69
+        height: 104
+      alignment: 9
+      pivot: {x: 0.72, y: 0.61}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35173b07d95aa3b70800000000000000
+      internalID: 8879591710933610835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_178
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 159
+        width: 77
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65995d1dd6501d6a0800000000000000
+      internalID: -6426349224050976426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_179
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 159
+        width: 94
+        height: 80
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc62fa83dadda8170800000000000000
+      internalID: 8181595409122010827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_183
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 159
+        width: 115
+        height: 80
+      alignment: 9
+      pivot: {x: 0.65, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760a05ea301d820b0800000000000000
+      internalID: -5753118710226182041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_184
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 162
+        width: 179
+        height: 80
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd38c06de0db5ad30800000000000000
+      internalID: 4442164478889198557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_188
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 44
+        width: 87
+        height: 100
+      alignment: 9
+      pivot: {x: 0.49, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b7163e82b1c4ed0800000000000000
+      internalID: -2428536236632081626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_189
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 42
+        width: 89
+        height: 99
+      alignment: 9
+      pivot: {x: 0.48, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 787735e05bdaabf10800000000000000
+      internalID: 2286330753984984967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_190
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 46
+        width: 73
+        height: 87
+      alignment: 9
+      pivot: {x: 0.84, y: 0.46}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1db11d9d500f750800000000000000
+      internalID: 6336571108784591359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_191
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 44
+        width: 74
+        height: 82
+      alignment: 9
+      pivot: {x: 0.84, y: 0.49}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf2d85256322e530800000000000000
+      internalID: 3882704746075467697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_192
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 41
+        width: 203
+        height: 69
+      alignment: 9
+      pivot: {x: 0.5, y: 0.59}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152ee4644ee0fed20800000000000000
+      internalID: 3309880624735511121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_193
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 41
+        width: 196
+        height: 69
+      alignment: 9
+      pivot: {x: 0.475, y: 0.59}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b77974bfede299b0800000000000000
+      internalID: -5074732216312301644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_194
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 41
+        width: 213
+        height: 69
+      alignment: 9
+      pivot: {x: 0.44, y: 0.59}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42de13c5eb9f5260800000000000000
+      internalID: 7088555749627843150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sasuke2 akatsuki_196
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 35
+        width: 105
+        height: 69
+      alignment: 9
+      pivot: {x: 0.885, y: 0.59}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de98d21e098fd2c50800000000000000
+      internalID: 6642238326578186733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
