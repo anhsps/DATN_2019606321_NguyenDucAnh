@@ -25,6 +25,8 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] private GameObject GameOverUI;
     [SerializeField] private GameObject buttonPause;
 
+    public bool isHurt;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -46,12 +48,15 @@ public class PlayerHealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Player Hurt"))
+            isHurt = true;//dùng khi hurt thì hủy đạn player atk2
+        else 
+            isHurt = false;
     }
 
     public void TakeDamage(int damage)
     {
-        hurt_audio.Play();       
+        hurt_audio.Play();
 
         if (damage < 0) return;
         currentHP -= damage;
@@ -59,9 +64,9 @@ public class PlayerHealth : MonoBehaviour
         StartCoroutine(Invulnerability());//start quy trình(bất khả xâm phạm)
 
         SliderHP.value = currentHP;
-        if (currentHP < 0)      HPScore.text = "0 / " + maxHP;        
-        else                    HPScore.text = currentHP + " / " + maxHP;
-        if (currentHP <= 0)     Die();
+        if (currentHP < 0) HPScore.text = "0 / " + maxHP;
+        else HPScore.text = currentHP + " / " + maxHP;
+        if (currentHP <= 0) Die();
     }
     public void AddHP(int amountHP)
     {

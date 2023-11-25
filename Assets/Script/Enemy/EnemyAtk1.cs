@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class EnemyAtk1 : MonoBehaviour
 {
-    //public int atkDamage = 10;
-
+    public int atkDamage = 10;
 
     // Start is called before the first frame update
     void Start()
@@ -14,26 +13,10 @@ public class EnemyAtk1 : MonoBehaviour
     }
 
     // Update is called once per frame
-    /*void Update()
+    void Update()
     {
-        
-    }*/
 
-    public int damageAmount = 10;
-
-    /*private void Update()
-    {
-        GameObject player = GameObject.FindGameObjectWithTag("Player");
-        if (player != null)
-        {
-            // Kiểm tra xem có va chạm giữa SpriteRenderer của Enemy và SpriteRenderer của Player không
-            if (IsSpriteRendererCollision(gameObject.GetComponent<SpriteRenderer>(), player.GetComponent<SpriteRenderer>()))
-            {
-                // Gọi phương thức xử lý sát thương cho Player
-                player.GetComponent<PlayerHealth>().TakeDamage(damageAmount);
-            }
-        }
-    }*/
+    }
 
     // Hàm kiểm tra xem có va chạm giữa hai SpriteRenderer không
     private bool IsSpriteRendererCollision(SpriteRenderer spriteRenderer1, SpriteRenderer spriteRenderer2)
@@ -61,7 +44,7 @@ public class EnemyAtk1 : MonoBehaviour
             if (IsSpriteRendererCollision(gameObject.GetComponent<SpriteRenderer>(), player.GetComponent<SpriteRenderer>()))
             {
                 // Gọi phương thức xử lý sát thương cho Player
-                player.GetComponent<PlayerHealth>().TakeDamage(damageAmount);
+                player.GetComponent<PlayerHealth>().TakeDamage(atkDamage);
             }
         }
     }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Boss1 : EnemyShoot
+public class BossItachi : EnemyShoot
 {
     Animator ani;
     EnemyBehavior bParent;

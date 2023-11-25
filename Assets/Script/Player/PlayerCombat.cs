@@ -121,19 +121,19 @@ public class PlayerCombat : MonoBehaviour
             enemy.GetComponent<EnemyHealth>().TakeDamage(atkDamage1);
         }
     }
-  
+
     void Attack2()
     {//hoả độn
         if (pctr.faceingRight)
-        {            
+        {
             Instantiate(bulletAtk2, gunTip2.position, Quaternion.Euler(new Vector3(0, 0, 0)));
         }
-        else if(!pctr.faceingRight)
+        else if (!pctr.faceingRight)
         {
             Instantiate(bulletAtk2, gunTip2.position, Quaternion.Euler(new Vector3(0, 180, 0)));
         }
     }
-    
+
     void Attack3()
     {//chidori
         sr.enabled = false;

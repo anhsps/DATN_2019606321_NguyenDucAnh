@@ -95,7 +95,7 @@ AnimationClip:
     intParameter: 0
     messageOptions: 0
   - time: 0.4
-    functionName: BulletAtk2
+    functionName: BulletAtk
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

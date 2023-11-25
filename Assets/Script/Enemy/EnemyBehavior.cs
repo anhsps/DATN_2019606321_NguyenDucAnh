@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyBehavior : MonoBehaviour
 {
     #region Public Variables
-    public int atkA, atkB;//kiểu atk thứ
+    public int atkA, atkB;//kiểu atk thứ . 1 <= atkA <= atkB
     public float atkDistance, atkDistance2;//
     public float moveSpeed;
     public float timer;//time hồi chiêu
@@ -66,7 +66,7 @@ public class EnemyBehavior : MonoBehaviour
         {
             StopAttack();
         }
-        else if(atkA == 1 && atkB==1 && distance > atkDistance)//
+        else if (atkA == 1 && atkB == 1 && distance > atkDistance)//
         {
             StopAttack();
         }
@@ -75,9 +75,9 @@ public class EnemyBehavior : MonoBehaviour
             animator.SetBool("Attack" + Random.Range(1, atkB + 1), true);
             AttackAnimation();
         }
-        else if (distance <= atkDistance2 && cooling == false)//
-        {
-            animator.SetBool("Attack" + Random.Range(2, atkB + 1), true);
+        else if (distance <= atkDistance2 && cooling == false && atkA > 1)//
+        {//nếu ko atk1, mà từ atkA=2 trở đi thì cài atkDistance=0
+            animator.SetBool("Attack" + Random.Range(atkA, atkB + 1), true);
             AttackAnimation();
         }
 

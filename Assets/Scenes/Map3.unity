@@ -3234,6 +3234,7 @@ MonoBehaviour:
   hurt_audio: {fileID: 1271405483}
   GameOverUI: {fileID: 872799459}
   buttonPause: {fileID: 1271332061}
+  isHurt: 0
 --- !u!114 &651839958
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53741,7 +53742,7 @@ PrefabInstance:
     - target: {fileID: 4453480052991654882, guid: 87e82262b8eebbb41b61b4b167a37a8d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4453480053960752072, guid: 87e82262b8eebbb41b61b4b167a37a8d,
         type: 3}

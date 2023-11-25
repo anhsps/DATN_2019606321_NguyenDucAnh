@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 3727789617594150117}
   - component: {fileID: 5167994900904212748}
   - component: {fileID: 2991575040550106510}
+  - component: {fileID: 4952913135354449138}
   m_Layer: 0
   m_Name: "Ho\u1EA3 \u0110\u1ED9n"
   m_TagString: Untagged
@@ -179,3 +180,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 10
+  box: {fileID: 4952913135354449138}
+--- !u!61 &4952913135354449138
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3727789617594150142}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -1.7, y: -0.16}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.78125, y: 0.59375}
+    newSize: {x: 6.9375, y: 4.0625}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.2, y: 2.5}
+  m_EdgeRadius: 0

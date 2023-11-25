@@ -83,7 +83,7 @@ public class PlayerController : MonoBehaviour
 
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("Player atk1")
             || animator.GetCurrentAnimatorStateInfo(0).IsName("Player Hurt"))
-        {
+        {//khi atk1 or bị thương thì ko d/c dc, chỉ nhảy dc
             rb.velocity = new Vector2(0, rb.velocity.y);
         }
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("Player atk2")
