@@ -67,7 +67,7 @@ TextureImporter:
     second: naruto_20
   - first:
       213: -7983602325753077842
-    second: naruto_21
+    second: rsrk5
   - first:
       213: 5142289099404400728
     second: naruto_22
@@ -79,7 +79,7 @@ TextureImporter:
     second: naruto_24
   - first:
       213: 6244335963330726885
-    second: naruto_25
+    second: rsrk4
   - first:
       213: 58923468340687439
     second: naruto_26
@@ -100,7 +100,7 @@ TextureImporter:
     second: naruto_31
   - first:
       213: 3827624236616040847
-    second: naruto_32
+    second: rsrk3
   - first:
       213: -2134212613873048861
     second: naruto_33
@@ -118,124 +118,124 @@ TextureImporter:
     second: naruto_37
   - first:
       213: 4152931203764621514
-    second: naruto_38
+    second: rsrk2
   - first:
       213: 4571217791210064496
     second: naruto_39
   - first:
       213: -1944755666487502545
-    second: naruto_40
+    second: rsrk6
   - first:
       213: 6272150172488544707
-    second: naruto_41
+    second: rsrk7
   - first:
       213: 9095872707444416141
-    second: naruto_42
+    second: rsrk8
   - first:
       213: 7437859630308106101
-    second: naruto_43
+    second: rsrk1
   - first:
       213: 6653187515480646341
-    second: naruto_44
+    second: rsrk9
   - first:
       213: -8843995309962943032
-    second: naruto_45
+    second: rsrk10
   - first:
       213: -6101203609311858179
-    second: naruto_46
+    second: rsrk11
   - first:
       213: 8053708287652706581
-    second: naruto_47
+    second: rsrk12
   - first:
       213: -4803858180644820897
-    second: naruto_48
+    second: rsrk13
   - first:
       213: -3292062679395451739
-    second: naruto_49
+    second: rsrk14
   - first:
       213: -3941007756835135191
-    second: naruto_50
+    second: rsrk15
   - first:
       213: -4544204383284123378
-    second: naruto_51
+    second: rsrk16
   - first:
       213: -5971998161792629570
-    second: naruto_52
+    second: rsrk17
   - first:
       213: -7862311624414253664
-    second: naruto_53
+    second: rsrk18
   - first:
       213: 6678388366933624381
-    second: naruto_54
+    second: rsrk19
   - first:
       213: 342769029648389957
-    second: naruto_55
+    second: rsrk20
   - first:
       213: 8677198917137972302
     second: naruto_56
   - first:
       213: 852380448681162341
-    second: naruto_57
+    second: rsrk21
   - first:
       213: 7367676471452323151
-    second: naruto_58
+    second: rsrk22
   - first:
       213: -5248267796717628396
-    second: naruto_59
+    second: rsrk23
   - first:
       213: -8890545666282675554
-    second: naruto_60
+    second: rsrk24
   - first:
       213: -4536736845544887931
-    second: naruto_61
+    second: rsrk31
   - first:
       213: -4122496474749022518
-    second: naruto_62
+    second: rsrk30
   - first:
       213: -8671320483917777948
-    second: naruto_63
+    second: rsrk31
   - first:
       213: 7142169085481207992
-    second: naruto_64
+    second: rsrk30
   - first:
       213: -3132765782056060287
-    second: naruto_65
+    second: rsrk31
   - first:
       213: 3626858057456297401
-    second: naruto_66
+    second: rsgbig1
   - first:
       213: 8227907739285782877
-    second: naruto_67
+    second: rsgbig2
   - first:
       213: -8942122901453863480
-    second: naruto_68
+    second: rsgbig3
   - first:
       213: -7008526290456587257
-    second: naruto_69
+    second: rsgbig4
   - first:
       213: 5269502172380705071
-    second: naruto_70
+    second: rsgbig5
   - first:
       213: 1917687548054409489
-    second: naruto_71
+    second: rsgbig6
   - first:
       213: 3000167467305841058
-    second: naruto_72
+    second: rsgbig7
   - first:
       213: 2666998980850774884
-    second: naruto_73
+    second: rsgbig8
   - first:
       213: -2271514048797973760
-    second: naruto_74
+    second: rsgbig9
   - first:
       213: -1598904842490750940
-    second: naruto_75
+    second: rsgbig10
   - first:
       213: -1162793153527637193
-    second: naruto_76
+    second: rsgbig11
   - first:
       213: 6493189117537511327
-    second: naruto_77
+    second: naruto_82
   - first:
       213: -4595807688629929853
     second: naruto_78
@@ -304,10 +304,10 @@ TextureImporter:
     second: naruto_99
   - first:
       213: 6134391952298213983
-    second: naruto_100
+    second: naruto_106
   - first:
       213: -6765302751579122547
-    second: naruto_101
+    second: naruto_107
   - first:
       213: 4590738779782965208
     second: naruto_102
@@ -403,10 +403,10 @@ TextureImporter:
     second: naruto_132
   - first:
       213: -1510685732772208510
-    second: naruto_133
+    second: rsg2_3
   - first:
       213: -3729942793952683121
-    second: naruto_134
+    second: rsg2_4
   - first:
       213: 6152950958864679441
     second: naruto_135
@@ -427,25 +427,25 @@ TextureImporter:
     second: naruto_140
   - first:
       213: -3787442396309323192
-    second: naruto_141
+    second: rsg2_1
   - first:
       213: 3733658554852771067
-    second: naruto_142
+    second: rsg2_2
   - first:
       213: -3495614113695907561
-    second: naruto_143
+    second: rsg2_5
   - first:
       213: -8480916718464780713
-    second: naruto_144
+    second: rsg2_6
   - first:
       213: 7801956013064516017
-    second: naruto_145
+    second: rsg2_7
   - first:
       213: 4998199682367765883
-    second: naruto_146
+    second: rsg2_8
   - first:
       213: 2591106223675902455
-    second: naruto_147
+    second: rsg2_9
   - first:
       213: 1199234327957424155
     second: naruto_148
@@ -466,7 +466,7 @@ TextureImporter:
     second: naruto_153
   - first:
       213: 7402431857113868352
-    second: naruto_154
+    second: rsg2_10
   - first:
       213: 6345591618736865183
     second: naruto_155
@@ -526,7 +526,7 @@ TextureImporter:
     second: naruto_173
   - first:
       213: 7404397149468174257
-    second: naruto_174
+    second: rsg2_11
   - first:
       213: 874222912757584978
     second: naruto_175
@@ -535,7 +535,7 @@ TextureImporter:
     second: naruto_176
   - first:
       213: 4404068886078316341
-    second: naruto_177
+    second: rsg2_12
   - first:
       213: -6219556371401279631
     second: naruto_178
@@ -586,13 +586,40 @@ TextureImporter:
     second: naruto_193
   - first:
       213: -8853402392865015660
-    second: naruto_194
+    second: rsg2_13
   - first:
       213: 2010965952091630640
     second: naruto_195
   - first:
       213: 2929256810345697723
     second: naruto_196
+  - first:
+      213: -4259315285189818369
+    second: rsgbig12
+  - first:
+      213: -5756516775748215120
+    second: rsgbig13
+  - first:
+      213: 3535832225947523321
+    second: rsgbig14
+  - first:
+      213: 112508704877367865
+    second: rsgbig15
+  - first:
+      213: -470635467531541200
+    second: rsgbig16
+  - first:
+      213: 1797413016148338008
+    second: rsgbig17
+  - first:
+      213: 2883328794667765896
+    second: rsrk31
+  - first:
+      213: -4254889182628340432
+    second: rsrk30
+  - first:
+      213: -555030330974961051
+    second: a
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -636,7 +663,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 24
+  spritePixelsToUnits: 28
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -696,7 +723,7 @@ TextureImporter:
         x: 91
         y: 1885
         width: 43
-        height: 58
+        height: 77
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -717,7 +744,7 @@ TextureImporter:
         x: 148
         y: 1885
         width: 43
-        height: 58
+        height: 77
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -738,7 +765,7 @@ TextureImporter:
         x: 206
         y: 1885
         width: 43
-        height: 58
+        height: 77
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -759,7 +786,7 @@ TextureImporter:
         x: 262
         y: 1885
         width: 43
-        height: 58
+        height: 77
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -780,7 +807,7 @@ TextureImporter:
         x: 317
         y: 1885
         width: 43
-        height: 58
+        height: 77
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -801,7 +828,7 @@ TextureImporter:
         x: 375
         y: 1885
         width: 43
-        height: 58
+        height: 77
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -822,7 +849,7 @@ TextureImporter:
         x: 470
         y: 1887
         width: 44
-        height: 48
+        height: 73
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -843,7 +870,7 @@ TextureImporter:
         x: 526
         y: 1893
         width: 58
-        height: 43
+        height: 73
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -864,7 +891,7 @@ TextureImporter:
         x: 601
         y: 1889
         width: 50
-        height: 48
+        height: 73
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -885,7 +912,7 @@ TextureImporter:
         x: 665
         y: 1889
         width: 41
-        height: 46
+        height: 73
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -906,7 +933,7 @@ TextureImporter:
         x: 717
         y: 1893
         width: 55
-        height: 45
+        height: 73
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -927,7 +954,7 @@ TextureImporter:
         x: 787
         y: 1887
         width: 52
-        height: 49
+        height: 73
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -948,9 +975,9 @@ TextureImporter:
         x: 98
         y: 1800
         width: 45
-        height: 55
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 77
+      alignment: 9
+      pivot: {x: 0.52, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1131,15 +1158,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_21
+      name: rsrk5
       rect:
         serializedVersion: 2
         x: 530
         y: 1686
         width: 117
         height: 84
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.483, y: 0.543}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1152,15 +1179,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_25
+      name: rsrk4
       rect:
         serializedVersion: 2
         x: 406
         y: 1686
         width: 110
         height: 80
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.45, y: 0.569}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1173,15 +1200,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_32
+      name: rsrk3
       rect:
         serializedVersion: 2
         x: 283
         y: 1686
         width: 106
-        height: 74
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 77
+      alignment: 9
+      pivot: {x: 0.43, y: 0.591}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1194,13 +1221,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_38
+      name: rsrk2
       rect:
         serializedVersion: 2
         x: 174
         y: 1684
         width: 87
-        height: 59
+        height: 80
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1215,15 +1242,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_40
+      name: rsrk6
       rect:
         serializedVersion: 2
         x: 659
         y: 1686
         width: 122
         height: 89
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.505, y: 0.513}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1236,15 +1263,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_41
+      name: rsrk7
       rect:
         serializedVersion: 2
         x: 809
         y: 1686
         width: 96
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 77
+      alignment: 9
+      pivot: {x: 0.37, y: 0.591}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1257,15 +1284,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_42
+      name: rsrk8
       rect:
         serializedVersion: 2
         x: 927
         y: 1686
         width: 97
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 77
+      alignment: 9
+      pivot: {x: 0.377, y: 0.591}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1278,15 +1305,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_43
+      name: rsrk1
       rect:
         serializedVersion: 2
         x: 95
         y: 1687
         width: 65
-        height: 25
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 81
+      alignment: 9
+      pivot: {x: 0.63, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1299,15 +1326,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_44
+      name: rsrk9
       rect:
         serializedVersion: 2
         x: 92
         y: 1601
         width: 96
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 77
+      alignment: 9
+      pivot: {x: 0.37, y: 0.591}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1320,15 +1347,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_45
+      name: rsrk10
       rect:
         serializedVersion: 2
         x: 199
         y: 1601
         width: 97
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 77
+      alignment: 9
+      pivot: {x: 0.377, y: 0.591}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1341,15 +1368,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_46
+      name: rsrk11
       rect:
         serializedVersion: 2
         x: 302
         y: 1601
         width: 98
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 77
+      alignment: 9
+      pivot: {x: 0.383, y: 0.591}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1362,15 +1389,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_47
+      name: rsrk12
       rect:
         serializedVersion: 2
         x: 406
         y: 1601
         width: 97
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 77
+      alignment: 9
+      pivot: {x: 0.377, y: 0.591}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1383,15 +1410,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_48
+      name: rsrk13
       rect:
         serializedVersion: 2
         x: 518
         y: 1601
         width: 96
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 77
+      alignment: 9
+      pivot: {x: 0.37, y: 0.591}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1404,15 +1431,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_49
+      name: rsrk14
       rect:
         serializedVersion: 2
         x: 625
         y: 1601
         width: 97
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 77
+      alignment: 9
+      pivot: {x: 0.377, y: 0.591}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1425,15 +1452,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_50
+      name: rsrk15
       rect:
         serializedVersion: 2
         x: 741
         y: 1600
         width: 98
-        height: 61
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 77
+      alignment: 9
+      pivot: {x: 0.383, y: 0.605}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1446,15 +1473,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_51
+      name: rsrk16
       rect:
         serializedVersion: 2
         x: 855
         y: 1601
         width: 98
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 77
+      alignment: 9
+      pivot: {x: 0.383, y: 0.591}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1467,13 +1494,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_52
+      name: rsrk17
       rect:
         serializedVersion: 2
         x: 95
         y: 1485
         width: 88
-        height: 56
+        height: 84
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1488,15 +1515,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_53
+      name: rsrk18
       rect:
         serializedVersion: 2
         x: 189
         y: 1488
         width: 79
-        height: 72
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 75
+      alignment: 9
+      pivot: {x: 0.54, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1509,15 +1536,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_54
+      name: rsrk19
       rect:
         serializedVersion: 2
         x: 277
         y: 1488
         width: 94
         height: 92
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.56, y: 0.408}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1530,15 +1557,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_55
+      name: rsrk20
       rect:
         serializedVersion: 2
         x: 376
         y: 1488
-        width: 85
+        width: 87
         height: 90
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.418}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1551,36 +1578,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_56
-      rect:
-        serializedVersion: 2
-        x: 455
-        y: 1519
-        width: 8
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e4cb96df07a9b6870800000000000000
-      internalID: 8677198917137972302
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: naruto_57
+      name: rsrk21
       rect:
         serializedVersion: 2
         x: 465
         y: 1488
         width: 84
         height: 91
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.555, y: 0.412}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1593,15 +1599,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_58
+      name: rsrk22
       rect:
         serializedVersion: 2
         x: 550
         y: 1488
         width: 90
         height: 92
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.54, y: 0.408}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1614,15 +1620,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_59
+      name: rsrk23
       rect:
         serializedVersion: 2
         x: 87
         y: 1372
         width: 69
         height: 97
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.645, y: 0.47}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1635,15 +1641,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_60
+      name: rsrk24
       rect:
         serializedVersion: 2
-        x: 162
-        y: 1378
-        width: 55
-        height: 88
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 179
+        y: 1364
+        width: 104
+        height: 104
+      alignment: 9
+      pivot: {x: 0.572, y: 0.553}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1656,15 +1662,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_61
+      name: rsrk27
       rect:
         serializedVersion: 2
-        x: 238
+        x: 479
         y: 1381
         width: 53
-        height: 45
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 73
+      alignment: 9
+      pivot: {x: 0.29, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1677,15 +1683,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_62
+      name: rsrk28
       rect:
         serializedVersion: 2
-        x: 303
+        x: 544
         y: 1381
         width: 51
-        height: 46
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 73
+      alignment: 9
+      pivot: {x: 0.305, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1698,15 +1704,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_63
+      name: rsrk29
       rect:
         serializedVersion: 2
-        x: 368
+        x: 609
         y: 1381
         width: 46
-        height: 47
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 73
+      alignment: 9
+      pivot: {x: 0.32, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1719,10 +1725,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_64
+      name: rsrk30
       rect:
         serializedVersion: 2
-        x: 481
+        x: 722
         y: 1387
         width: 100
         height: 73
@@ -1740,10 +1746,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_65
+      name: rsrk31
       rect:
         serializedVersion: 2
-        x: 637
+        x: 878
         y: 1389
         width: 104
         height: 74
@@ -1761,15 +1767,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_66
+      name: rsgbig1
       rect:
         serializedVersion: 2
         x: 86
         y: 1260
         width: 54
-        height: 55
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 77
+      alignment: 9
+      pivot: {x: 0.6018, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1782,15 +1788,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_67
+      name: rsgbig2
       rect:
         serializedVersion: 2
         x: 153
         y: 1260
         width: 53
-        height: 54
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 77
+      alignment: 9
+      pivot: {x: 0.594, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1803,15 +1809,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_68
+      name: rsgbig3
       rect:
         serializedVersion: 2
         x: 225
         y: 1256
         width: 52
-        height: 54
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 77
+      alignment: 9
+      pivot: {x: 0.49, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1824,15 +1830,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_69
+      name: rsgbig4
       rect:
         serializedVersion: 2
         x: 296
         y: 1257
         width: 64
-        height: 54
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 77
+      alignment: 9
+      pivot: {x: 0.586, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1845,15 +1851,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_70
+      name: rsgbig5
       rect:
         serializedVersion: 2
         x: 386
         y: 1256
         width: 87
-        height: 59
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 77
+      alignment: 9
+      pivot: {x: 0.752, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1866,15 +1872,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_71
+      name: rsgbig6
       rect:
         serializedVersion: 2
         x: 498
         y: 1256
         width: 89
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 77
+      alignment: 9
+      pivot: {x: 0.758, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1887,15 +1893,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_72
+      name: rsgbig7
       rect:
         serializedVersion: 2
         x: 633
         y: 1255
         width: 106
-        height: 73
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 77
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1908,15 +1914,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_73
+      name: rsgbig8
       rect:
         serializedVersion: 2
         x: 764
         y: 1247
         width: 146
         height: 112
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.819, y: 0.469}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1929,15 +1935,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_74
+      name: rsgbig9
       rect:
         serializedVersion: 2
         x: 920
         y: 1235
         width: 170
         height: 140
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.85, y: 0.468}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1950,15 +1956,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_75
+      name: rsgbig10
       rect:
         serializedVersion: 2
         x: 1106
         y: 1236
         width: 164
         height: 139
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.8446, y: 0.5217}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1971,15 +1977,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_76
+      name: rsgbig11
       rect:
         serializedVersion: 2
         x: 1298
         y: 1237
         width: 189
         height: 139
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.0925, y: 0.5145}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1992,15 +1998,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_77
+      name: naruto_82
       rect:
         serializedVersion: 2
         x: 93
         y: 1114
         width: 93
         height: 82
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.64, y: 0.48}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2020,8 +2026,8 @@ TextureImporter:
         y: 1111
         width: 103
         height: 87
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.675, y: 0.4753}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2041,8 +2047,8 @@ TextureImporter:
         y: 1114
         width: 127
         height: 80
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.625, y: 0.49}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2061,9 +2067,9 @@ TextureImporter:
         x: 440
         y: 1112
         width: 139
-        height: 79
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 82
+      alignment: 9
+      pivot: {x: 0.638, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2082,9 +2088,9 @@ TextureImporter:
         x: 585
         y: 1109
         width: 94
-        height: 74
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 81
+      alignment: 9
+      pivot: {x: 0.611, y: 0.486}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2104,8 +2110,8 @@ TextureImporter:
         y: 1109
         width: 94
         height: 81
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.643, y: 0.473}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2139,13 +2145,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_100
+      name: naruto_106
       rect:
         serializedVersion: 2
         x: 698
         y: 975
         width: 30
-        height: 67
+        height: 77
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2160,13 +2166,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_101
+      name: naruto_107
       rect:
         serializedVersion: 2
         x: 761
         y: 974
         width: 43
-        height: 58
+        height: 77
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2209,8 +2215,8 @@ TextureImporter:
         y: 970
         width: 140
         height: 107
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.38}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2229,7 +2235,7 @@ TextureImporter:
         x: 97
         y: 834
         width: 46
-        height: 56
+        height: 77
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2250,7 +2256,7 @@ TextureImporter:
         x: 147
         y: 834
         width: 64
-        height: 59
+        height: 77
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2271,7 +2277,7 @@ TextureImporter:
         x: 216
         y: 833
         width: 77
-        height: 62
+        height: 77
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2292,7 +2298,7 @@ TextureImporter:
         x: 304
         y: 834
         width: 82
-        height: 71
+        height: 77
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2313,7 +2319,7 @@ TextureImporter:
         x: 397
         y: 839
         width: 87
-        height: 72
+        height: 77
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2334,7 +2340,7 @@ TextureImporter:
         x: 531
         y: 840
         width: 84
-        height: 71
+        height: 77
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2355,7 +2361,7 @@ TextureImporter:
         x: 623
         y: 840
         width: 83
-        height: 71
+        height: 77
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2376,7 +2382,7 @@ TextureImporter:
         x: 715
         y: 840
         width: 83
-        height: 69
+        height: 77
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2397,7 +2403,7 @@ TextureImporter:
         x: 807
         y: 840
         width: 85
-        height: 70
+        height: 77
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2418,7 +2424,7 @@ TextureImporter:
         x: 908
         y: 841
         width: 83
-        height: 70
+        height: 77
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2439,7 +2445,7 @@ TextureImporter:
         x: 1000
         y: 841
         width: 83
-        height: 69
+        height: 77
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2460,7 +2466,7 @@ TextureImporter:
         x: 93
         y: 731
         width: 94
-        height: 58
+        height: 73
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2481,7 +2487,7 @@ TextureImporter:
         x: 194
         y: 736
         width: 96
-        height: 50
+        height: 73
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2502,7 +2508,7 @@ TextureImporter:
         x: 301
         y: 731
         width: 88
-        height: 57
+        height: 73
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2523,7 +2529,7 @@ TextureImporter:
         x: 422
         y: 737
         width: 92
-        height: 52
+        height: 73
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2544,7 +2550,7 @@ TextureImporter:
         x: 522
         y: 741
         width: 93
-        height: 48
+        height: 73
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2565,7 +2571,7 @@ TextureImporter:
         x: 626
         y: 734
         width: 93
-        height: 55
+        height: 73
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2586,7 +2592,7 @@ TextureImporter:
         x: 93
         y: 617
         width: 83
-        height: 72
+        height: 77
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2607,7 +2613,7 @@ TextureImporter:
         x: 184
         y: 617
         width: 88
-        height: 70
+        height: 77
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2628,7 +2634,7 @@ TextureImporter:
         x: 280
         y: 617
         width: 122
-        height: 62
+        height: 77
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2649,7 +2655,7 @@ TextureImporter:
         x: 410
         y: 617
         width: 98
-        height: 70
+        height: 77
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2670,7 +2676,7 @@ TextureImporter:
         x: 93
         y: 486
         width: 85
-        height: 72
+        height: 77
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2691,7 +2697,7 @@ TextureImporter:
         x: 185
         y: 486
         width: 104
-        height: 62
+        height: 77
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2712,7 +2718,7 @@ TextureImporter:
         x: 297
         y: 488
         width: 104
-        height: 61
+        height: 77
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2733,7 +2739,7 @@ TextureImporter:
         x: 409
         y: 488
         width: 119
-        height: 68
+        height: 77
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2748,7 +2754,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_133
+      name: rsg2_3
       rect:
         serializedVersion: 2
         x: 970
@@ -2769,12 +2775,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_134
+      name: rsg2_4
       rect:
         serializedVersion: 2
         x: 1149
         y: 365
-        width: 122
+        width: 118
         height: 133
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -2794,9 +2800,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 84
-        y: 353
+        y: 368
         width: 73
-        height: 83
+        height: 77
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2817,7 +2823,7 @@ TextureImporter:
         x: 175
         y: 368
         width: 76
-        height: 69
+        height: 77
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2838,7 +2844,7 @@ TextureImporter:
         x: 277
         y: 368
         width: 76
-        height: 69
+        height: 77
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2859,7 +2865,7 @@ TextureImporter:
         x: 397
         y: 368
         width: 76
-        height: 68
+        height: 77
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2880,7 +2886,7 @@ TextureImporter:
         x: 543
         y: 368
         width: 107
-        height: 66
+        height: 77
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2901,7 +2907,7 @@ TextureImporter:
         x: 678
         y: 368
         width: 93
-        height: 65
+        height: 77
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2916,7 +2922,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_141
+      name: rsg2_1
       rect:
         serializedVersion: 2
         x: 790
@@ -2937,7 +2943,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_142
+      name: rsg2_2
       rect:
         serializedVersion: 2
         x: 882
@@ -2958,12 +2964,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_143
+      name: rsg2_5
       rect:
         serializedVersion: 2
-        x: 129
+        x: 87
         y: 221
-        width: 154
+        width: 196
         height: 131
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -2979,12 +2985,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_144
+      name: rsg2_6
       rect:
         serializedVersion: 2
-        x: 358
+        x: 318
         y: 222
-        width: 160
+        width: 207
         height: 129
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -3000,12 +3006,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_145
+      name: rsg2_7
       rect:
         serializedVersion: 2
-        x: 558
+        x: 551
         y: 222
-        width: 184
+        width: 191
         height: 131
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -3021,12 +3027,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_146
+      name: rsg2_8
       rect:
         serializedVersion: 2
-        x: 816
+        x: 770
         y: 218
-        width: 141
+        width: 187
         height: 133
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -3042,12 +3048,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_147
+      name: rsg2_9
       rect:
         serializedVersion: 2
-        x: 1033
+        x: 993
         y: 219
-        width: 134
+        width: 174
         height: 143
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -3063,11 +3069,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_154
+      name: rsg2_10
       rect:
         serializedVersion: 2
-        x: 1227
-        y: 215
+        x: 145
+        y: 71
         width: 136
         height: 99
       alignment: 0
@@ -3084,12 +3090,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_174
+      name: rsg2_11
       rect:
         serializedVersion: 2
-        x: 150
+        x: 372
         y: 65
-        width: 120
+        width: 138
         height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -3105,11 +3111,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_177
+      name: rsg2_12
       rect:
         serializedVersion: 2
-        x: 307
-        y: 63
+        x: 546
+        y: 62
         width: 134
         height: 131
       alignment: 0
@@ -3126,10 +3132,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto_194
+      name: rsg2_13
       rect:
         serializedVersion: 2
-        x: 492
+        x: 732
         y: 63
         width: 157
         height: 138
@@ -3142,6 +3148,279 @@ TextureImporter:
       bones: []
       spriteID: 498ffa75e65622580800000000000000
       internalID: -8853402392865015660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: khoi1
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 1888
+        width: 40
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4fd9e3e08f152690800000000000000
+      internalID: -7627655755442036915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: khoi2
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 1892
+        width: 38
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd37df72801f8ece0800000000000000
+      internalID: -1375584668828732449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: khoi3
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 1902
+        width: 46
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 351e201bab9ce40e0800000000000000
+      internalID: -2283666157359406765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: khoi4
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1904
+        width: 45
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dbfb1fbc2db8a090800000000000000
+      internalID: -8022954736278045742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: khoi5
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 1908
+        width: 49
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd8395136a29da50800000000000000
+      internalID: 6546310138411847099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rsgbig12
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 1062
+        width: 192
+        height: 139
+      alignment: 9
+      pivot: {x: 0.0913, y: 0.5145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff78edf905fd3e4c0800000000000000
+      internalID: -4259315285189818369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rsgbig13
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 1060
+        width: 191
+        height: 139
+      alignment: 9
+      pivot: {x: 0.0917, y: 0.5505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be53f5ed7ebc10b0800000000000000
+      internalID: -5756516775748215120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rsgbig14
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 677
+        width: 136
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f81bf40dacc11130800000000000000
+      internalID: 3535832225947523321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rsgbig15
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 678
+        width: 138
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 932da5c2216bf8100800000000000000
+      internalID: 112508704877367865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rsgbig16
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 676
+        width: 134
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035251b2987f779f0800000000000000
+      internalID: -470635467531541200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rsgbig17
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 674
+        width: 157
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8556f267d91b1f810800000000000000
+      internalID: 1797413016148338008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rsrk25
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1383
+        width: 67
+        height: 73
+      alignment: 9
+      pivot: {x: 0.23, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880d3d02344a30820800000000000000
+      internalID: 2883328794667765896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rsrk26
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1381
+        width: 60
+        height: 73
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03d19cee4d893f4c0800000000000000
+      internalID: -4254889182628340432
       vertices: []
       indices: 
       edges: []
