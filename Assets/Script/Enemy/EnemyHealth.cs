@@ -8,6 +8,7 @@ public class EnemyHealth : MonoBehaviour
     Animator animator;
     public int maxHP = 50;
     [HideInInspector] public int currentHP;
+    [HideInInspector] public string hurtPrefix="Hurt";//
     public Slider E_HP_Slider;
     public bool drop = true;
     public GameObject item;
@@ -30,7 +31,7 @@ public class EnemyHealth : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        animator.SetTrigger("Hurt");
+        animator.SetTrigger(hurtPrefix);
         currentHP -= damage;
         E_HP_Slider.value = currentHP;
         if (currentHP <= 0) Die();

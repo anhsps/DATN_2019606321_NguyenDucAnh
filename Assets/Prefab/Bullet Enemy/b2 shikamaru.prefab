@@ -179,5 +179,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   eBulletSpeed: 6
-  damage: 15
-  bullet2: {fileID: 1851916631460775277, guid: 5c11bc6ba52f6644cbe1a2a9020082e2, type: 3}
+  bullet2_2: {fileID: 1851916631460775277, guid: 5c11bc6ba52f6644cbe1a2a9020082e2,
+    type: 3}

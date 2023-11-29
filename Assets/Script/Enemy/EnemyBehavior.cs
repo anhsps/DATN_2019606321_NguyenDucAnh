@@ -62,11 +62,7 @@ public class EnemyBehavior : MonoBehaviour
     {
         distance = Vector2.Distance(transform.position, target.position);
 
-        if (distance > atkDistance2)//
-        {
-            StopAttack();
-        }
-        else if (atkA == 1 && atkB == 1 && distance > atkDistance)//
+        if (distance > atkDistance2 || (atkA == 1 && atkB == 1 && distance > atkDistance))//
         {
             StopAttack();
         }
@@ -75,9 +71,12 @@ public class EnemyBehavior : MonoBehaviour
             animator.SetBool("Attack" + Random.Range(1, atkB + 1), true);
             AttackAnimation();
         }
-        else if (distance <= atkDistance2 && cooling == false && atkA > 1)//
+        else if (distance <= atkDistance2 && cooling == false)//
         {//nếu ko atk1, mà từ atkA=2 trở đi thì cài atkDistance=0
-            animator.SetBool("Attack" + Random.Range(atkA, atkB + 1), true);
+            int atkAStart = (atkA > 1) ? atkA : 2;
+            animator.SetBool($"Attack{Random.Range(atkAStart,atkB+1)}", true);
+            /*if (atkA > 1) animator.SetBool("Attack" + Random.Range(atkA, atkB + 1), true);
+            animator.SetBool("Attack" + Random.Range(2, atkB + 1), true);*/
             AttackAnimation();
         }
 
@@ -90,18 +89,15 @@ public class EnemyBehavior : MonoBehaviour
 
     void Move()
     {
+        string[] listStates = { "atk1", "atk2", "atk3", "atk4", "hurt" };
         animator.SetBool("Run", true);
-        if (!animator.GetCurrentAnimatorStateInfo(0).IsName("atk1")
-            && !animator.GetCurrentAnimatorStateInfo(0).IsName("atk2")//
-            && !animator.GetCurrentAnimatorStateInfo(0).IsName("atk3")
-            && !animator.GetCurrentAnimatorStateInfo(0).IsName("atk4")
-            && !animator.GetCurrentAnimatorStateInfo(0).IsName("hurt"))
+        if (!IsInSpecificStates(listStates))
         {
             Vector2 TargetPosition = new Vector2(target.position.x, transform.position.y);
             transform.position = Vector2.MoveTowards(transform.position, TargetPosition, moveSpeed * Time.deltaTime);
         }
     }
-    
+
     void AttackAnimation()
     {
         //animator.SetBool("Attack" + Random.Range(1, atkType + 1), true);
@@ -109,7 +105,7 @@ public class EnemyBehavior : MonoBehaviour
         timer = intTimer;//reset timer when player enter attack range
         atkMode = true;
     }
-    
+
     void ResetAtkBoolValues()
     {
         for (int i = atkA; i <= atkB; i++)//
@@ -139,9 +135,9 @@ public class EnemyBehavior : MonoBehaviour
     public void TriggerCooling()
     {
         cooling = true;
-    } 
+    }
 
-    bool InsideofLimits()
+    public bool InsideofLimits()//
     {
         return transform.position.x > leftLimit.position.x && transform.position.x < rightLimit.position.x;
     }
@@ -164,25 +160,28 @@ public class EnemyBehavior : MonoBehaviour
 
     public void Flip()
     {
-        if (transform.position.x > target.position.x && isFlipped
-            && !animator.GetCurrentAnimatorStateInfo(0).IsName("atk1")
-            && !animator.GetCurrentAnimatorStateInfo(0).IsName("atk2")
-            && !animator.GetCurrentAnimatorStateInfo(0).IsName("atk3")
-            && !animator.GetCurrentAnimatorStateInfo(0).IsName("atk4")
-            && !animator.GetCurrentAnimatorStateInfo(0).IsName("hurt"))
+        bool facingLeft = transform.position.x > target.position.x;
+        string[] listStates = { "atk1", "atk2", "atk3", "atk4", "hurt" };
+        if (!IsInSpecificStates(listStates))
         {
-            transform.Rotate(0, 180, 0);
-            isFlipped = false;
+            if (facingLeft && isFlipped || !facingLeft && !isFlipped)
+            {
+                transform.Rotate(0, 180, 0);
+                isFlipped = !isFlipped;
+            }
         }
-        else if(transform.position.x < target.position.x && !isFlipped
-            && !animator.GetCurrentAnimatorStateInfo(0).IsName("atk1")
-            && !animator.GetCurrentAnimatorStateInfo(0).IsName("atk2")
-            && !animator.GetCurrentAnimatorStateInfo(0).IsName("atk3")
-            && !animator.GetCurrentAnimatorStateInfo(0).IsName("atk4")
-            && !animator.GetCurrentAnimatorStateInfo(0).IsName("hurt"))
+    }
+
+    bool IsInSpecificStates(params string[] stateNames)
+    {//các states cụ thể
+        AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
+        foreach (string stateName in stateNames)
         {
-            transform.Rotate(0, 180, 0);
-            isFlipped = true;
+            if (stateInfo.IsName(stateName))
+            {
+                return true;
+            }
         }
+        return false;
     }
 }

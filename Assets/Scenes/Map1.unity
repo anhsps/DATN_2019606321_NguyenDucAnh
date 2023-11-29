@@ -291,7 +291,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 18656196}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.2, y: -0.6, z: 0}
+  m_LocalPosition: {x: -6.57, y: -0.34, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1278941383}
@@ -2500,6 +2500,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4220354082953050025, guid: 100b1d100657a5b44899221a744cb053,
     type: 3}
   m_PrefabInstance: {fileID: 932813160}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &329894672 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8185921135663194913, guid: ca19f9e9bd3926f4fbcf89b2bd8d3802,
+    type: 3}
+  m_PrefabInstance: {fileID: 8185921136003197815}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &331312953 stripped
 Transform:
@@ -47237,7 +47243,7 @@ PrefabInstance:
     - target: {fileID: 7852943078438093314, guid: cb76c6275fb0cfe48ade7feb6050ef47,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7852943078438093314, guid: cb76c6275fb0cfe48ade7feb6050ef47,
         type: 3}
@@ -47293,6 +47299,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Boss Kabuto
+      objectReference: {fileID: 0}
+    - target: {fileID: 7852943078438093315, guid: cb76c6275fb0cfe48ade7feb6050ef47,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb76c6275fb0cfe48ade7feb6050ef47, type: 3}
@@ -53368,29 +53379,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &5293948157741160228
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5293948157741160239}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85465232fdaf60a4b9014fdaba98eba6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bullet2: {fileID: 4062985549683434416, guid: a65163e549243ab42a693595a6a48db3, type: 3}
-  bullet3: {fileID: 7568084481340017390, guid: e23342545a5d2bf4f892c59477830c84, type: 3}
-  bullet4_1: {fileID: 5144054346247254591, guid: 6c5cdec693ee49c468d0f9f3e1fde4f9,
-    type: 3}
-  bullet4_2: {fileID: 7873906828583467555, guid: c2e6c5d21afb98f44940122463a23307,
-    type: 3}
-  pos2_1: {fileID: 5293948158645073185}
-  pos2_2: {fileID: 740208021041472248}
-  pos3: {fileID: 740208020854725736}
-  pos4_1: {fileID: 740208019188328150}
-  pos4_2: {fileID: 740208019717961197}
 --- !u!114 &5293948157741160229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53454,7 +53442,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.0949682, y: -0.173177}
@@ -53482,37 +53470,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1fc2da1debe969b4c8d30c5e0a4cfed7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHP: 500
+  maxHP: 250
   currentHP: 0
+  hurtPrefix: Hurt
   E_HP_Slider: {fileID: 5302530959435793736}
   drop: 1
   item: {fileID: 5654408010955495453, guid: b4f58a1e43355fa48b061b682d3075f1, type: 3}
   bloodEffect: {fileID: 3120391646155019884, guid: 0cb7fce7311896e47a12f7a0bd397101,
     type: 3}
---- !u!114 &5293948157741160236
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5293948157741160239}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b46032fc1fd55d6429f77910a2ce58b6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  atkA: 1
-  atkB: 4
-  atkDistance: 3.4
-  atkDistance2: 6
-  moveSpeed: 2
-  timer: 1.75
-  leftLimit: {fileID: 5293948158188719756}
-  rightLimit: {fileID: 5293948158167582543}
-  target: {fileID: 0}
-  inRange: 0
-  CheckRange: {fileID: 5293948158920926730}
-  isFlipped: 1
 --- !u!4 &5293948157741160238
 Transform:
   m_ObjectHideFlags: 0
@@ -53548,9 +53513,8 @@ GameObject:
   - component: {fileID: 5293948157741160233}
   - component: {fileID: 5293948157741160234}
   - component: {fileID: 5293948157741160235}
-  - component: {fileID: 5293948157741160236}
   - component: {fileID: 5293948157741160229}
-  - component: {fileID: 5293948157741160228}
+  - component: {fileID: 5293948157741160240}
   m_Layer: 9
   m_Name: naruto
   m_TagString: Enemy
@@ -53558,6 +53522,43 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &5293948157741160240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5293948157741160239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13f9c42f03583fa49872a296494d4df1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  atkA: 1
+  atkB1: 3
+  atkB2: 2
+  atkB3: 4
+  atkDistance1_1: 3
+  atkDistance2_1: 2
+  atkDistance3_1: 2
+  atkDistance3_2: 3.5
+  atkDistanceBullet: 6
+  moveSpeed: 2
+  timer: 2
+  leftLimit: {fileID: 5293948158188719756}
+  rightLimit: {fileID: 5293948158167582543}
+  target: {fileID: 0}
+  inRange: 0
+  CheckRange: {fileID: 5293948158920926730}
+  isFlipped: 1
+  form2: 0
+  form3: 0
+  bullet1_2: {fileID: 3377059728681622239, guid: eaea0059eeee8e345bb1aa17f337ee83,
+    type: 3}
+  bullet1_3: {fileID: 7568084481340017390, guid: e23342545a5d2bf4f892c59477830c84,
+    type: 3}
+  pos1_2: {fileID: 5293948158645073185}
+  pos1_3: {fileID: 740208020854725736}
 --- !u!1 &5293948158167582528
 GameObject:
   m_ObjectHideFlags: 0
@@ -53661,7 +53662,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.3}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -53672,20 +53673,8 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 14, y: 2.5}
+  m_Size: {x: 14, y: 2}
   m_EdgeRadius: 0
---- !u!114 &5293948158920926729
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5293948158920926731}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee117fdc3d0a0324da47d60059fa685b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &5293948158920926730
 Transform:
   m_ObjectHideFlags: 0
@@ -53710,7 +53699,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5293948158920926730}
   - component: {fileID: 5293948158920926728}
-  - component: {fileID: 5293948158920926729}
+  - component: {fileID: 5293948158920926732}
   m_Layer: 0
   m_Name: CheckRange
   m_TagString: Untagged
@@ -53718,6 +53707,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &5293948158920926732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5293948158920926731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dbb9d278c9abff42bd210b426b69cbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &5293948159338039140
 Transform:
   m_ObjectHideFlags: 0
@@ -54053,6 +54054,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8185921135663194926, guid: ca19f9e9bd3926f4fbcf89b2bd8d3802,
+        type: 3}
+      propertyPath: enemy
+      value: 
+      objectReference: {fileID: 329894672}
+    - target: {fileID: 8185921135663194926, guid: ca19f9e9bd3926f4fbcf89b2bd8d3802,
+        type: 3}
+      propertyPath: maxLeft
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8185921135663194926, guid: ca19f9e9bd3926f4fbcf89b2bd8d3802,
+        type: 3}
+      propertyPath: maxLimit
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8185921135663194926, guid: ca19f9e9bd3926f4fbcf89b2bd8d3802,
+        type: 3}
+      propertyPath: maxRight
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8185921135763894845, guid: ca19f9e9bd3926f4fbcf89b2bd8d3802,
         type: 3}
