@@ -1,12 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-//điều kiện chạy các anim, khoảng cách atk enemy, move...
+//điều kiện chạy các anim, khoảng cách atk boss, move...
 public class BossNaruto : MonoBehaviour
 {
     #region Public Variables
     public int atkA = 1, atkB1 = 3, atkB2 = 2, atkB3 = 4;//kiểu atk thứ . 1 <= atkA <= atkB
-    public float atkDistance1_1, atkDistance2_1, atkDistance3_1, atkDistance3_2, atkDistanceBullet;//
+    public float atkDistance1_1, atkDistance2_1, atkDistance3_1, atkDistance3_2, atkDistanceBullet;
     public float moveSpeed;
     public float timer;//time hồi chiêu
     public Transform leftLimit, rightLimit;
@@ -25,7 +25,7 @@ public class BossNaruto : MonoBehaviour
     float intTimer;//lưu trữ gt ban đầu của bộ đếm thời gian
     #endregion
 
-    public bool form2, form3;//
+    public bool form2, form3;//trạng thái (or dạng biến hình mới) của boss
     public GameObject bullet1_2, bullet1_3;
     public Transform pos1_2, pos1_3;
 
@@ -41,13 +41,13 @@ public class BossNaruto : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (e_HP.currentHP <= 0.7 * e_HP.maxHP)//
+        if (e_HP.currentHP <= 0.7 * e_HP.maxHP)
         {
             form2 = true;
             animator.SetTrigger("Form2");
             e_HP.hurtPrefix = "Hurt2";
         }
-        if (e_HP.currentHP <= 0.5 * e_HP.maxHP)//
+        if (e_HP.currentHP <= 0.5 * e_HP.maxHP)
         {
             form2 = false;
             form3 = true;

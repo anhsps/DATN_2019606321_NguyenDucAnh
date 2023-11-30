@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//phạm vi atk của boss Naruto
 public class CheckRangeNa : MonoBehaviour
 {
     BossNaruto bParent;

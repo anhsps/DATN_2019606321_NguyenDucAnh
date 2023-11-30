@@ -11,7 +11,7 @@ public class EnemyBehavior : MonoBehaviour
     public float timer;//time hồi chiêu
     public Transform leftLimit, rightLimit;
     [HideInInspector] public Transform target;
-    [HideInInspector] public bool inRange;//phạm vi
+    [HideInInspector] public bool inRange;//dk phạm vi atk
     public Transform CheckRange;//vùng move vs atk
     public bool isFlipped = true;
     #endregion

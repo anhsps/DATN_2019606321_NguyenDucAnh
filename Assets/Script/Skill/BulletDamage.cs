@@ -6,6 +6,7 @@ public class BulletDamage : MonoBehaviour
 {
     public int damage = 10;
     public BoxCollider2D boxE, boxP;
+
     // Start is called before the first frame update
     void Start()
     {

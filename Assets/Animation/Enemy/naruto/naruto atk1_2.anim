@@ -73,37 +73,37 @@ AnimationClip:
     - time: 0.56666666
       value: {fileID: -7862311624414253664, guid: c1d016329621b9d4d87c7be0d50308df,
         type: 3}
-    - time: 0.6
+    - time: 0.6166667
       value: {fileID: 6678388366933624381, guid: c1d016329621b9d4d87c7be0d50308df,
         type: 3}
-    - time: 0.6333333
+    - time: 0.6666667
       value: {fileID: 342769029648389957, guid: c1d016329621b9d4d87c7be0d50308df,
         type: 3}
-    - time: 0.6666667
+    - time: 0.71666664
       value: {fileID: 852380448681162341, guid: c1d016329621b9d4d87c7be0d50308df,
         type: 3}
-    - time: 0.7
+    - time: 0.76666665
       value: {fileID: 7367676471452323151, guid: c1d016329621b9d4d87c7be0d50308df,
         type: 3}
-    - time: 0.75
+    - time: 0.81666666
       value: {fileID: -5248267796717628396, guid: c1d016329621b9d4d87c7be0d50308df,
         type: 3}
-    - time: 0.8
+    - time: 0.8666667
       value: {fileID: -8890545666282675554, guid: c1d016329621b9d4d87c7be0d50308df,
         type: 3}
-    - time: 0.8333333
+    - time: 0.9166667
       value: {fileID: -5803830357764125920, guid: c1d016329621b9d4d87c7be0d50308df,
         type: 3}
-    - time: 0.8666667
+    - time: 0.93333334
       value: {fileID: -164939820039695469, guid: c1d016329621b9d4d87c7be0d50308df,
         type: 3}
-    - time: 0.9
+    - time: 0.95
       value: {fileID: 1350348305161331564, guid: c1d016329621b9d4d87c7be0d50308df,
         type: 3}
-    - time: 0.93333334
+    - time: 0.96666664
       value: {fileID: 1443736775642324361, guid: c1d016329621b9d4d87c7be0d50308df,
         type: 3}
-    - time: 0.96666664
+    - time: 0.98333335
       value: {fileID: 6844754428816035599, guid: c1d016329621b9d4d87c7be0d50308df,
         type: 3}
     - time: 1
@@ -190,7 +190,7 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.8333333
+  - time: 0.9166667
     functionName: BulletAtk
     data: 
     objectReferenceParameter: {fileID: 0}
