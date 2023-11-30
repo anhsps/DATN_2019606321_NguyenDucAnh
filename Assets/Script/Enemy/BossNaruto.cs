@@ -14,6 +14,8 @@ public class BossNaruto : MonoBehaviour
     [HideInInspector] public bool inRange;//phạm vi
     public Transform CheckRange;//vùng move vs atk
     public bool isFlipped = true;
+    public GameObject bullet1_2, bullet1_3, bullet2_2;
+    public Transform pos1_2, pos1_3, pos2_2, pos3_3, pos3_4;
     #endregion
 
     #region Private Variables
@@ -23,11 +25,12 @@ public class BossNaruto : MonoBehaviour
     bool atkMode;//true thì atk, false thì move
     bool cooling;
     float intTimer;//lưu trữ gt ban đầu của bộ đếm thời gian
+    bool form2, form3;//trạng thái (or dạng biến hình mới) của boss
+    string[] listStates = { "atk1_1", "atk1_2", "atk1_3", "atk2_1", "atk2_2","atk3_1", "atk3_2", "atk3_3", "atk3_4",
+            "hurt", "hurt2", "hurt3", "naruto form2", "naruto form3" };
+    string originalTag;
+    int originalLayer;
     #endregion
-
-    public bool form2, form3;//trạng thái (or dạng biến hình mới) của boss
-    public GameObject bullet1_2, bullet1_3;
-    public Transform pos1_2, pos1_3;
 
     // Start is called before the first frame update
     void Awake()
@@ -36,18 +39,24 @@ public class BossNaruto : MonoBehaviour
         animator = GetComponent<Animator>();
         e_HP = GetComponent<EnemyHealth>();
         SelectTarget();
+
+        originalTag = gameObject.tag;
+        originalLayer = gameObject.layer;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (e_HP.currentHP <= 0.7 * e_HP.maxHP)
+        string[] listStates1 = { "hurt", "atk1_1", "atk1_2", "atk1_3" };
+        string[] listStates2 = { "hurt2", "atk2_1", "atk2_2" };
+        //string[] listStatesform = { "naruto form2", "naruto form3" };
+        if (e_HP.currentHP <= 0.7 * e_HP.maxHP && !IsInSpecificStates(listStates1))
         {
             form2 = true;
             animator.SetTrigger("Form2");
             e_HP.hurtPrefix = "Hurt2";
         }
-        if (e_HP.currentHP <= 0.5 * e_HP.maxHP)
+        if (e_HP.currentHP <= 0.5 * e_HP.maxHP && !IsInSpecificStates(listStates2))
         {
             form2 = false;
             form3 = true;
@@ -57,6 +66,12 @@ public class BossNaruto : MonoBehaviour
         if (e_HP.currentHP <= 0)
         {
             this.enabled = false;
+        }
+        if (IsInSpecificStates("naruto form2") || IsInSpecificStates("naruto form3"))
+        {//Boss chạy animator naruto form2 3 thì ẩn tag,layer rồi bật lại sau 1.5s (bất tử 1.5s biến hình)
+            gameObject.tag = "Untagged";
+            gameObject.layer = 0;
+            Invoke("ShowTagLayer", 1.5f);
         }
 
         if (!atkMode)
@@ -133,7 +148,7 @@ public class BossNaruto : MonoBehaviour
             }
             else if (distance <= atkDistanceBullet && !cooling)
             {
-                animator.SetBool("Attack3_" + Random.Range(3, atkB1 + 1), true);
+                animator.SetBool("Attack3_" + Random.Range(3, atkB3 + 1), true);
                 AttackAnimation();
             }
         }
@@ -150,8 +165,6 @@ public class BossNaruto : MonoBehaviour
         string RunPrefix = form2 ? "Run2" : (form3 ? "Run3" : "Run");
         animator.SetBool(RunPrefix, true);
 
-        string[] listStates = { "atk1_1", "atk1_2", "atk1_3", "atk2_1", "atk2_2","atk3_1", "atk3_2", "atk3_3", "atk3_4",
-            "hurt", "hurt2", "hurt3" };
         if (!IsInSpecificStates(listStates))
         {
             Vector2 TargetPosition = new Vector2(target.position.x, transform.position.y);
@@ -223,50 +236,35 @@ public class BossNaruto : MonoBehaviour
 
     void BulletAtk()
     {
+        Vector3 bulletRotation = isFlipped ? Vector3.zero : new Vector3(0, 180, 0);
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("atk1_2"))
         {
-            if (isFlipped)
-                Instantiate(bullet1_2, pos1_2.position, Quaternion.Euler(new Vector3(0, 0, 0)));
-            else
-                Instantiate(bullet1_2, pos1_2.position, Quaternion.Euler(new Vector3(0, 180, 0)));
+            Instantiate(bullet1_2, pos1_2.position, Quaternion.Euler(bulletRotation));
         }
         else if (animator.GetCurrentAnimatorStateInfo(0).IsName("atk1_3"))
         {
-            if (isFlipped)
-                Instantiate(bullet1_3, pos1_3.position, Quaternion.Euler(new Vector3(0, 0, 0)));
-            else
-                Instantiate(bullet1_3, pos1_3.position, Quaternion.Euler(new Vector3(0, 180, 0)));
+            Instantiate(bullet1_3, pos1_3.position, Quaternion.Euler(bulletRotation));
         }
 
         else if (animator.GetCurrentAnimatorStateInfo(0).IsName("atk2_2"))
         {
-            if (isFlipped)
-                Instantiate(bullet1_3, pos1_3.position, Quaternion.Euler(new Vector3(0, 0, 0)));
-            else
-                Instantiate(bullet1_3, pos1_3.position, Quaternion.Euler(new Vector3(0, 180, 0)));
+            Instantiate(bullet2_2, pos2_2.position, Quaternion.Euler(bulletRotation));
         }
 
         else if (animator.GetCurrentAnimatorStateInfo(0).IsName("atk3_3"))
         {
-            if (isFlipped)
-                Instantiate(bullet1_3, pos1_3.position, Quaternion.Euler(new Vector3(0, 0, 0)));
-            else
-                Instantiate(bullet1_3, pos1_3.position, Quaternion.Euler(new Vector3(0, 180, 0)));
+            Instantiate(bullet1_2, pos3_3.position, Quaternion.Euler(bulletRotation));
         }
         else if (animator.GetCurrentAnimatorStateInfo(0).IsName("atk3_4"))
         {
-            if (isFlipped)
-                Instantiate(bullet1_3, pos1_3.position, Quaternion.Euler(new Vector3(0, 0, 0)));
-            else
-                Instantiate(bullet1_3, pos1_3.position, Quaternion.Euler(new Vector3(0, 180, 0)));
+            Instantiate(bullet2_2, pos3_4.position, Quaternion.Euler(bulletRotation));
         }
     }
 
     public void Flip()
     {
         bool facingLeft = transform.position.x > target.position.x;
-        string[] listStates = { "atk1_1", "atk1_2", "atk1_3", "atk2_1", "atk2_2","atk3_1", "atk3_2", "atk3_3", "atk3_4",
-            "hurt", "hurt2", "hurt3", "naruto form2", "naruto form3" };
+
         if (!IsInSpecificStates(listStates))
         {
             if (facingLeft && isFlipped || !facingLeft && !isFlipped)
@@ -288,5 +286,11 @@ public class BossNaruto : MonoBehaviour
             }
         }
         return false;
+    }
+
+    void ShowTagLayer()
+    {//bật lại tag vs layer gt ban đầu
+        gameObject.tag = originalTag;
+        gameObject.layer = originalLayer;
     }
 }

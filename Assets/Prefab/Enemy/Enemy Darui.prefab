@@ -273,6 +273,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHP: 50
   currentHP: 0
+  hurtPrefix: Hurt
   E_HP_Slider: {fileID: 5209723271645108784}
   drop: 1
   item: {fileID: 2802059426925353467, guid: 729ca40cdb4c48745b6ed30ccdcedd45, type: 3}
@@ -354,7 +355,7 @@ GameObject:
   m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7904989338400333562
 Transform:
   m_ObjectHideFlags: 0
@@ -447,7 +448,7 @@ GameObject:
   m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7904989339470365244
 Transform:
   m_ObjectHideFlags: 0
