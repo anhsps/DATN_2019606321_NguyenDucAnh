@@ -46516,7 +46516,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1628622826
 Transform:
   m_ObjectHideFlags: 0
@@ -53568,7 +53568,6 @@ GameObject:
   - component: {fileID: 5293948157741160234}
   - component: {fileID: 5293948157741160235}
   - component: {fileID: 5293948157741160229}
-  - component: {fileID: 5293948157741160240}
   m_Layer: 9
   m_Name: naruto
   m_TagString: Enemy
@@ -53576,43 +53575,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &5293948157741160240
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5293948157741160239}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13f9c42f03583fa49872a296494d4df1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  atkA: 1
-  atkB1: 2
-  atkB2: 2
-  atkB3: 4
-  atkDistance1_1: 5
-  atkDistance2_1: 2
-  atkDistance3_1: 2
-  atkDistance3_2: 3.5
-  atkDistanceBullet: 6.5
-  moveSpeed: 2
-  timer: 2
-  leftLimit: {fileID: 5293948158188719756}
-  rightLimit: {fileID: 5293948158167582543}
-  target: {fileID: 0}
-  inRange: 0
-  CheckRange: {fileID: 5293948158920926730}
-  isFlipped: 1
-  form2: 0
-  form3: 0
-  bullet1_2: {fileID: 3377059728681622239, guid: eaea0059eeee8e345bb1aa17f337ee83,
-    type: 3}
-  bullet1_3: {fileID: 7568084481340017390, guid: e23342545a5d2bf4f892c59477830c84,
-    type: 3}
-  pos1_2: {fileID: 5293948158645073185}
-  pos1_3: {fileID: 740208020854725736}
 --- !u!1 &5293948158167582528
 GameObject:
   m_ObjectHideFlags: 0
@@ -53753,7 +53715,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5293948158920926730}
   - component: {fileID: 5293948158920926728}
-  - component: {fileID: 5293948158920926732}
   m_Layer: 0
   m_Name: CheckRange
   m_TagString: Untagged
@@ -53761,18 +53722,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &5293948158920926732
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5293948158920926731}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9dbb9d278c9abff42bd210b426b69cbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &5293948159338039140
 Transform:
   m_ObjectHideFlags: 0

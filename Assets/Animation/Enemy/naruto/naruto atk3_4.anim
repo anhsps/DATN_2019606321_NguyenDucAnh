@@ -28,16 +28,16 @@ AnimationClip:
     - time: 0.16666667
       value: {fileID: 8989091932504699940, guid: cce6e78e702c9574a852e7adc2214d36,
         type: 3}
-    - time: 0.25
+    - time: 0.33333334
       value: {fileID: 4776550568525814781, guid: cce6e78e702c9574a852e7adc2214d36,
         type: 3}
-    - time: 0.33333334
+    - time: 0.5
       value: {fileID: -2069600991768783686, guid: cce6e78e702c9574a852e7adc2214d36,
         type: 3}
-    - time: 0.41666666
+    - time: 0.5833333
       value: {fileID: -5708870173648641720, guid: cce6e78e702c9574a852e7adc2214d36,
         type: 3}
-    - time: 0.5
+    - time: 0.6666667
       value: {fileID: -1882561553558488883, guid: cce6e78e702c9574a852e7adc2214d36,
         type: 3}
     attribute: m_Sprite
@@ -71,7 +71,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.51666665
+    m_StopTime: 0.68333334
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -98,7 +98,7 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.33333334
+  - time: 0.5
     functionName: BulletAtk
     data: 
     objectReferenceParameter: {fileID: 0}
