@@ -22,6 +22,7 @@ public class SoundController : MonoBehaviour
         soundEffectsFloat = PlayerPrefs.GetFloat(SoundEffectsPref);
         soundEffectsSlider.value = soundEffectsFloat;
     }
+
     public void SaveSoundSetting()
     {
         PlayerPrefs.SetFloat(BackgroundPref, backgroundSlider.value);

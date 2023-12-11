@@ -20,8 +20,9 @@ public class PlayerCombat : MonoBehaviour
     public GameObject bulletAtk2, ani1Atk3, ani2Atk3, ani3Atk3, bulletAtk4, eyeAtk4;
     private GameObject ani;
     [HideInInspector] public Transform targetE;
-    public bool rangeAtk3 = false, rangeAtk4 = false;
+    [HideInInspector] public bool rangeAtk3 = false, rangeAtk4 = false;
     public bool useAtk3, useAtk4;
+    bool clickAtk1, clickAtk2, clickAtk3, clickAtk4;
 
     /*[Header("Sound atk")]
     public AudioSource atk1_audio;
@@ -46,15 +47,17 @@ public class PlayerCombat : MonoBehaviour
     {
         if (Time.time >= nextAtkTime)
         {
-            if (Input.GetKeyDown(KeyCode.J) || Input.GetKeyDown(KeyCode.Keypad1))
+            if (Input.GetKeyDown(KeyCode.J) || Input.GetKeyDown(KeyCode.Keypad1) || clickAtk1)
             {//lôi kiếm
+                clickAtk1 = false;//
                 nextAtkTime = Time.time + 0.75f;
                 animator.SetTrigger("Attack1");
                 //atk1_audio.Play();
             }
 
-            else if (Input.GetKeyDown(KeyCode.K) || Input.GetKeyDown(KeyCode.Keypad2))
+            else if (Input.GetKeyDown(KeyCode.K) || Input.GetKeyDown(KeyCode.Keypad2) || clickAtk2)
             {//hoả độn
+                clickAtk2 = false;//
                 if (pHP.currentMP >= 2)
                 {
                     nextAtkTime = Time.time + 1f;
@@ -68,10 +71,10 @@ public class PlayerCombat : MonoBehaviour
                 }
             }
 
-            else if (Input.GetKeyDown(KeyCode.U) && rangeAtk3 && useAtk3
-                || Input.GetKeyDown(KeyCode.Keypad4) && rangeAtk3 && useAtk3)
+            else if (Input.GetKeyDown(KeyCode.U) || Input.GetKeyDown(KeyCode.Keypad4) || clickAtk3)
             {//chidori
-                if (pHP.currentMP >= 3)
+                clickAtk3 = false;//
+                if (pHP.currentMP >= 3 && useAtk3 && rangeAtk3)
                 {
                     nextAtkTime = Time.time + 1.5f;
                     animator.SetTrigger("Attack3");
@@ -84,9 +87,10 @@ public class PlayerCombat : MonoBehaviour
                 }
             }
 
-            else if (Input.GetKeyDown(KeyCode.I) && useAtk4 || Input.GetKeyDown(KeyCode.Keypad5) && useAtk4)
+            else if (Input.GetKeyDown(KeyCode.I) || Input.GetKeyDown(KeyCode.Keypad5) || clickAtk4)
             {//Amaterasu
-                if (pHP.currentMP >= 5)
+                clickAtk4 = false;//
+                if (pHP.currentMP >= 5 && useAtk4)
                 {
                     nextAtkTime = Time.time + 1.5f;
                     animator.SetTrigger("Attack4");
@@ -99,6 +103,23 @@ public class PlayerCombat : MonoBehaviour
                 }
             }
         }
+    }
+
+    public void ClickAtk1()
+    {
+        clickAtk1 = true;
+    }
+    public void ClickAtk2()
+    {
+        clickAtk2 = true;
+    }
+    public void ClickAtk3()
+    {
+        clickAtk3 = true;
+    }
+    public void ClickAtk4()
+    {
+        clickAtk4 = true;
     }
 
     private void OnDrawGizmosSelected()

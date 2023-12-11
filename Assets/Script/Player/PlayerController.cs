@@ -6,25 +6,27 @@ public class PlayerController : MonoBehaviour
 {
     Rigidbody2D rb;
     Animator animator;
-    public BoxCollider2D box;
+    public BoxCollider2D boxPlayer;
     public float runSpeed = 7f;
     public float jumpSpeed = 12f;
     public LayerMask Ground;
     public bool faceingRight = true;
     public GameObject theThan;
+    float move, horizontalInput, joystickInput, verticalMove;
+    [SerializeField] Joystick joystick;
+    string[] listStates = { "Player atk2", "Player atk3", "Player atk4" };
 
-    float move;
     bool canDash = true;
     bool isDashing;
     public float dashingPower = 300f;
     private float dashingTime = 0.2f;
     private float dashingCooldown = 1f;
     public TrailRenderer tr;
+    bool clickDash;
 
     // Start is called before the first frame update
     void Start()
     {
-        //box = GetComponent<BoxCollider2D>();
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
     }
@@ -32,12 +34,15 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        move = Input.GetAxis("Horizontal");
+        horizontalInput = Input.GetAxis("Horizontal");//d/c ngang từ bàn phím
+        joystickInput = joystick.Horizontal;//d/c ngang từ joystick
+        move = horizontalInput + joystickInput;//kết hợp cả 2 đầu vào
+        verticalMove = joystick.Vertical;//d/c nhảy
         animator.SetBool("Run", move != 0);
         flip();
-        
+
         //nhảy
-        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.Space))
+        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.Space) || verticalMove > 0.2f)
         {
             if (IsGrounded())
             {
@@ -57,7 +62,7 @@ public class PlayerController : MonoBehaviour
         {
             animator.SetBool("Jump", false);
             animator.SetBool("Fall", false);
-        }       
+        }
     }
 
     void FixedUpdate()
@@ -65,58 +70,53 @@ public class PlayerController : MonoBehaviour
         rb.velocity = new Vector2(move * runSpeed, rb.velocity.y);
 
         //dash
-        if (Input.GetKeyDown(KeyCode.L) && canDash 
-            && !animator.GetCurrentAnimatorStateInfo(0).IsName("Player atk2")
-            && !animator.GetCurrentAnimatorStateInfo(0).IsName("Player atk3")
-            && !animator.GetCurrentAnimatorStateInfo(0).IsName("Player atk4")
-            || Input.GetKeyDown(KeyCode.Keypad3) && canDash
-            && !animator.GetCurrentAnimatorStateInfo(0).IsName("Player atk2")
-            && !animator.GetCurrentAnimatorStateInfo(0).IsName("Player atk3")
-            && !animator.GetCurrentAnimatorStateInfo(0).IsName("Player atk4"))
+        if (Input.GetKeyDown(KeyCode.L) || Input.GetKeyDown(KeyCode.Keypad3) || clickDash)
         {
-            StartCoroutine(Dash());
+            clickDash = false;//
+            if (canDash && !IsInSpecificStates(listStates))
+            {
+                StartCoroutine(Dash());
+            }
         }
         if (isDashing)
         {//ngăn player move,jump,.. khi dash
             return;
         }
 
-        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Player atk1")
-            || animator.GetCurrentAnimatorStateInfo(0).IsName("Player Hurt"))
+        if (IsInSpecificStates("Player atk1") || IsInSpecificStates("Player Hurt"))
         {//khi atk1 or bị thương thì ko d/c dc, chỉ nhảy dc
             rb.velocity = new Vector2(0, rb.velocity.y);
         }
-        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Player atk2")
-            || animator.GetCurrentAnimatorStateInfo(0).IsName("Player atk3")
-            || animator.GetCurrentAnimatorStateInfo(0).IsName("Player atk4"))
+        if (IsInSpecificStates(listStates))
         {
             rb.velocity = Vector2.zero;
         }
     }
 
+    public void ClickDash()
+    {//click phím có chức năng dash trên giao diện game
+        clickDash = true;
+    }
+
     void flip()
     {
-        if (move > 0 && !faceingRight
-            && !animator.GetCurrentAnimatorStateInfo(0).IsName("Player atk2")
-            && !animator.GetCurrentAnimatorStateInfo(0).IsName("Player atk3")
-            && !animator.GetCurrentAnimatorStateInfo(0).IsName("Player atk4")
-            || move < 0 && faceingRight
-            && !animator.GetCurrentAnimatorStateInfo(0).IsName("Player atk2")
-            && !animator.GetCurrentAnimatorStateInfo(0).IsName("Player atk3")
-            && !animator.GetCurrentAnimatorStateInfo(0).IsName("Player atk4"))
+        if (!IsInSpecificStates(listStates))
         {
-            /*faceingRight = !faceingRight;
-            transform.Rotate(0, 180, 0);*/
-            Vector3 localScale = transform.localScale;//
-            faceingRight = !faceingRight;
-            localScale.x *= -1;
-            transform.localScale = localScale;
+            if (move > 0 && !faceingRight || move < 0 && faceingRight)
+            {
+                /*faceingRight = !faceingRight;
+                transform.Rotate(0, 180, 0);*/
+                Vector3 localScale = transform.localScale;//
+                faceingRight = !faceingRight;
+                localScale.x *= -1;
+                transform.localScale = localScale;
+            }
         }
     }
 
     private bool IsGrounded()
     {
-        RaycastHit2D ray = Physics2D.BoxCast(box.bounds.center, box.bounds.size, 0, Vector2.down, 0.1f, Ground);
+        RaycastHit2D ray = Physics2D.BoxCast(boxPlayer.bounds.center, boxPlayer.bounds.size, 0, Vector2.down, 0.1f, Ground);
         return ray.collider != null;
     }
 
@@ -139,5 +139,18 @@ public class PlayerController : MonoBehaviour
 
         yield return new WaitForSeconds(dashingCooldown);
         canDash = true;
+    }
+
+    bool IsInSpecificStates(params string[] stateNames)
+    {//các states cụ thể
+        AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
+        foreach (string stateName in stateNames)
+        {
+            if (stateInfo.IsName(stateName))
+            {
+                return true;
+            }
+        }
+        return false;
     }
 }

@@ -22,7 +22,7 @@ public class PlayerLife : MonoBehaviour
 
     //menu gamewin
     [SerializeField] private GameObject GameWinUI;
-    [SerializeField] private GameObject buttonPause;
+    [SerializeField] private GameObject buttonUI;
 
     [SerializeField] private Text tempNumberItems;
     [SerializeField] private GameObject zeroStar;
@@ -48,7 +48,7 @@ public class PlayerLife : MonoBehaviour
             animator.SetBool("Run", false);
             animator.SetBool("Fall", false);
             Invoke("Win", 1f);//gọi hàm tên Win sau ít s          
-            buttonPause.SetActive(false);
+            buttonUI.SetActive(false);
             WinAudio.Play();
             Destroy(collider.gameObject, 0.5f);
 

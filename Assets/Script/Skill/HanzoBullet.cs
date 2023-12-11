@@ -4,9 +4,17 @@ using UnityEngine;
 
 public class HanzoBullet : MonoBehaviour
 {
-    public GameObject bullet3_2;
-    public int damage = 10;
-    public float posX = 4.9f, posY = 0f;
+    EnemyBehavior eParent;
+    Animator animator;
+    public GameObject bullet3, bullet3_2;
+    public Transform pos3, pos3_2;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        animator = GetComponent<Animator>();
+        eParent = GetComponent<EnemyBehavior>();
+    }
 
     // Update is called once per frame
     void Update()
@@ -14,18 +22,22 @@ public class HanzoBullet : MonoBehaviour
 
     }
 
-    void Bullet3_2()
+    void BulletAtk3()
     {
-        //Vector2 pos = new Vector2(posX, posY);
-        Vector2 pos = new Vector2(transform.position.x + posX, transform.position.y + posY);
-        Instantiate(bullet3_2, pos, Quaternion.identity);
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.CompareTag("Player"))
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("atk3"))
         {
-            collision.gameObject.GetComponent<PlayerHealth>().TakeDamage(damage);
+            if (eParent.isFlipped)
+                Instantiate(bullet3, pos3.position, Quaternion.Euler(new Vector3(0, 0, 0)));
+            else
+                Instantiate(bullet3, pos3.position, Quaternion.Euler(new Vector3(0, 180, 0)));
         }
+        Invoke("BulletAtk3_2", 0.5f);
+    }
+    void BulletAtk3_2()
+    {
+        if (eParent.isFlipped)
+            Instantiate(bullet3_2, pos3_2.position, Quaternion.Euler(new Vector3(0, 0, 0)));
+        else
+            Instantiate(bullet3_2, pos3_2.position, Quaternion.Euler(new Vector3(0, 180, 0)));
     }
 }

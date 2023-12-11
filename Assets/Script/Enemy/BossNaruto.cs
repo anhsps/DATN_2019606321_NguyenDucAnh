@@ -237,25 +237,25 @@ public class BossNaruto : MonoBehaviour
     void BulletAtk()
     {
         Vector3 bulletRotation = isFlipped ? Vector3.zero : new Vector3(0, 180, 0);
-        if (animator.GetCurrentAnimatorStateInfo(0).IsName("atk1_2"))
+        if (IsInSpecificStates("atk1_2"))
         {
             Instantiate(bullet1_2, pos1_2.position, Quaternion.Euler(bulletRotation));
         }
-        else if (animator.GetCurrentAnimatorStateInfo(0).IsName("atk1_3"))
+        else if (IsInSpecificStates("atk1_3"))
         {
             Instantiate(bullet1_3, pos1_3.position, Quaternion.Euler(bulletRotation));
         }
 
-        else if (animator.GetCurrentAnimatorStateInfo(0).IsName("atk2_2"))
+        else if (IsInSpecificStates("atk2_2"))
         {
             Instantiate(bullet2_2, pos2_2.position, Quaternion.Euler(bulletRotation));
         }
 
-        else if (animator.GetCurrentAnimatorStateInfo(0).IsName("atk3_3"))
+        else if (IsInSpecificStates("atk3_3"))
         {
             Instantiate(bullet1_2, pos3_3.position, Quaternion.Euler(bulletRotation));
         }
-        else if (animator.GetCurrentAnimatorStateInfo(0).IsName("atk3_4"))
+        else if (IsInSpecificStates("atk3_4"))
         {
             Instantiate(bullet2_2, pos3_4.position, Quaternion.Euler(bulletRotation));
         }

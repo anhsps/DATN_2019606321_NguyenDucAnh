@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 2292824823912470821}
   - component: {fileID: 2292824823912470820}
   - component: {fileID: 2292824823912470823}
-  - component: {fileID: 7769381247787879627}
-  - component: {fileID: -2998317331873262180}
   - component: {fileID: 6312440246089878171}
+  - component: {fileID: 7769381247787879627}
+  - component: {fileID: 7404431882365038808}
   m_Layer: 0
   m_Name: b3 hanzo
   m_TagString: Untagged
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 8548080742452494830, guid: 2f7b2c14e815c0949b9d0924ae0fab4b,
+  m_Sprite: {fileID: 7436619474035443827, guid: 2f7b2c14e815c0949b9d0924ae0fab4b,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -105,36 +105,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &7769381247787879627
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2292824823912470841}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4110cd7994565d4d93248eff6e667b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  t: 0.8333333
---- !u!114 &-2998317331873262180
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2292824823912470841}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc9f056e841fb9944b1bc0f190df57e3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bullet3_2: {fileID: 8227669621128814240, guid: d28e857544a5b454abd6044737f26a41,
-    type: 3}
-  damage: 10
-  posX: 2.2
-  posY: -0.22
 --- !u!61 &6312440246089878171
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -152,7 +122,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.642857, y: 3.107143}
+    oldSize: {x: 3.7142856, y: 3.107143}
     newSize: {x: 6.9375, y: 4.0625}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -161,3 +131,30 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.642857, y: 3.107143}
   m_EdgeRadius: 0
+--- !u!114 &7769381247787879627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2292824823912470841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4110cd7994565d4d93248eff6e667b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  t: 0.8333333
+--- !u!114 &7404431882365038808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2292824823912470841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d04075edeb1f71d499ec339cfa1ba9f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 10
+  damRate: 1

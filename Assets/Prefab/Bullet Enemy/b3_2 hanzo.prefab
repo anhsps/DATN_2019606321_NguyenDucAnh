@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 5550869709589462456}
   - component: {fileID: 4273112216007605916}
   - component: {fileID: 6380838055008220676}
-  - component: {fileID: 6699235761594417129}
   - component: {fileID: 5788899161623651348}
+  - component: {fileID: 6699235761594417129}
   - component: {fileID: 7842252910562248358}
   m_Layer: 0
   m_Name: b3_2 hanzo
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: 3061934901503907745, guid: 2f7b2c14e815c0949b9d0924ae0fab4b,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -127,19 +127,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &6699235761594417129
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8227669621128814240}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4110cd7994565d4d93248eff6e667b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  t: 1
 --- !u!70 &5788899161623651348
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -156,6 +143,19 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 3.8, y: 1.22}
   m_Direction: 1
+--- !u!114 &6699235761594417129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8227669621128814240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4110cd7994565d4d93248eff6e667b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  t: 1
 --- !u!114 &7842252910562248358
 MonoBehaviour:
   m_ObjectHideFlags: 0

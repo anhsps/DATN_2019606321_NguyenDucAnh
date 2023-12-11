@@ -10,6 +10,7 @@ public class PlayerHealth : MonoBehaviour
 
     public int maxHP = 200, maxMP = 50;
     [HideInInspector] public float currentHP, currentMP;
+    [HideInInspector] public bool isHurt;
 
     public Slider SliderHP, SliderMP;
     public Text HPScore, MPScore;
@@ -23,9 +24,7 @@ public class PlayerHealth : MonoBehaviour
     public AudioSource death_audio;
     public AudioSource hurt_audio;
     [SerializeField] private GameObject GameOverUI;
-    [SerializeField] private GameObject buttonPause;
-
-    public bool isHurt;
+    [SerializeField] private GameObject buttonUI;
 
     // Start is called before the first frame update
     void Start()
@@ -86,7 +85,7 @@ public class PlayerHealth : MonoBehaviour
     {
         death_audio.Play();
         Invoke("Lose", 1f);
-        buttonPause.SetActive(false);
+        buttonUI.SetActive(false);
 
         animator.SetTrigger("Die");
         rb.bodyType = RigidbodyType2D.Static;
