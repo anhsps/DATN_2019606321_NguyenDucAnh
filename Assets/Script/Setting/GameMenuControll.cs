@@ -31,8 +31,8 @@ public class GameMenuControll : MonoBehaviour
 
     public void QuitGame()
     {
-        Debug.Log("Out game");
         Application.Quit();
+        Debug.Log("Out game");
     }
 
     public void ReplayGame()

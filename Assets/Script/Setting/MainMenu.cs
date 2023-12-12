@@ -23,7 +23,16 @@ public class MainMenu : MonoBehaviour
         PlayerPrefs.DeleteAll();
         Debug.Log("Clear all");
 
-        volumSlider.value = effectSlider.value = 0.5f;
+        //volumSlider.value = effectSlider.value = 0.5f;
+        SetSliderValues(0.5f);
+    }
+    void SetSliderValues(float value)
+    {
+        volumSlider.value = effectSlider.value = value;
+
+        // (k bắt buộc) Kích hoạt sự kiện onValueChanged để đảm bảo rằng các xử lý liên quan đến sự kiện được thực hiện
+        volumSlider.onValueChanged.Invoke(value);
+        effectSlider.onValueChanged.Invoke(value);
     }
 }
 

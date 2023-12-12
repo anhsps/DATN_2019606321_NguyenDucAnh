@@ -22,7 +22,7 @@ public class PlayerCombat : MonoBehaviour
     [HideInInspector] public Transform targetE;
     [HideInInspector] public bool rangeAtk3 = false, rangeAtk4 = false;
     public bool useAtk3, useAtk4;
-    bool clickAtk1, clickAtk2, clickAtk3, clickAtk4;
+    bool clickAtk1, clickAtk2, clickAtk3, clickAtk4, performAtk;
 
     /*[Header("Sound atk")]
     public AudioSource atk1_audio;
@@ -45,21 +45,23 @@ public class PlayerCombat : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Time.time >= nextAtkTime)
+        if (Time.time >= nextAtkTime && !performAtk)
         {
-            if (Input.GetKeyDown(KeyCode.J) || Input.GetKeyDown(KeyCode.Keypad1) || clickAtk1)
+            if ((Input.GetKeyDown(KeyCode.J) || Input.GetKeyDown(KeyCode.Keypad1) || clickAtk1))
             {//lôi kiếm
-                clickAtk1 = false;//
+                performAtk = true;//đang thực hiện atk
+                Invoke("ResetPerformAtk", 0.75f);
                 nextAtkTime = Time.time + 0.75f;
                 animator.SetTrigger("Attack1");
                 //atk1_audio.Play();
             }
 
-            else if (Input.GetKeyDown(KeyCode.K) || Input.GetKeyDown(KeyCode.Keypad2) || clickAtk2)
+            else if ((Input.GetKeyDown(KeyCode.K) || Input.GetKeyDown(KeyCode.Keypad2) || clickAtk2))
             {//hoả độn
-                clickAtk2 = false;//
                 if (pHP.currentMP >= 2)
                 {
+                    performAtk = true;
+                    Invoke("ResetPerformAtk", 1f);
                     nextAtkTime = Time.time + 1f;
                     animator.SetTrigger("Attack2");
                     //atk2_audio.Play();
@@ -71,11 +73,12 @@ public class PlayerCombat : MonoBehaviour
                 }
             }
 
-            else if (Input.GetKeyDown(KeyCode.U) || Input.GetKeyDown(KeyCode.Keypad4) || clickAtk3)
+            else if ((Input.GetKeyDown(KeyCode.U) || Input.GetKeyDown(KeyCode.Keypad4) || clickAtk3))
             {//chidori
-                clickAtk3 = false;//
                 if (pHP.currentMP >= 3 && useAtk3 && rangeAtk3)
                 {
+                    performAtk = true;
+                    Invoke("ResetPerformAtk", 1.5f);
                     nextAtkTime = Time.time + 1.5f;
                     animator.SetTrigger("Attack3");
                     //atk3_audio.Play();
@@ -87,11 +90,12 @@ public class PlayerCombat : MonoBehaviour
                 }
             }
 
-            else if (Input.GetKeyDown(KeyCode.I) || Input.GetKeyDown(KeyCode.Keypad5) || clickAtk4)
+            else if ((Input.GetKeyDown(KeyCode.I) || Input.GetKeyDown(KeyCode.Keypad5) || clickAtk4))
             {//Amaterasu
-                clickAtk4 = false;//
                 if (pHP.currentMP >= 5 && useAtk4)
                 {
+                    performAtk = true;
+                    Invoke("ResetPerformAtk", 1.5f);
                     nextAtkTime = Time.time + 1.5f;
                     animator.SetTrigger("Attack4");
                     //atk4_audio.Play();
@@ -107,19 +111,55 @@ public class PlayerCombat : MonoBehaviour
 
     public void ClickAtk1()
     {
-        clickAtk1 = true;
+        if (!performAtk)
+        {
+            clickAtk1 = true;
+            Invoke("ResetClickAtk1", 0.75f);
+        }
     }
     public void ClickAtk2()
     {
-        clickAtk2 = true;
+        if (!performAtk)
+        {
+            clickAtk2 = true;
+            Invoke("ResetClickAtk2", 1f);
+        }
     }
     public void ClickAtk3()
     {
-        clickAtk3 = true;
+        if (!performAtk)
+        {
+            clickAtk3 = true;
+            Invoke("ResetClickAtk3", 1.5f);
+        }
     }
     public void ClickAtk4()
     {
-        clickAtk4 = true;
+        if (!performAtk)
+        {
+            clickAtk4 = true;
+            Invoke("ResetClickAtk4", 1.5f);
+        }
+    }
+    void ResetClickAtk1()
+    {
+        clickAtk1 = false;
+    }
+    void ResetClickAtk2()
+    {
+        clickAtk2 = false;
+    }
+    void ResetClickAtk3()
+    {
+        clickAtk3 = false;
+    }
+    void ResetClickAtk4()
+    {
+        clickAtk4 = false;
+    }
+    void ResetPerformAtk()
+    {
+        performAtk = false;
     }
 
     private void OnDrawGizmosSelected()
