@@ -6,6 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     Rigidbody2D rb;
     Animator animator;
+    SpellCooldown sc;
     public BoxCollider2D boxPlayer;
     public float runSpeed = 7f;
     public float jumpSpeed = 12f;
@@ -20,7 +21,7 @@ public class PlayerController : MonoBehaviour
     bool isDashing;
     public float dashingPower = 300f;
     private float dashingTime = 0.2f;
-    private float dashingCooldown = 1f;
+    private float dashingCooldown = 0.8f;
     public TrailRenderer tr;
     bool clickDash;
 
@@ -29,6 +30,8 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        sc = GetComponent<SpellCooldown>();
+        
     }
 
     // Update is called once per frame
@@ -76,6 +79,8 @@ public class PlayerController : MonoBehaviour
             if (canDash && !IsInSpecificStates(listStates))
             {
                 StartCoroutine(Dash());
+                
+                sc.UseSpellDash();//Spell Cooldown
             }
         }
         if (isDashing)

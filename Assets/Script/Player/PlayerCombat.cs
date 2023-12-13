@@ -10,6 +10,7 @@ public class PlayerCombat : MonoBehaviour
     RangeAtk3 r3; RangeAtk4 r4;
     PlayerController pctr;
     PlayerHealth pHP;
+    SpellCooldown sc;
 
     public LayerMask enemyLayer;
     public Vector3 atkOffset1;
@@ -21,6 +22,7 @@ public class PlayerCombat : MonoBehaviour
     private GameObject ani;
     [HideInInspector] public Transform targetE;
     [HideInInspector] public bool rangeAtk3 = false, rangeAtk4 = false;
+    [HideInInspector] public float timeAtk1 = 0.75f, timeAtk2 = 1f, timeAtk3 = 1.5f, timeAtk4 = 1.5f;
     public bool useAtk3, useAtk4;
     bool clickAtk1, clickAtk2, clickAtk3, clickAtk4, performAtk;
 
@@ -40,6 +42,7 @@ public class PlayerCombat : MonoBehaviour
         r4 = GetComponentInChildren<RangeAtk4>();
         pctr = GetComponent<PlayerController>();
         pHP = GetComponent<PlayerHealth>();
+        sc = GetComponent<SpellCooldown>();
     }
 
     // Update is called once per frame
@@ -49,9 +52,14 @@ public class PlayerCombat : MonoBehaviour
         {
             if ((Input.GetKeyDown(KeyCode.J) || Input.GetKeyDown(KeyCode.Keypad1) || clickAtk1))
             {//lôi kiếm
+                //Spell Cooldown
+                sc.imageCooldown = sc.imageCooldown1;
+                sc.cooldownTime = timeAtk1;
+                sc.UseSpell();
+
                 performAtk = true;//đang thực hiện atk
-                Invoke("ResetPerformAtk", 0.75f);
-                nextAtkTime = Time.time + 0.75f;
+                Invoke("ResetPerformAtk", timeAtk1);
+                nextAtkTime = Time.time + timeAtk1;
                 animator.SetTrigger("Attack1");
                 //atk1_audio.Play();
             }
@@ -60,9 +68,13 @@ public class PlayerCombat : MonoBehaviour
             {//hoả độn
                 if (pHP.currentMP >= 2)
                 {
+                    sc.imageCooldown = sc.imageCooldown2;
+                    sc.cooldownTime = timeAtk2;
+                    sc.UseSpell();
+
                     performAtk = true;
-                    Invoke("ResetPerformAtk", 1f);
-                    nextAtkTime = Time.time + 1f;
+                    Invoke("ResetPerformAtk", timeAtk2);
+                    nextAtkTime = Time.time + timeAtk2;
                     animator.SetTrigger("Attack2");
                     //atk2_audio.Play();
 
@@ -77,9 +89,13 @@ public class PlayerCombat : MonoBehaviour
             {//chidori
                 if (pHP.currentMP >= 3 && useAtk3 && rangeAtk3)
                 {
+                    sc.imageCooldown = sc.imageCooldown3;
+                    sc.cooldownTime = timeAtk3;
+                    sc.UseSpell();
+
                     performAtk = true;
-                    Invoke("ResetPerformAtk", 1.5f);
-                    nextAtkTime = Time.time + 1.5f;
+                    Invoke("ResetPerformAtk", timeAtk3);
+                    nextAtkTime = Time.time + timeAtk3;
                     animator.SetTrigger("Attack3");
                     //atk3_audio.Play();
 
@@ -94,9 +110,13 @@ public class PlayerCombat : MonoBehaviour
             {//Amaterasu
                 if (pHP.currentMP >= 5 && useAtk4)
                 {
+                    sc.imageCooldown = sc.imageCooldown4;
+                    sc.cooldownTime = timeAtk4;
+                    sc.UseSpell();
+
                     performAtk = true;
-                    Invoke("ResetPerformAtk", 1.5f);
-                    nextAtkTime = Time.time + 1.5f;
+                    Invoke("ResetPerformAtk", timeAtk3);
+                    nextAtkTime = Time.time + timeAtk3;
                     animator.SetTrigger("Attack4");
                     //atk4_audio.Play();
 
@@ -114,7 +134,7 @@ public class PlayerCombat : MonoBehaviour
         if (!performAtk)
         {
             clickAtk1 = true;
-            Invoke("ResetClickAtk1", 0.75f);
+            Invoke("ResetClickAtk1", timeAtk1);
         }
     }
     public void ClickAtk2()
@@ -122,7 +142,7 @@ public class PlayerCombat : MonoBehaviour
         if (!performAtk)
         {
             clickAtk2 = true;
-            Invoke("ResetClickAtk2", 1f);
+            Invoke("ResetClickAtk2", timeAtk2);
         }
     }
     public void ClickAtk3()
@@ -130,7 +150,7 @@ public class PlayerCombat : MonoBehaviour
         if (!performAtk)
         {
             clickAtk3 = true;
-            Invoke("ResetClickAtk3", 1.5f);
+            Invoke("ResetClickAtk3", timeAtk3);
         }
     }
     public void ClickAtk4()
@@ -138,7 +158,7 @@ public class PlayerCombat : MonoBehaviour
         if (!performAtk)
         {
             clickAtk4 = true;
-            Invoke("ResetClickAtk4", 1.5f);
+            Invoke("ResetClickAtk4", timeAtk4);
         }
     }
     void ResetClickAtk1()
