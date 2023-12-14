@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1990883811822048199}
   - component: {fileID: 7481867678188729128}
   - component: {fileID: 8572935973441811006}
-  - component: {fileID: 1098292857779115170}
+  - component: {fileID: 5745123280290337110}
   m_Layer: 0
   m_Name: ani3Atk3
   m_TagString: Untagged
@@ -132,7 +132,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.5056543, y: 2.0528374}
   m_EdgeRadius: 0
---- !u!114 &1098292857779115170
+--- !u!114 &5745123280290337110
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 75721132569358902}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8426dc0c84b9e6d438e83bf1721ed819, type: 3}
+  m_Script: {fileID: 11500000, guid: a1d4e749de204a24c90d533ec92a7e07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 20

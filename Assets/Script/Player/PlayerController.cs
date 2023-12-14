@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
     public LayerMask Ground;
     public bool faceingRight = true;
     public GameObject theThan;
+    [SerializeField] AudioSource dash_audio;
     float move, horizontalInput, joystickInput, verticalMove;
     [SerializeField] Joystick joystick;
     string[] listStates = { "Player atk2", "Player atk3", "Player atk4" };
@@ -127,6 +128,8 @@ public class PlayerController : MonoBehaviour
 
     private IEnumerator Dash()
     {
+        dash_audio.Play();
+
         //ở Rigibody 2D > Collision Detection > Continuos
         //Continuos: để xử lý va chạm chính xác hơn và ngăn chặn xuyên qua tường
         canDash = false;

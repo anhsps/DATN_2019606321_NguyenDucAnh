@@ -26,9 +26,9 @@ public class PlayerCombat : MonoBehaviour
     public bool useAtk3, useAtk4;
     bool clickAtk1, clickAtk2, clickAtk3, clickAtk4, performAtk;
 
-    /*[Header("Sound atk")]
+    [Header("Sound atk")]
     public AudioSource atk1_audio;
-    public AudioSource atk2_audio, atk3_audio, atk4_audio;*/
+    public AudioSource atk2_audio, atk3_audio, atk4_audio;
 
     [Header("MP Score")]
     public Slider MPSlider;
@@ -61,7 +61,7 @@ public class PlayerCombat : MonoBehaviour
                 Invoke("ResetPerformAtk", timeAtk1);
                 nextAtkTime = Time.time + timeAtk1;
                 animator.SetTrigger("Attack1");
-                //atk1_audio.Play();
+                atk1_audio.Play();
             }
 
             else if ((Input.GetKeyDown(KeyCode.K) || Input.GetKeyDown(KeyCode.Keypad2) || clickAtk2))
@@ -76,7 +76,7 @@ public class PlayerCombat : MonoBehaviour
                     Invoke("ResetPerformAtk", timeAtk2);
                     nextAtkTime = Time.time + timeAtk2;
                     animator.SetTrigger("Attack2");
-                    //atk2_audio.Play();
+                    atk2_audio.Play();
 
                     pHP.currentMP = pHP.currentMP - 2;
                     if (pHP.currentMP > pHP.maxMP) pHP.currentMP = pHP.maxMP;
@@ -97,7 +97,7 @@ public class PlayerCombat : MonoBehaviour
                     Invoke("ResetPerformAtk", timeAtk3);
                     nextAtkTime = Time.time + timeAtk3;
                     animator.SetTrigger("Attack3");
-                    //atk3_audio.Play();
+                    atk3_audio.Play();
 
                     pHP.currentMP = pHP.currentMP - 3;
                     if (pHP.currentMP > pHP.maxMP) pHP.currentMP = pHP.maxMP;
@@ -118,7 +118,7 @@ public class PlayerCombat : MonoBehaviour
                     Invoke("ResetPerformAtk", timeAtk3);
                     nextAtkTime = Time.time + timeAtk3;
                     animator.SetTrigger("Attack4");
-                    //atk4_audio.Play();
+                    atk4_audio.Play();
 
                     pHP.currentMP = pHP.currentMP - 5;
                     if (pHP.currentMP > pHP.maxMP) pHP.currentMP = pHP.maxMP;

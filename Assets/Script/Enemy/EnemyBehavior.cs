@@ -74,7 +74,7 @@ public class EnemyBehavior : MonoBehaviour
         else if (distance <= atkDistance2 && cooling == false)//
         {//nếu ko atk1, mà từ atkA=2 trở đi thì cài atkDistance=0
             int atkAStart = (atkA > 1) ? atkA : 2;
-            animator.SetBool($"Attack{Random.Range(atkAStart,atkB+1)}", true);
+            animator.SetBool($"Attack{Random.Range(atkAStart, atkB + 1)}", true);
             /*if (atkA > 1) animator.SetBool("Attack" + Random.Range(atkA, atkB + 1), true);
             animator.SetBool("Attack" + Random.Range(2, atkB + 1), true);*/
             AttackAnimation();
@@ -108,7 +108,7 @@ public class EnemyBehavior : MonoBehaviour
 
     void ResetAtkBoolValues()
     {
-        for (int i = atkA; i <= atkB; i++)//
+        for (int i = atkA; i <= atkB; i++)
         {
             string boolName = "Attack" + i;
             animator.SetBool(boolName, false);
@@ -118,6 +118,7 @@ public class EnemyBehavior : MonoBehaviour
     void Cooldown()
     {//reset timer atk
         timer -= Time.deltaTime;
+        if (!inRange && timer > 0) timer = intTimer;//fix lỗi !inRange mà timer chưa trừ hết về 0
         if (timer <= 0 && cooling && atkMode)
         {
             cooling = false;
@@ -137,7 +138,7 @@ public class EnemyBehavior : MonoBehaviour
         cooling = true;
     }
 
-    public bool InsideofLimits()//
+    bool InsideofLimits()
     {
         return transform.position.x > leftLimit.position.x && transform.position.x < rightLimit.position.x;
     }

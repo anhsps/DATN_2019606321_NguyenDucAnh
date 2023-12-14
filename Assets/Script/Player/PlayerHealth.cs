@@ -21,8 +21,8 @@ public class PlayerHealth : MonoBehaviour
     SpriteRenderer spriteRend;
 
     [Header("sound, gameover")]
-    public AudioSource death_audio;
-    public AudioSource hurt_audio;
+    [SerializeField] AudioSource hurt_audio;
+    [SerializeField] AudioSource death_audio, addHP_audio, addMP_audio;
     [SerializeField] private GameObject GameOverUI;
     [SerializeField] private GameObject buttonUI;
 
@@ -73,6 +73,8 @@ public class PlayerHealth : MonoBehaviour
         if (currentHP > maxHP) currentHP = maxHP;
         SliderHP.value = currentHP;
         HPScore.text = currentHP + " / " + maxHP;
+
+        addHP_audio.Play();
     }
     public void AddMP(int amountMP)
     {
@@ -80,6 +82,8 @@ public class PlayerHealth : MonoBehaviour
         if (currentMP > maxMP) currentMP = maxMP;
         SliderMP.value = currentMP;
         MPScore.text = currentMP + " / " + maxMP;
+
+        addMP_audio.Play();
     }
     void Die()
     {
