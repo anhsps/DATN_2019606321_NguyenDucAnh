@@ -516,7 +516,7 @@ MonoBehaviour:
   atkDistance3_2: 3.5
   atkDistanceBullet: 6.5
   moveSpeed: 2
-  timer: 2
+  timer: 1.5
   leftLimit: {fileID: 5062856198111108482}
   rightLimit: {fileID: 5062856198081582145}
   target: {fileID: 0}
