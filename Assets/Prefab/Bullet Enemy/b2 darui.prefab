@@ -12,8 +12,6 @@ GameObject:
   - component: {fileID: 2780958570583424500}
   - component: {fileID: 2780958570583424503}
   - component: {fileID: 2780958570583424498}
-  - component: {fileID: 5950468997748729883}
-  - component: {fileID: 3021463887816565351}
   - component: {fileID: 834691012149289031}
   - component: {fileID: 8773899755908332346}
   - component: {fileID: 2675320207091004918}
@@ -129,34 +127,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &5950468997748729883
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2780958570583424489}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4110cd7994565d4d93248eff6e667b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  t: 1
---- !u!114 &3021463887816565351
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2780958570583424489}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e93d169ebe63cf64d83714dc3b00c889, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  eBulletSpeed: 6
-  damage: 15
-  desTime: 0.1
 --- !u!70 &834691012149289031
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -199,5 +169,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   eBulletSpeed: 6
-  damage: 10
+  damage: 20
   desTime: 0.2

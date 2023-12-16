@@ -169,5 +169,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   eBulletSpeed: 6
-  damage: 15
+  damage: 20
   desTime: 0.2

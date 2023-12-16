@@ -14,7 +14,7 @@ public class PlayerCombat : MonoBehaviour
 
     public LayerMask enemyLayer;
     public Vector3 atkOffset1;
-    public float atkRange1;
+    public float atkRange1;//đường kính hình tròn range1
     public int atkDamage1 = 10;
     float nextAtkTime = 0;
     public Transform gunTip2, gunTip4, eye4;

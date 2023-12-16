@@ -588,6 +588,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHP: 150
   currentHP: 0
+  hurtPrefix: Hurt
   E_HP_Slider: {fileID: 5261273377330533774}
   drop: 1
   item: {fileID: 5654408010955495453, guid: b4f58a1e43355fa48b061b682d3075f1, type: 3}
@@ -610,7 +611,7 @@ MonoBehaviour:
   atkDistance: 3.4
   atkDistance2: 6
   moveSpeed: 2
-  timer: 1.75
+  timer: 1.5
   leftLimit: {fileID: 7852943079570607082}
   rightLimit: {fileID: 7852943079616971305}
   target: {fileID: 0}

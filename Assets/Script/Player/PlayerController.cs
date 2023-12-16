@@ -38,7 +38,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        horizontalInput = Input.GetAxis("Horizontal");//d/c ngang từ bàn phím
+        horizontalInput = Input.GetAxis("Horizontal");//di chuyển ngang từ bàn phím
         joystickInput = joystick.Horizontal;//d/c ngang từ joystick
         move = horizontalInput + joystickInput;//kết hợp cả 2 đầu vào
         verticalMove = joystick.Vertical;//d/c nhảy
