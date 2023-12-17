@@ -8,7 +8,7 @@ public class EnemyDamage : MonoBehaviour
     public float damRate = 1f;//time gây đam 1 lần
     float nextDamage = 0f;
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.CompareTag("Player")  && nextDamage < Time.time)
         {

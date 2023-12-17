@@ -4,11 +4,10 @@ using UnityEngine;
 
 public class EnemyShoot : MonoBehaviour
 {
-    EnemyBehavior eParent;
     Animator animator;
+    [HideInInspector] public EnemyBehavior eParent;
     public GameObject bullet2, bullet3;
     public Transform pos2, pos3;
-    public bool bulletAtk2, bulletAtk3, bulletAtk3_2;
 
     // Start is called before the first frame update
     void Start()
@@ -25,7 +24,7 @@ public class EnemyShoot : MonoBehaviour
 
     void BulletAtk()
     {
-        if (bulletAtk2 && animator.GetCurrentAnimatorStateInfo(0).IsName("atk2"))
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("atk2"))
         {
             if (eParent.isFlipped)
                 Instantiate(bullet2, pos2.position, Quaternion.Euler(new Vector3(0, 0, 0)));
@@ -33,20 +32,12 @@ public class EnemyShoot : MonoBehaviour
                 Instantiate(bullet2, pos2.position, Quaternion.Euler(new Vector3(0, 180, 0)));
         }
 
-        else if (bulletAtk3 && animator.GetCurrentAnimatorStateInfo(0).IsName("atk3"))
+        else if (animator.GetCurrentAnimatorStateInfo(0).IsName("atk3"))
         {
             if (eParent.isFlipped)
                 Instantiate(bullet3, pos3.position, Quaternion.Euler(new Vector3(0, 0, 0)));
             else
                 Instantiate(bullet3, pos3.position, Quaternion.Euler(new Vector3(0, 180, 0)));
-        }
-
-        else if(bulletAtk3_2 && animator.GetCurrentAnimatorStateInfo(0).IsName("atk3"))
-        {//bullet bắn target vào player
-            if (eParent.isFlipped)
-                Instantiate(bullet3, eParent.target.position, Quaternion.Euler(new Vector3(0, 0, 0)));
-            else
-                Instantiate(bullet3, eParent.target.position, Quaternion.Euler(new Vector3(0, 180, 0)));
         }
     }
 }

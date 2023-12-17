@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 7454337641383822299}
   - component: {fileID: 7454337641383822290}
   - component: {fileID: 1985814356532092565}
+  - component: {fileID: 3384224990863229261}
   m_Layer: 9
   m_Name: hanzo
   m_TagString: Enemy
@@ -179,6 +180,9 @@ MonoBehaviour:
   item: {fileID: 8949071097659502186, guid: 48c9f37fe247f22418141f6fa696bbe4, type: 3}
   bloodEffect: {fileID: 3120391646155019884, guid: 0cb7fce7311896e47a12f7a0bd397101,
     type: 3}
+  maleHurt_audio: {fileID: 0}
+  femaleHurt_audio: {fileID: 0}
+  male: 1
 --- !u!114 &7454337641383822299
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -233,6 +237,21 @@ MonoBehaviour:
     type: 3}
   pos3: {fileID: 7454337642090471894}
   pos3_2: {fileID: 8429062846438927976}
+--- !u!114 &3384224990863229261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7454337641383822296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d81ac534cc7eb645a8670650b894db0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  atk1_1_audio: {fileID: 0}
+  atk1_2_audio: {fileID: 0}
+  atk2_audio: {fileID: 0}
 --- !u!1 &7454337641385837200
 GameObject:
   m_ObjectHideFlags: 0

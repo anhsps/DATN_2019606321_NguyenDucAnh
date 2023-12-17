@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5052624604875296822}
   - component: {fileID: 3679603449427881417}
   - component: {fileID: 3991788916445406244}
-  - component: {fileID: 587814558851887059}
+  - component: {fileID: 711271507239476225}
   m_Layer: 0
   m_Name: b2_2 shikamaru
   m_TagString: Untagged
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   t: 0.5
---- !u!114 &587814558851887059
+--- !u!114 &711271507239476225
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -175,7 +175,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 1851916631460775277}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 089c6cf2f2047b64eb23632473664cca, type: 3}
+  m_Script: {fileID: 11500000, guid: d04075edeb1f71d499ec339cfa1ba9f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 20
+  damRate: 1

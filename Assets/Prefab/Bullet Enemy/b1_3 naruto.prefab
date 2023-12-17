@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1524833521537505251}
   - component: {fileID: 1524833521537505255}
   - component: {fileID: 7001671429001544206}
-  - component: {fileID: 8540596734122512749}
+  - component: {fileID: 3554799223119148614}
   m_Layer: 0
   m_Name: b1_3 naruto
   m_TagString: Untagged
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   t: 0.5
---- !u!114 &8540596734122512749
+--- !u!114 &3554799223119148614
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -175,9 +175,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 1524833521537505276}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e93d169ebe63cf64d83714dc3b00c889, type: 3}
+  m_Script: {fileID: 11500000, guid: d04075edeb1f71d499ec339cfa1ba9f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eBulletSpeed: 0
   damage: 20
-  desTime: 0.5
+  damRate: 1

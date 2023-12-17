@@ -61,7 +61,7 @@ TextureImporter:
     second: naruto3_18
   - first:
       213: 7259898739261613825
-    second: naruto3_19
+    second: rssk4
   - first:
       213: -5941015495536810594
     second: naruto3_20
@@ -115,19 +115,19 @@ TextureImporter:
     second: naruto3_36
   - first:
       213: 6883456984173641290
-    second: naruto3_37
+    second: rssk5
   - first:
       213: -519694075722224052
-    second: naruto3_38
+    second: rssk6
   - first:
       213: -6112075423273132894
-    second: naruto3_39
+    second: rssk7
   - first:
       213: 1246243848701557111
-    second: naruto3_40
+    second: rssk8
   - first:
       213: -6797203100027183269
-    second: naruto3_41
+    second: rssk9
   - first:
       213: -483711235089460950
     second: naruto3_42
@@ -157,13 +157,13 @@ TextureImporter:
     second: naruto3_50
   - first:
       213: -2107835424565902079
-    second: naruto3_51
+    second: rssk1
   - first:
       213: 8625575656684544225
-    second: naruto3_52
+    second: rssk2
   - first:
       213: -8984905010898574109
-    second: naruto3_53
+    second: rssk3
   - first:
       213: 1576743124478543745
     second: naruto3_54
@@ -1050,7 +1050,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto3_51
+      name: rssk1
       rect:
         serializedVersion: 2
         x: 43
@@ -1071,7 +1071,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto3_52
+      name: rssk2
       rect:
         serializedVersion: 2
         x: 116
@@ -1079,7 +1079,7 @@ TextureImporter:
         width: 84
         height: 103
       alignment: 9
-      pivot: {x: 0.69, y: 0.365}
+      pivot: {x: 0.6894, y: 0.364}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1092,7 +1092,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: naruto3_53
+      name: rssk3
       rect:
         serializedVersion: 2
         x: 216
@@ -1100,7 +1100,7 @@ TextureImporter:
         width: 101
         height: 125
       alignment: 9
-      pivot: {x: 0.663, y: 0.3}
+      pivot: {x: 0.6624, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1150,48 +1150,6 @@ TextureImporter:
       bones: []
       spriteID: e765c193b0731b9c0800000000000000
       internalID: -3913286079865923970
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: naruto3_56
-      rect:
-        serializedVersion: 2
-        x: 615
-        y: 445
-        width: 73
-        height: 75
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 44b40b54a870d81e0800000000000000
-      internalID: -2194089153003500732
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: naruto3_57
-      rect:
-        serializedVersion: 2
-        x: 710
-        y: 437
-        width: 88
-        height: 91
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 26abf4035193b0740800000000000000
-      internalID: 5119248164604328546
       vertices: []
       indices: 
       edges: []
@@ -1339,6 +1297,132 @@ TextureImporter:
       bones: []
       spriteID: dc8b654cd3ccfd5e0800000000000000
       internalID: -1882561553558488883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rssk4
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 142
+        width: 107
+        height: 125
+      alignment: 9
+      pivot: {x: 0.6813, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107aef2507750c460800000000000000
+      internalID: 7259898739261613825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rssk5
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 142
+        width: 102
+        height: 125
+      alignment: 9
+      pivot: {x: 0.6656, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4ef95038a3f68f50800000000000000
+      internalID: 6883456984173641290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rssk6
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 131
+        width: 106
+        height: 107
+      alignment: 9
+      pivot: {x: 0.7, y: 0.46}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ea3b8ddfca9c8f0800000000000000
+      internalID: -519694075722224052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rssk7
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 142
+        width: 73
+        height: 125
+      alignment: 9
+      pivot: {x: 0.6, y: 0.292}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2acd86329cb8d2ba0800000000000000
+      internalID: -6112075423273132894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rssk8
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 150
+        width: 74
+        height: 73
+      alignment: 9
+      pivot: {x: 0.147, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7793f517d2c8b4110800000000000000
+      internalID: 1246243848701557111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rssk9
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 149
+        width: 49
+        height: 73
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f12bc2bcb7ba1a0800000000000000
+      internalID: -6797203100027183269
       vertices: []
       indices: 
       edges: []

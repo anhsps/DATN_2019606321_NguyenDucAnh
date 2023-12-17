@@ -22,7 +22,7 @@ public class PlayerHealth : MonoBehaviour
 
     [Header("sound, gameover")]
     [SerializeField] AudioSource hurt_audio;
-    [SerializeField] AudioSource death_audio, addHP_audio, addMP_audio;
+    [SerializeField] AudioSource addHP_audio, addMP_audio;
     [SerializeField] private GameObject GameOverUI;
     [SerializeField] private GameObject buttonUI;
 
@@ -87,7 +87,7 @@ public class PlayerHealth : MonoBehaviour
     }
     void Die()
     {
-        death_audio.Play();
+        hurt_audio.Play();
         Invoke("Lose", 1f);
         buttonUI.SetActive(false);
 

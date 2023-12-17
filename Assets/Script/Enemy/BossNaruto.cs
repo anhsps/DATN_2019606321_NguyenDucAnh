@@ -5,7 +5,6 @@ using UnityEngine;
 public class BossNaruto : MonoBehaviour
 {
     #region Public Variables
-    public int atkA = 1, atkB1 = 3, atkB2 = 2, atkB3 = 4;//kiểu atk thứ . 1 <= atkA <= atkB
     public float atkDistance1_1, atkDistance2_1, atkDistance3_1, atkDistance3_2, atkDistanceBullet;
     public float moveSpeed;
     public float timer;//time hồi chiêu
@@ -13,18 +12,21 @@ public class BossNaruto : MonoBehaviour
     [HideInInspector] public Transform target;
     [HideInInspector] public bool inRange;//phạm vi
     public Transform CheckRange;//vùng move vs atk
-    public bool isFlipped = true;
+    [HideInInspector] public bool isFlipped = true;
     public GameObject bullet1_2, bullet1_3, bullet2_2;
     public Transform pos1_2, pos1_3, pos2_2, pos3_3, pos3_4;
+    public AudioSource rsg_audio, rssrk_audio, smoke_audio, atk1_1_audio, atk1_2_audio, naForm2_audio, naForm3_audio;
     #endregion
 
     #region Private Variables
-    EnemyHealth e_HP;
     Animator animator;
+    EnemyHealth e_HP;
+    EnemyAtk1 eAtk1;
     float distance;
     bool atkMode;//true thì atk, false thì move
     bool cooling;
     float intTimer;//lưu trữ gt ban đầu của bộ đếm thời gian
+    int atkA = 1, atkB1 = 3, atkB2 = 2, atkB3 = 4;//kiểu atk thứ . 1 <= atkA <= atkB
     bool form2, form3;//trạng thái (or dạng biến hình mới) của boss
     string[] listStates = { "atk1_1", "atk1_2", "atk1_3", "atk2_1", "atk2_2","atk3_1", "atk3_2", "atk3_3", "atk3_4",
             "hurt", "hurt2", "hurt3", "naruto form2", "naruto form3" };
@@ -38,6 +40,7 @@ public class BossNaruto : MonoBehaviour
         intTimer = timer;
         animator = GetComponent<Animator>();
         e_HP = GetComponent<EnemyHealth>();
+        eAtk1 = GetComponent<EnemyAtk1>();
         SelectTarget();
 
         originalTag = gameObject.tag;
@@ -88,6 +91,8 @@ public class BossNaruto : MonoBehaviour
         {
             EnemyLogic();
         }
+
+        eAtk1.atkDamage = (IsInSpecificStates("atk1_1")) ? 20 : 10;
     }
 
     void EnemyLogic()
@@ -292,5 +297,26 @@ public class BossNaruto : MonoBehaviour
     {//bật lại tag vs layer gt ban đầu
         gameObject.tag = originalTag;
         gameObject.layer = originalLayer;
+    }
+
+    void SoundNaruto()
+    {
+        if (IsInSpecificStates("atk1_1", "atk2_2", "atk3_4")) rsg_audio.Play();
+        else if (IsInSpecificStates("atk1_2", "atk3_3")) rssrk_audio.Play();
+        else if (IsInSpecificStates("atk1_3")) smoke_audio.Play();
+        else if (IsInSpecificStates("atk2_1", "atk3_2")) atk1_2_audio.Play();
+        else if (IsInSpecificStates("atk3_1")) atk1_1_audio.Play();
+
+        else if (IsInSpecificStates("naruto form2")) naForm2_audio.Play();
+        else if (IsInSpecificStates("naruto form3")) naForm3_audio.Play();
+
+        /*if (!IsInSpecificStates(listStates))
+        {
+            AudioSource[] audiosStop = { rsg_audio, rssrk_audio, smoke_audio, atk1_1_audio, atk1_2_audio, naForm2_audio, naForm3_audio };
+            foreach (AudioSource audioSource in audiosStop)
+            {
+                audioSource.Stop();
+            }
+        }*/
     }
 }

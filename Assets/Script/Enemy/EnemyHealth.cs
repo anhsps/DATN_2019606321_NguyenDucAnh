@@ -13,6 +13,9 @@ public class EnemyHealth : MonoBehaviour
     public bool drop = true;
     public GameObject item;
     public GameObject bloodEffect;
+    public AudioSource maleHurt_audio, femaleHurt_audio;
+    public bool male = true;
+    AudioSource hurt_audio;
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +24,10 @@ public class EnemyHealth : MonoBehaviour
         currentHP = maxHP;
         E_HP_Slider.maxValue = maxHP;
         E_HP_Slider.value = currentHP;
+
+        /*if (male) hurt_audio = maleHurt_audio;
+        else hurt_audio = femaleHurt_audio;*/
+        hurt_audio = male ? maleHurt_audio : femaleHurt_audio;
     }
 
     // Update is called once per frame
@@ -31,6 +38,7 @@ public class EnemyHealth : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
+        hurt_audio.Play();
         animator.SetTrigger(hurtPrefix);
         currentHP -= damage;
         E_HP_Slider.value = currentHP;
@@ -38,6 +46,7 @@ public class EnemyHealth : MonoBehaviour
     }
     void Die()
     {
+        hurt_audio.Play();
         animator.SetTrigger("Die");
         GetComponent<Collider2D>().enabled = false;
         Instantiate(bloodEffect, transform.position, transform.rotation);

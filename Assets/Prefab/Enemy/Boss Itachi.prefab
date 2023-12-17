@@ -15,9 +15,9 @@ GameObject:
   - component: {fileID: 4453480052361636743}
   - component: {fileID: 4453480052361636742}
   - component: {fileID: 4453480052361636737}
-  - component: {fileID: 4453480052361636795}
   - component: {fileID: 4453480052361636736}
   - component: {fileID: 4453480052361636763}
+  - component: {fileID: 2736891192820514208}
   m_Layer: 9
   m_Name: itachi
   m_TagString: Enemy
@@ -171,7 +171,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1fc2da1debe969b4c8d30c5e0a4cfed7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHP: 150
+  maxHP: 200
   currentHP: 0
   hurtPrefix: Hurt
   E_HP_Slider: {fileID: 1744439922946075717}
@@ -179,6 +179,9 @@ MonoBehaviour:
   item: {fileID: 5654408010955495453, guid: b4f58a1e43355fa48b061b682d3075f1, type: 3}
   bloodEffect: {fileID: 3120391646155019884, guid: 0cb7fce7311896e47a12f7a0bd397101,
     type: 3}
+  maleHurt_audio: {fileID: 0}
+  femaleHurt_audio: {fileID: 0}
+  male: 1
 --- !u!114 &4453480052361636737
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -192,7 +195,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   atkA: 1
-  atkB: 2
+  atkB: 4
   atkDistance: 2.3
   atkDistance2: 6.5
   moveSpeed: 2
@@ -203,25 +206,6 @@ MonoBehaviour:
   inRange: 0
   CheckRange: {fileID: 4453480053344557735}
   isFlipped: 1
---- !u!114 &4453480052361636795
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4453480052361636738}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18c1de002ac4e2045ad337b295fc0a7f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bullet2: {fileID: 7835879217830556441, guid: f1b9304cc63e3ab439daf5afb18a1f47, type: 3}
-  bullet3: {fileID: 3311123528281161396, guid: a0000a91d3c44264da318c9d8c914ef0, type: 3}
-  pos2: {fileID: 4453480052531399052}
-  pos3: {fileID: 4453480052531399052}
-  bulletAtk2: 1
-  bulletAtk3: 0
-  bulletAtk3_2: 1
 --- !u!114 &4453480052361636736
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -254,12 +238,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet2: {fileID: 7835879217830556441, guid: f1b9304cc63e3ab439daf5afb18a1f47, type: 3}
   bullet3: {fileID: 3311123528281161396, guid: a0000a91d3c44264da318c9d8c914ef0, type: 3}
-  pos2: {fileID: 4453480052531399052}
-  pos3: {fileID: 4453480052531399052}
-  bulletAtk2: 1
-  bulletAtk3: 0
-  bulletAtk3_2: 1
   bullet4: {fileID: 7093812460081405791, guid: 22682e4950040b949a2910e638c24b3b, type: 3}
+  pos2: {fileID: 4453480052531399052}
+--- !u!114 &2736891192820514208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4453480052361636738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d81ac534cc7eb645a8670650b894db0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  atk1_1_audio: {fileID: 0}
+  atk1_2_audio: {fileID: 0}
+  atk1_Stab_audio: {fileID: 0}
+  atk2_audio: {fileID: 0}
 --- !u!1 &4453480052363651786
 GameObject:
   m_ObjectHideFlags: 0

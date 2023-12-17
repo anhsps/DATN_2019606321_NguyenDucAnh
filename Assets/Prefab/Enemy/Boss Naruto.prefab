@@ -54,7 +54,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 392022537029078887}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.75, y: 0, z: 0}
+  m_LocalPosition: {x: 1.8, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5062856198695339040}
@@ -494,6 +494,9 @@ MonoBehaviour:
   item: {fileID: 5654408010955495453, guid: b4f58a1e43355fa48b061b682d3075f1, type: 3}
   bloodEffect: {fileID: 3120391646155019884, guid: 0cb7fce7311896e47a12f7a0bd397101,
     type: 3}
+  maleHurt_audio: {fileID: 0}
+  femaleHurt_audio: {fileID: 0}
+  male: 1
 --- !u!114 &5062856198695339070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -506,10 +509,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13f9c42f03583fa49872a296494d4df1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  atkA: 1
-  atkB1: 3
-  atkB2: 2
-  atkB3: 4
   atkDistance1_1: 5
   atkDistance2_1: 2.2
   atkDistance3_1: 2.5
@@ -534,6 +533,13 @@ MonoBehaviour:
   pos2_2: {fileID: 392022536691544566}
   pos3_3: {fileID: 392022537029078886}
   pos3_4: {fileID: 1095783381779439565}
+  rsg_audio: {fileID: 0}
+  rssrk_audio: {fileID: 0}
+  smoke_audio: {fileID: 0}
+  atk1_1_audio: {fileID: 0}
+  atk1_2_audio: {fileID: 0}
+  naForm2_audio: {fileID: 0}
+  naForm3_audio: {fileID: 0}
 --- !u!114 &5062856198695339051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -546,7 +552,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5339f172f6bb6eb41a352738fb3db72f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  atkDamage: 20
+  atkDamage: 10
 --- !u!1 &5062856198697452905
 GameObject:
   m_ObjectHideFlags: 0

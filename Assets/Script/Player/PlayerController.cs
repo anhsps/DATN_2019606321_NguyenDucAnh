@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
     public float runSpeed = 7f;
     public float jumpSpeed = 12f;
     public LayerMask Ground;
-    public bool faceingRight = true;
+    [HideInInspector] public bool faceingRight = true;
     public GameObject theThan;
     [SerializeField] AudioSource dash_audio;
     float move, horizontalInput, joystickInput, verticalMove;
@@ -23,7 +23,7 @@ public class PlayerController : MonoBehaviour
     public float dashingPower = 300f;
     private float dashingTime = 0.2f;
     private float dashingCooldown = 0.8f;
-    public TrailRenderer tr;
+    TrailRenderer tr;
     bool clickDash;
 
     // Start is called before the first frame update
@@ -32,7 +32,7 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         sc = GetComponent<SpellCooldown>();
-        
+        tr = GetComponent<TrailRenderer>();
     }
 
     // Update is called once per frame
@@ -80,7 +80,7 @@ public class PlayerController : MonoBehaviour
             if (canDash && !IsInSpecificStates(listStates))
             {
                 StartCoroutine(Dash());
-                
+
                 sc.UseSpellDash();//Spell Cooldown
             }
         }
@@ -149,7 +149,7 @@ public class PlayerController : MonoBehaviour
         canDash = true;
     }
 
-    bool IsInSpecificStates(params string[] stateNames)
+    public bool IsInSpecificStates(params string[] stateNames)
     {//các states cụ thể
         AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
         foreach (string stateName in stateNames)

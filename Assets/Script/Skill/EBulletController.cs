@@ -7,7 +7,9 @@ public class EBulletController : MonoBehaviour
     Rigidbody2D rb;
     public float eBulletSpeed = 6f;
     public int damage = 20;
-    public float desTime = 0.2f;
+    public float desTime = 0.1f;
+    float damRate = 1f;
+    float nextDamge;
 
     void Awake()
     {
@@ -25,11 +27,12 @@ public class EBulletController : MonoBehaviour
 
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player") && nextDamge < Time.time)
         {
             collision.gameObject.GetComponent<PlayerHealth>().TakeDamage(damage);
+            nextDamge = damRate + Time.time;
             Destroy(gameObject, desTime);
         }
     }

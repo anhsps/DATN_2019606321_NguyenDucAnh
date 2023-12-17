@@ -107,6 +107,7 @@ GameObject:
   - component: {fileID: 4470553286341256785}
   - component: {fileID: 4470553286341256811}
   - component: {fileID: 4470553286341256784}
+  - component: {fileID: 385383710887254556}
   m_Layer: 9
   m_Name: shikamaru
   m_TagString: Enemy
@@ -268,6 +269,9 @@ MonoBehaviour:
   item: {fileID: 8949071097659502186, guid: 48c9f37fe247f22418141f6fa696bbe4, type: 3}
   bloodEffect: {fileID: 3120391646155019884, guid: 0cb7fce7311896e47a12f7a0bd397101,
     type: 3}
+  maleHurt_audio: {fileID: 0}
+  femaleHurt_audio: {fileID: 0}
+  male: 1
 --- !u!114 &4470553286341256785
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -329,6 +333,20 @@ MonoBehaviour:
   atkLayers:
     serializedVersion: 2
     m_Bits: 256
+--- !u!114 &385383710887254556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4470553286341256786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d81ac534cc7eb645a8670650b894db0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  atk1_1_audio: {fileID: 0}
+  atk1_2_audio: {fileID: 0}
 --- !u!1 &4470553286343304986
 GameObject:
   m_ObjectHideFlags: 0

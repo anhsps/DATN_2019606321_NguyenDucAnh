@@ -13,7 +13,7 @@ public class EnemyBehavior : MonoBehaviour
     [HideInInspector] public Transform target;
     [HideInInspector] public bool inRange;//dk phạm vi atk
     public Transform CheckRange;//vùng move vs atk
-    public bool isFlipped = true;
+    [HideInInspector] public bool isFlipped = true;
     #endregion
 
     #region Private Variables

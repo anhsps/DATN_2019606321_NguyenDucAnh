@@ -2,17 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BossItachi : EnemyShoot
+public class BossItachi : MonoBehaviour
 {
-    Animator ani;
-    EnemyBehavior bParent;
+    Animator animator;
     SpriteRenderer sr;
-    public GameObject bullet4;
+    EnemyBehavior bParent;
+    public GameObject bullet2, bullet3,bullet4;
+    public Transform pos2;
 
     // Start is called before the first frame update
     void Start()
     {
-        ani = GetComponent<Animator>();
+        animator = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
         bParent = GetComponent<EnemyBehavior>();
     }
@@ -23,9 +24,25 @@ public class BossItachi : EnemyShoot
         
     }
 
-    void BulletAtk4()
+    void BulletAtk()
     {
-        if (ani.GetCurrentAnimatorStateInfo(0).IsName("atk4"))
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("atk2"))
+        {
+            if (bParent.isFlipped)
+                Instantiate(bullet2, pos2.position, Quaternion.Euler(new Vector3(0, 0, 0)));
+            else
+                Instantiate(bullet2, pos2.position, Quaternion.Euler(new Vector3(0, 180, 0)));
+        }
+
+        else if (animator.GetCurrentAnimatorStateInfo(0).IsName("atk3"))
+        {//bullet bắn target vào player
+            if (bParent.isFlipped)
+                Instantiate(bullet3, bParent.target.position, Quaternion.Euler(new Vector3(0, 0, 0)));
+            else
+                Instantiate(bullet3, bParent.target.position, Quaternion.Euler(new Vector3(0, 180, 0)));
+        }
+
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("atk4"))
         {
             sr.enabled = false;
             Invoke("BulletAtk4_2", 0.5f);
@@ -35,6 +52,7 @@ public class BossItachi : EnemyShoot
                 Instantiate(bullet4, bParent.target.position, Quaternion.Euler(new Vector3(0, 180, 0)));
         }
     }
+
     void BulletAtk4_2()
     {
         sr.enabled = true;

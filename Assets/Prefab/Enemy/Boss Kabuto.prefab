@@ -429,6 +429,7 @@ GameObject:
   - component: {fileID: 7852943080028754506}
   - component: {fileID: 7852943080028754499}
   - component: {fileID: 7852943080028754498}
+  - component: {fileID: 7262239865067280159}
   m_Layer: 9
   m_Name: kabuto
   m_TagString: Enemy
@@ -594,6 +595,9 @@ MonoBehaviour:
   item: {fileID: 5654408010955495453, guid: b4f58a1e43355fa48b061b682d3075f1, type: 3}
   bloodEffect: {fileID: 3120391646155019884, guid: 0cb7fce7311896e47a12f7a0bd397101,
     type: 3}
+  maleHurt_audio: {fileID: 0}
+  femaleHurt_audio: {fileID: 0}
+  male: 1
 --- !u!114 &7852943080028754506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -654,6 +658,21 @@ MonoBehaviour:
   pos3: {fileID: 3443314825000114446}
   pos4_1: {fileID: 3443314826654950320}
   pos4_2: {fileID: 3443314826110578827}
+--- !u!114 &7262239865067280159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7852943080028754505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d81ac534cc7eb645a8670650b894db0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  atk1_1_audio: {fileID: 0}
+  atk1_2_audio: {fileID: 0}
+  atk2_audio: {fileID: 0}
 --- !u!1001 &7789815593840508960
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -783,6 +802,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c31af69748773e947b386c8ac992ea03, type: 3}
+--- !u!224 &5261273377330533809 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 2673220906509669777, guid: c31af69748773e947b386c8ac992ea03,
+    type: 3}
+  m_PrefabInstance: {fileID: 7789815593840508960}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &5261273377330533774 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2673220906509669806, guid: c31af69748773e947b386c8ac992ea03,
@@ -795,9 +820,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!224 &5261273377330533809 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 2673220906509669777, guid: c31af69748773e947b386c8ac992ea03,
-    type: 3}
-  m_PrefabInstance: {fileID: 7789815593840508960}
-  m_PrefabAsset: {fileID: 0}
