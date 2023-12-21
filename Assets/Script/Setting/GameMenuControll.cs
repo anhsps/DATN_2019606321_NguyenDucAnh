@@ -20,13 +20,14 @@ public class GameMenuControll : MonoBehaviour
     }
     public void Pause()
     {
-        Time.timeScale = 0f;
+        Time.timeScale = 0f;//***
         GameIsPaused = true;
     }
 
     public void LoadMenu()
     {
         SceneManager.LoadScene("Menu");
+        Time.timeScale = 1f;//***
     }
 
     public void QuitGame()
