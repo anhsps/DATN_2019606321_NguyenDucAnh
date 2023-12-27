@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MPCollect : MonoBehaviour
 {
-    public int mp = 10;
+    public int mp = 25;
     
     // Start is called before the first frame update
     void Start()

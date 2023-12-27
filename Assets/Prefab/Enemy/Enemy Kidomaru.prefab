@@ -308,13 +308,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18c1de002ac4e2045ad337b295fc0a7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  eParent: {fileID: 0}
   bullet2: {fileID: 3377059728681622239, guid: eaea0059eeee8e345bb1aa17f337ee83, type: 3}
   bullet3: {fileID: 7568084481340017390, guid: e23342545a5d2bf4f892c59477830c84, type: 3}
   pos2: {fileID: 6041975888708976594}
   pos3: {fileID: 8652177261011731082}
-  bulletAtk2: 1
-  bulletAtk3: 1
-  bulletAtk3_2: 0
 --- !u!114 &3816922461977718719
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -329,6 +327,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   atk1_1_audio: {fileID: 0}
   atk1_2_audio: {fileID: 0}
+  atk1_Stab_audio: {fileID: 0}
   atk2_audio: {fileID: 0}
 --- !u!1 &6041975889010973844
 GameObject:
@@ -518,7 +517,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 12, y: 2.3}
+  m_Size: {x: 12, y: 2}
   m_EdgeRadius: 0
 --- !u!114 &6041975890042612986
 MonoBehaviour:

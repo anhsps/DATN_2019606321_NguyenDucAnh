@@ -19,6 +19,11 @@ public class PlayerLife : MonoBehaviour
     private static readonly string Level3Point = "level3point";
     private static readonly string Level4Point = "level4point";
     private static readonly string Level5Point = "level5point";
+    private static readonly string Level6Point = "level6point";//
+    private static readonly string Level7Point = "level7point";
+    private static readonly string Level8Point = "level8point";
+    private static readonly string Level9Point = "level9point";
+    private static readonly string Level10Point = "level10point";
 
     //menu gamewin
     [SerializeField] private GameObject GameWinUI;
@@ -76,22 +81,47 @@ public class PlayerLife : MonoBehaviour
         else if (SceneManager.GetActiveScene().name.CompareTo("Map2") == 0)
         {
             int temp = iteamScore(PlayerPrefs.GetInt(Level2Point));
-            PlayerPrefs.SetInt(Level2Point, temp);                  // Cập nhật lại điểm cao nhất
+            PlayerPrefs.SetInt(Level2Point, temp);
         }
         else if (SceneManager.GetActiveScene().name.CompareTo("Map3") == 0)
         {
             int temp = iteamScore(PlayerPrefs.GetInt(Level3Point));
-            PlayerPrefs.SetInt(Level3Point, temp);                   // Cập nhật lại điểm cao nhất
+            PlayerPrefs.SetInt(Level3Point, temp);
         }
         else if (SceneManager.GetActiveScene().name.CompareTo("Map4") == 0)
         {
             int temp = iteamScore(PlayerPrefs.GetInt(Level4Point));
-            PlayerPrefs.SetInt(Level4Point, temp);                   // Cập nhật lại điểm cao nhất
+            PlayerPrefs.SetInt(Level4Point, temp);
         }
         else if (SceneManager.GetActiveScene().name.CompareTo("Map5") == 0)
         {
             int temp = iteamScore(PlayerPrefs.GetInt(Level5Point));
-            PlayerPrefs.SetInt(Level5Point, temp);                   // Cập nhật lại điểm cao nhất
+            PlayerPrefs.SetInt(Level5Point, temp);
+        }
+        else if (SceneManager.GetActiveScene().name.CompareTo("Map6") == 0)
+        {
+            int temp = iteamScore(PlayerPrefs.GetInt(Level6Point));
+            PlayerPrefs.SetInt(Level6Point, temp);
+        }
+        else if (SceneManager.GetActiveScene().name.CompareTo("Map7") == 0)
+        {
+            int temp = iteamScore(PlayerPrefs.GetInt(Level7Point));
+            PlayerPrefs.SetInt(Level7Point, temp);
+        }
+        else if (SceneManager.GetActiveScene().name.CompareTo("Map8") == 0)
+        {
+            int temp = iteamScore(PlayerPrefs.GetInt(Level8Point));
+            PlayerPrefs.SetInt(Level8Point, temp);
+        }
+        else if (SceneManager.GetActiveScene().name.CompareTo("Map9") == 0)
+        {
+            int temp = iteamScore(PlayerPrefs.GetInt(Level9Point));
+            PlayerPrefs.SetInt(Level9Point, temp);
+        }
+        else if (SceneManager.GetActiveScene().name.CompareTo("Map10") == 0)
+        {
+            int temp = iteamScore(PlayerPrefs.GetInt(Level10Point));
+            PlayerPrefs.SetInt(Level10Point, temp);
         }
     }
 
@@ -99,7 +129,7 @@ public class PlayerLife : MonoBehaviour
     private void starScoreUI()
     {
         int items = int.Parse(tempNumberItems.text);
-        if (items < ic.maxItem/3)
+        if (items < ic.maxItem / 3)
         {
             zeroStar.SetActive(true);
         }
@@ -121,13 +151,6 @@ public class PlayerLife : MonoBehaviour
     private int iteamScore(int maxPointOld)
     {
         int items = int.Parse(tempNumberItems.text);
-        if (items > maxPointOld)
-        {
-            return items;
-        }
-        else
-        {
-            return maxPointOld;
-        }
+        return (items > maxPointOld) ? items : maxPointOld;
     }
 }

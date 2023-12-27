@@ -201,6 +201,7 @@ MonoBehaviour:
   - {fileID: 4593687408806573804}
   speed: 2
   checkFlip: 0
+  timeDelay: 0
 --- !u!114 &4593687409261336426
 MonoBehaviour:
   m_ObjectHideFlags: 0

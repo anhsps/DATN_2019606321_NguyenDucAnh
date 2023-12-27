@@ -2487,7 +2487,7 @@ GameObject:
   - component: {fileID: 469972829}
   - component: {fileID: 469972828}
   m_Layer: 5
-  m_Name: TextSkill
+  m_Name: TextReward
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4058,10 +4058,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6187f9b9d04d7af428bc58d4acc906a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHP: 200
+  maxHP: 225
   maxMP: 50
+  currentMP: 10
   currentHP: 0
-  currentMP: 0
   isHurt: 0
   SliderHP: {fileID: 1919603321}
   SliderMP: {fileID: 531769729}
@@ -4273,7 +4273,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.45}
+  m_Size: {x: 0.7, y: 2.45}
   m_EdgeRadius: 0
 --- !u!50 &651839962
 Rigidbody2D:
@@ -6310,7 +6310,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 200 / 200
+  m_Text: 225 / 225
 --- !u!222 &940213562
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -54710,7 +54710,7 @@ PrefabInstance:
     - target: {fileID: 6041975889515449750, guid: 5557755f45cbbe449b05bc65e31e487d,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6041975889515449751, guid: 5557755f45cbbe449b05bc65e31e487d,
         type: 3}
@@ -54770,12 +54770,12 @@ PrefabInstance:
     - target: {fileID: 8512339111881778289, guid: 5557755f45cbbe449b05bc65e31e487d,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8512339111881778289, guid: 5557755f45cbbe449b05bc65e31e487d,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5557755f45cbbe449b05bc65e31e487d, type: 3}
@@ -54918,7 +54918,7 @@ PrefabInstance:
     - target: {fileID: 8185921134225184208, guid: ca19f9e9bd3926f4fbcf89b2bd8d3802,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 52
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 8185921134225184208, guid: ca19f9e9bd3926f4fbcf89b2bd8d3802,
         type: 3}

@@ -18,6 +18,12 @@ public class MainMenu : MonoBehaviour
         Debug.Log("Quit game!");
     }
 
+    public void StartGame()
+    {
+        SceneManager.LoadScene("Start");
+        Debug.Log("Start game!");
+    }
+
     public void DeletePlayerPrefs()
     {
         PlayerPrefs.DeleteAll();

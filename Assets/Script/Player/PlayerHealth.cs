@@ -8,8 +8,8 @@ public class PlayerHealth : MonoBehaviour
     Animator animator;
     Rigidbody2D rb;
 
-    public int maxHP = 200, maxMP = 50;
-    [HideInInspector] public float currentHP, currentMP;
+    public int maxHP = 200, maxMP = 50, currentMP = 10;
+    [HideInInspector] public float currentHP;
     [HideInInspector] public bool isHurt;
 
     public Slider SliderHP, SliderMP;
@@ -38,7 +38,6 @@ public class PlayerHealth : MonoBehaviour
         SliderHP.value = currentHP;
         HPScore.text = currentHP + " / " + maxHP;
 
-        currentMP = 10;//
         SliderMP.maxValue = maxMP;
         SliderMP.value = currentMP;
         MPScore.text = currentMP + " / " + maxMP;
@@ -49,7 +48,7 @@ public class PlayerHealth : MonoBehaviour
     {
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("Player Hurt"))
             isHurt = true;//dùng khi hurt thì hủy đạn player atk2
-        else 
+        else
             isHurt = false;
     }
 

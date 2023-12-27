@@ -5,9 +5,8 @@ using UnityEngine.UI;
 //coin
 public class ItemCollector : MonoBehaviour
 {
-    //public int bullets = 10;//số đạn
     [HideInInspector] public int items = 0;//item nhặt
-    public int maxItem = 30;
+    [HideInInspector] public int maxItem = 30;
     //public LayerMask itemLayer;
     public BoxCollider2D boxCollider;
     public AudioSource collectItemAudio;

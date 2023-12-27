@@ -52,7 +52,7 @@ public class PlayerCombat : MonoBehaviour
         {
             if ((Input.GetKeyDown(KeyCode.J) || Input.GetKeyDown(KeyCode.Keypad1) || clickAtk1))
             {//lôi kiếm
-                //Spell Cooldown
+                //Spell Cooldown//time hồi chiêu của skill
                 sc.imageCooldown = sc.imageCooldown1;
                 sc.cooldownTime = timeAtk1;
                 sc.UseSpell();

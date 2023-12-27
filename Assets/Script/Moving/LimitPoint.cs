@@ -8,6 +8,7 @@ public class LimitPoint : MonoBehaviour
     private int currentLimitPointIndex = 0;//chỉ số limitpoint hiện tại
     [SerializeField] private float speed = 2f;
     public bool checkFlip = true;
+    [SerializeField] private float timeDelay = 1f;
 
     SpriteRenderer sprite;
 
@@ -19,8 +20,9 @@ public class LimitPoint : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        if (Vector2.Distance(limitPoints[currentLimitPointIndex].transform.position, transform.position) < .1f)
+        if (Vector2.Distance(limitPoints[currentLimitPointIndex].transform.position, transform.position) < 0.1f)
         {
+            StartCoroutine(Delay());
             currentLimitPointIndex++;
             if (currentLimitPointIndex >= limitPoints.Length)
             {
@@ -43,5 +45,13 @@ public class LimitPoint : MonoBehaviour
                 sprite.flipX = false;
             }
         }
+    }
+
+    IEnumerator Delay()
+    {
+        float temp = speed;
+        speed = 0;
+        yield return new WaitForSeconds(timeDelay);
+        speed = temp;
     }
 }
