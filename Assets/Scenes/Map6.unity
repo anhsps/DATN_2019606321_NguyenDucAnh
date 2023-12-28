@@ -19907,18 +19907,30 @@ CompositeCollider2D:
         Y: -10000000
       - X: 470000000
         Y: -10000000
-    - - X: 350000000
-        Y: -17291668
-      - X: 349583328
-        Y: -16875000
-      - X: 320416640
-        Y: -16875000
-      - X: 320000000
-        Y: -17291668
-      - X: 320000000
-        Y: -20000000
-      - X: 350000000
-        Y: -20000000
+    - - X: 340000100
+        Y: -20000041
+      - X: 340000100
+        Y: -17291648
+      - X: 340000085
+        Y: -17291611
+      - X: 339583385
+        Y: -16874915
+      - X: 339583348
+        Y: -16874900
+      - X: 310416652
+        Y: -16874900
+      - X: 310416615
+        Y: -16874915
+      - X: 309999915
+        Y: -17291611
+      - X: 309999900
+        Y: -17291648
+      - X: 309999900
+        Y: -20000041
+      - X: 309999959
+        Y: -20000100
+      - X: 340000041
+        Y: -20000100
   m_CompositePaths:
     m_Paths:
     - - {x: 106.99997, y: -18}
@@ -20044,12 +20056,12 @@ CompositeCollider2D:
       - {x: 44.04166, y: -0.6875076}
       - {x: 44, y: -0.7291774}
       - {x: 44.00003, y: -1}
-    - - {x: 34.999973, y: -2}
-      - {x: 34.999992, y: -1.7291592}
-      - {x: 34.958324, y: -1.6875}
-      - {x: 32.041656, y: -1.6875076}
-      - {x: 32, y: -1.7291776}
-      - {x: 32.00003, y: -2}
+    - - {x: 33.999973, y: -2.00001}
+      - {x: 34, y: -1.7291536}
+      - {x: 33.958324, y: -1.68749}
+      - {x: 31.041655, y: -1.6874992}
+      - {x: 30.99999, y: -1.7291756}
+      - {x: 31.000027, y: -2.00001}
   m_VertexDistance: 0.0005
   m_OffsetDistance: 0.00005
 --- !u!483693784 &7388884350828985098
@@ -29719,7 +29731,7 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: 32, y: -2, z: 0}
+  - first: {x: 31, y: -2, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 67
@@ -29729,7 +29741,7 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: 33, y: -2, z: 0}
+  - first: {x: 32, y: -2, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 68
@@ -29739,7 +29751,7 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: 34, y: -2, z: 0}
+  - first: {x: 33, y: -2, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 69
