@@ -54808,6 +54808,11 @@ PrefabInstance:
       objectReference: {fileID: 994248218}
     - target: {fileID: 4453480052361636742, guid: 87e82262b8eebbb41b61b4b167a37a8d,
         type: 3}
+      propertyPath: maxHP
+      value: 175
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453480052361636742, guid: 87e82262b8eebbb41b61b4b167a37a8d,
+        type: 3}
       propertyPath: maleHurt_audio
       value: 
       objectReference: {fileID: 1271405483}

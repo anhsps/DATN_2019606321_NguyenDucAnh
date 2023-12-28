@@ -5712,6 +5712,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7852943080028754509, guid: cb76c6275fb0cfe48ade7feb6050ef47,
         type: 3}
+      propertyPath: item
+      value: 
+      objectReference: {fileID: 706507842855220292, guid: 45e03e10709e33e4f8c482fb996f523e,
+        type: 3}
+    - target: {fileID: 7852943080028754509, guid: cb76c6275fb0cfe48ade7feb6050ef47,
+        type: 3}
+      propertyPath: maxHP
+      value: 175
+      objectReference: {fileID: 0}
+    - target: {fileID: 7852943080028754509, guid: cb76c6275fb0cfe48ade7feb6050ef47,
+        type: 3}
       propertyPath: maleHurt_audio
       value: 
       objectReference: {fileID: 1907210557}

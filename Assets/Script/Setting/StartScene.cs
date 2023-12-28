@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class StartScene : MonoBehaviour
 {
+    public float time;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,7 +15,7 @@ public class StartScene : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Invoke("LoadMenu", 2.5f);
+        Invoke("LoadMenu", time);
     }
 
     public void LoadMenu()
