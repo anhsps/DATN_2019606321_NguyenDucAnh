@@ -7,37 +7,33 @@ public class ItemCollector : MonoBehaviour
 {
     [HideInInspector] public int items = 0;//item nhặt
     [HideInInspector] public int maxItem = 30;
-    //public LayerMask itemLayer;
-    public BoxCollider2D boxCollider;
     public AudioSource collectItemAudio;
+    public Text tempItemScore;
 
     [SerializeField] private Text ItemScore;
     [SerializeField] private Text textWin;
-    [SerializeField] private Text tempItemScore;
+    BoxCollider2D box;
 
     void Start()
     {
         ItemScore.text = "" + items;
+        box = GetComponent<BoxCollider2D>();
     }
 
     void Update()
     {
         //Physics2D.OverlapBoxAll: check va chạm với layer "Item" trong một khu vực hình hộp xung quanh Player
         //0f: góc quay của hình hộp kiểm tra va chạm
-        Collider2D[] colliders = Physics2D.OverlapBoxAll(transform.position, boxCollider.size, 0f, LayerMask.GetMask("Item"));
+        Collider2D[] colliders = Physics2D.OverlapBoxAll(transform.position, box.size, 0f, LayerMask.GetMask("Item"));
         foreach (Collider2D collider in colliders)
         {
+            collectItemAudio.Play();
             Destroy(collider.gameObject);
             items++;
             ItemScore.text = "" + items;
 
-            //hiển thị trong menu game win
-            textWin.text = items.ToString() + " / " + maxItem;
-
-            //lưu số item tạm để sử dụng tính toán
-            tempItemScore.text = items.ToString();
-
-            collectItemAudio.Play();
+            textWin.text = items.ToString() + " / " + maxItem;//hiển thị trong menu game win
+            tempItemScore.text = items.ToString();//lưu số item tạm để sử dụng tính toán
         }
     }
 }

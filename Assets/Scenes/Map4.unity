@@ -9285,7 +9285,7 @@ Transform:
   m_Children:
   - {fileID: 1679582361}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1214863445
 GameObject:
@@ -10109,6 +10109,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1613000042792546089, guid: aee88d72ef220724ba00c0971b57e1a2,
         type: 3}
+      propertyPath: soundBGAudio
+      value: 
+      objectReference: {fileID: 1302573984}
+    - target: {fileID: 1613000042792546089, guid: aee88d72ef220724ba00c0971b57e1a2,
+        type: 3}
+      propertyPath: soundBGSlider
+      value: 
+      objectReference: {fileID: 397341310}
+    - target: {fileID: 1613000042792546089, guid: aee88d72ef220724ba00c0971b57e1a2,
+        type: 3}
       propertyPath: backgroundSlider
       value: 
       objectReference: {fileID: 397341310}
@@ -10211,6 +10221,12 @@ AudioSource:
 --- !u!82 &1302573983 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 7645414611919806696, guid: aee88d72ef220724ba00c0971b57e1a2,
+    type: 3}
+  m_PrefabInstance: {fileID: 1302573978}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1302573984 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1613000042819497538, guid: aee88d72ef220724ba00c0971b57e1a2,
     type: 3}
   m_PrefabInstance: {fileID: 1302573978}
   m_PrefabAsset: {fileID: 0}
@@ -12267,7 +12283,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5a901b6195a30249a5b6782341d5a38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boxCollider: {fileID: 1620237233}
+  boxPlayer: {fileID: 1620237233}
   WinAudio: {fileID: 537595652}
   GameWinUI: {fileID: 1241656119}
   buttonUI: {fileID: 928256735}
@@ -12290,7 +12306,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   items: 0
   maxItem: 30
-  boxCollider: {fileID: 1620237233}
+  boxPlayer: {fileID: 1620237233}
   collectItemAudio: {fileID: 1174736399}
   ItemScore: {fileID: 827397736}
   textWin: {fileID: 2141485080}
@@ -12338,9 +12354,9 @@ MonoBehaviour:
   enemyLayer:
     serializedVersion: 2
     m_Bits: 512
-  atkOffset1: {x: 1, y: 0, z: 0}
-  atkRange1: 2
-  atkDamage1: 10
+  pointAtk1: {x: 1, y: 0, z: 0}
+  rangeAtk1: 2
+  damageAtk1: 10
   gunTip2: {fileID: 442963076}
   gunTip4: {fileID: 1191815255}
   eye4: {fileID: 761772234}
@@ -12630,7 +12646,7 @@ Transform:
   - {fileID: 1202662341}
   - {fileID: 1578466996}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1620237238
 MonoBehaviour:
@@ -13187,7 +13203,7 @@ Transform:
   m_Children:
   - {fileID: 1303078874}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1732251717
 GameObject:
@@ -91672,5 +91688,5 @@ Transform:
   - {fileID: 807638637}
   - {fileID: 827964695}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

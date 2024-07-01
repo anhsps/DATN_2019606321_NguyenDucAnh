@@ -205,8 +205,9 @@ MonoBehaviour:
   rightLimit: {fileID: 7454337641762706360}
   target: {fileID: 0}
   inRange: 0
-  CheckRange: {fileID: 7454337642351555325}
   isFlipped: 1
+  atkMode: 0
+  cooling: 0
 --- !u!114 &7454337641383822290
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -251,6 +252,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   atk1_1_audio: {fileID: 0}
   atk1_2_audio: {fileID: 0}
+  atk1_Stab_audio: {fileID: 0}
   atk2_audio: {fileID: 0}
 --- !u!1 &7454337641385837200
 GameObject:

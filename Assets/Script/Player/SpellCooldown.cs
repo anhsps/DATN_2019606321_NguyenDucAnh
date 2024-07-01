@@ -28,13 +28,9 @@ public class SpellCooldown : MonoBehaviour
     {
         /*if (Input.GetKeyDown(KeyCode.Q)) UseSpell();*/
         if (isCooldown)
-        {
             ApplyCooldown();
-        }
         if (isCooldownDash)
-        {
             ApplyCooldownDash();
-        }
     }
 
     void ApplyCooldown()

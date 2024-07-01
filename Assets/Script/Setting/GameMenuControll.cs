@@ -5,29 +5,24 @@ using UnityEngine.SceneManagement;
 
 public class GameMenuControll : MonoBehaviour
 {
-    public static bool GameIsPaused = false;
-
     private void Start()
     {
         Time.timeScale = 1f;
-        GameIsPaused = false;
     }
 
     public void Resume()
     {
         Time.timeScale = 1f;
-        GameIsPaused = false;
     }
     public void Pause()
     {
-        Time.timeScale = 0f;//***
-        GameIsPaused = true;
+        Time.timeScale = 0f;
     }
 
     public void LoadMenu()
     {
         SceneManager.LoadScene("Menu");
-        Time.timeScale = 1f;//***
+        Time.timeScale = 1f;
     }
 
     public void QuitGame()
@@ -45,5 +40,4 @@ public class GameMenuControll : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
-
 }

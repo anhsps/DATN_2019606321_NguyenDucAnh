@@ -404,7 +404,6 @@ MonoBehaviour:
   rightLimit: {fileID: 7904989338701505218}
   target: {fileID: 0}
   inRange: 0
-  CheckRange: {fileID: 7904989337654925585}
   isFlipped: 1
 --- !u!114 &7904989338250892166
 MonoBehaviour:
@@ -422,9 +421,6 @@ MonoBehaviour:
   bullet3: {fileID: 3058713152154700831, guid: 04124df7b87daaa4f989a65a772d936f, type: 3}
   pos2: {fileID: 7904989338400333562}
   pos3: {fileID: 7904989339470365244}
-  bulletAtk2: 1
-  bulletAtk3: 1
-  bulletAtk3_2: 0
 --- !u!114 &7904989338250892165
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -438,11 +434,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   atkDamage: 10
-  atkOffset: {x: 0.25, y: 0, z: 0}
+  atkPoint: {x: 0.25, y: 0, z: 0}
   atkRange: 1.5
-  atkLayers:
-    serializedVersion: 2
-    m_Bits: 256
 --- !u!114 &1146880162464901753
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -457,6 +450,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   atk1_1_audio: {fileID: 0}
   atk1_2_audio: {fileID: 0}
+  atk1_Stab_audio: {fileID: 0}
   atk2_audio: {fileID: 0}
 --- !u!1 &7904989338400333561
 GameObject:

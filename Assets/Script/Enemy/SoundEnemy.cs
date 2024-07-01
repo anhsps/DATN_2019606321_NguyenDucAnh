@@ -38,26 +38,13 @@ public class SoundEnemy : MonoBehaviour
         atk2_audio.Play();
     }
 
-    /*void StopAudio()
-    {
-        if (!IsInSpecificStates(listStatesAtk))
-        {
-            atk1_1_audio.Stop();
-            atk1_2_audio.Stop();
-            atk1_Stab_audio.Stop();
-            atk2_audio.Stop();
-        }
-    }*/
-
     bool IsInSpecificStates(params string[] stateNames)
     {//các states cụ thể
         AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
         foreach (string stateName in stateNames)
         {
             if (stateInfo.IsName(stateName))
-            {
                 return true;
-            }
         }
         return false;
     }

@@ -2173,7 +2173,7 @@ RectTransform:
   - {fileID: 1447596080}
   - {fileID: 643411429}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -3171,7 +3171,7 @@ PrefabInstance:
     - target: {fileID: 4470553286847559193, guid: 068db41163459124cb14162c527f3d21,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 29.5
+      value: 27.5
       objectReference: {fileID: 0}
     - target: {fileID: 4470553286847559193, guid: 068db41163459124cb14162c527f3d21,
         type: 3}
@@ -4018,11 +4018,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5a901b6195a30249a5b6782341d5a38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boxCollider: {fileID: 651839961}
   WinAudio: {fileID: 779271932}
   GameWinUI: {fileID: 1447596079}
   buttonUI: {fileID: 687848941}
-  tempNumberItems: {fileID: 643411431}
   zeroStar: {fileID: 2020212451}
   oneStar: {fileID: 1807017710}
   twoStar: {fileID: 1550432062}
@@ -4041,11 +4039,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   items: 0
   maxItem: 30
-  boxCollider: {fileID: 651839961}
   collectItemAudio: {fileID: 680171437}
+  tempItemScore: {fileID: 643411431}
   ItemScore: {fileID: 1945820784}
   textWin: {fileID: 161783964}
-  tempItemScore: {fileID: 643411431}
 --- !u!114 &651839957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4089,9 +4086,9 @@ MonoBehaviour:
   enemyLayer:
     serializedVersion: 2
     m_Bits: 512
-  atkOffset1: {x: 1, y: 0, z: 0}
-  atkRange1: 2
-  atkDamage1: 10
+  pointAtk1: {x: 1, y: 0, z: 0}
+  rangeAtk1: 2
+  damageAtk1: 10
   gunTip2: {fileID: 1207969181}
   gunTip4: {fileID: 59917773}
   eye4: {fileID: 518725291}
@@ -4105,21 +4102,18 @@ MonoBehaviour:
   bulletAtk4: {fileID: 2658848728497650472, guid: 0532cca76ac3e3c48b27df1aa177e3c0,
     type: 3}
   eyeAtk4: {fileID: 4517673873309665408, guid: 8f6cd7e84448c0d47b96efaeaa1f412e, type: 3}
-  targetE: {fileID: 1207969181}
-  rangeAtk3: 0
-  rangeAtk4: 0
   timeAtk1: 0.75
   timeAtk2: 1
   timeAtk3: 1.5
   timeAtk4: 1.5
+  rangeAtk3: 0
+  rangeAtk4: 0
   useAtk3: 1
   useAtk4: 0
   atk1_audio: {fileID: 203600601}
   atk2_audio: {fileID: 515957773}
   atk3_audio: {fileID: 954483080}
   atk4_audio: {fileID: 840207524}
-  MPSlider: {fileID: 531769729}
-  MPScore: {fileID: 943118494}
 --- !u!114 &651839959
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4132,16 +4126,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f4a1abc079b5684095c499ee8eca867, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boxPlayer: {fileID: 651839961}
-  runSpeed: 7
-  jumpSpeed: 12
   Ground:
     serializedVersion: 2
     m_Bits: 1024
+  runSpeed: 7
+  jumpSpeed: 12
   faceingRight: 1
+  joystick: {fileID: 1657300809}
   theThan: {fileID: 1610542276069100973, guid: d04ac4365aacb714abcbf2652a589a51, type: 3}
   dash_audio: {fileID: 138165081}
-  joystick: {fileID: 1657300809}
   dashingPower: 300
 --- !u!96 &651839960
 TrailRenderer:
@@ -4381,7 +4374,7 @@ Transform:
   - {fileID: 167674015}
   - {fileID: 1654630267}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &651839966
 MonoBehaviour:
@@ -6788,6 +6781,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1613000042792546089, guid: aee88d72ef220724ba00c0971b57e1a2,
         type: 3}
+      propertyPath: soundBGAudio
+      value: 
+      objectReference: {fileID: 973521513}
+    - target: {fileID: 1613000042792546089, guid: aee88d72ef220724ba00c0971b57e1a2,
+        type: 3}
+      propertyPath: soundBGSlider
+      value: 
+      objectReference: {fileID: 1603893964}
+    - target: {fileID: 1613000042792546089, guid: aee88d72ef220724ba00c0971b57e1a2,
+        type: 3}
       propertyPath: backgroundSlider
       value: 
       objectReference: {fileID: 1603893964}
@@ -6866,6 +6869,12 @@ PrefabInstance:
 --- !u!82 &973521512 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 3847062267566162034, guid: aee88d72ef220724ba00c0971b57e1a2,
+    type: 3}
+  m_PrefabInstance: {fileID: 973521511}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &973521513 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1613000042819497538, guid: aee88d72ef220724ba00c0971b57e1a2,
     type: 3}
   m_PrefabInstance: {fileID: 973521511}
   m_PrefabAsset: {fileID: 0}
@@ -12478,7 +12487,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1892304302 stripped
 AudioSource:
@@ -13572,7 +13581,7 @@ Transform:
   - {fileID: 664985292}
   - {fileID: 1784399631}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2073704823 stripped
 Transform:
@@ -54421,24 +54430,8 @@ CompositeCollider2D:
       - X: 610000000
         Y: -160000000
       - X: 610000000
-        Y: -140000100
-      - X: 610000041
-        Y: -140000100
-      - X: 610000100
-        Y: -140000041
-      - X: 610000100
-        Y: -139062476
-      - X: 610000085
-        Y: -139062439
-      - X: 600937529
-        Y: -129999915
-      - X: 600937492
-        Y: -129999900
-      - X: 599999959
-        Y: -129999900
-      - X: 599999900
-        Y: -129999959
-      - X: 599999900
+        Y: -139062496
+      - X: 600937472
         Y: -130000000
       - X: 380000000
         Y: -130000000
@@ -54476,31 +54469,15 @@ CompositeCollider2D:
         Y: 0
       - X: 220000000
         Y: -10000000
-      - X: 279999900
+      - X: 280000000
         Y: -10000000
-      - X: 279999900
-        Y: -20000041
-      - X: 279999959
-        Y: -20000100
-      - X: 280000000
-        Y: -20000100
       - X: 280000000
         Y: -30000000
-      - X: 409999900
+      - X: 410000000
         Y: -30000000
-      - X: 409999900
-        Y: -30937520
-      - X: 409999915
-        Y: -30937557
-      - X: 419062439
-        Y: -40000085
-      - X: 419062476
-        Y: -40000100
-      - X: 420000041
-        Y: -40000100
-      - X: 420000100
-        Y: -40000041
-      - X: 420000100
+      - X: 410000000
+        Y: -30937500
+      - X: 419062496
         Y: -40000000
       - X: 1190000000
         Y: -40000000
@@ -54576,8 +54553,8 @@ CompositeCollider2D:
       - {x: 63, y: -11.00003}
       - {x: 62.99997, y: -16}
       - {x: 61, y: -15.999971}
-      - {x: 61, y: -13.906237}
-      - {x: 60.093742, y: -12.99999}
+      - {x: 60.999996, y: -13.906241}
+      - {x: 60.093735, y: -13}
       - {x: 38, y: -13.00003}
       - {x: 37.999973, y: -15}
       - {x: 31, y: -14.999971}
@@ -54596,11 +54573,11 @@ CompositeCollider2D:
       - {x: 37.999973, y: 0}
       - {x: 22, y: -0.000029300001}
       - {x: 22.000029, y: -1}
-      - {x: 27.99999, y: -1.0000294}
+      - {x: 28, y: -1.0000294}
       - {x: 28.000029, y: -3}
-      - {x: 40.999992, y: -3.0000293}
-      - {x: 41, y: -3.0937634}
-      - {x: 41.90626, y: -4.00001}
+      - {x: 41, y: -3.0000293}
+      - {x: 41.000008, y: -3.0937576}
+      - {x: 41.90626, y: -4}
       - {x: 119, y: -4.0000296}
     - - {x: 19.999971, y: -1}
       - {x: 19.999971, y: 0}
@@ -55958,7 +55935,7 @@ Transform:
   - {fileID: 4317017097057238475}
   - {fileID: 4317017096622114806}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &4317017097351716995
 PrefabInstance:
@@ -56113,7 +56090,7 @@ Transform:
   - {fileID: 662685559527817042}
   - {fileID: 369587789563910321}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!156049354 &6223431605994983590
 Grid:
@@ -56581,7 +56558,7 @@ Transform:
   - {fileID: 1083263871}
   - {fileID: 1986289820}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7331194744880440492
 GameObject:

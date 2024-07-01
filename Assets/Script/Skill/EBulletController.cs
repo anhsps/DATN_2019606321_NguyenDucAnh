@@ -5,12 +5,12 @@ using UnityEngine;
 public class EBulletController : MonoBehaviour
 {
     Rigidbody2D rb;
-    public float eBulletSpeed = 6f;
     public int damage = 20;
+    public float eBulletSpeed = 6f;
     public float desTime = 0.1f;
     float damRate = 1f;
     float nextDamge;
-
+    
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();

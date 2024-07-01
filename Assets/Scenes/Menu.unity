@@ -2044,7 +2044,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -200, y: -300}
+  m_AnchoredPosition: {x: -200, y: -325}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &164715081
@@ -3268,64 +3268,61 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxItem: 30
-  LV2: {fileID: 972201431}
-  LV3: {fileID: 615925617}
-  LV4: {fileID: 1087297271}
-  LV5: {fileID: 143088909}
-  LV6: {fileID: 124712499}
-  LV7: {fileID: 200204808}
-  LV8: {fileID: 1822728980}
-  LV9: {fileID: 1923429325}
-  LV10: {fileID: 1926401636}
-  level1_s0: {fileID: 990435890}
-  level1_s1: {fileID: 888587965}
-  level1_s2: {fileID: 847293630}
-  level1_s3: {fileID: 1130123355}
-  level2_lock: {fileID: 622223220}
-  level2_s0: {fileID: 1219436583}
-  level2_s1: {fileID: 1969361580}
-  level2_s2: {fileID: 2019709719}
-  level2_s3: {fileID: 1718698493}
-  level3_lock: {fileID: 498414831}
-  level3_s0: {fileID: 70099684}
-  level3_s1: {fileID: 61259333}
-  level3_s2: {fileID: 547968436}
-  level3_s3: {fileID: 13742198}
-  level4_lock: {fileID: 1754407385}
-  level4_s0: {fileID: 532047460}
-  level4_s1: {fileID: 383019013}
-  level4_s2: {fileID: 846851175}
-  level4_s3: {fileID: 1743639751}
-  level5_lock: {fileID: 681172163}
-  level5_s0: {fileID: 1816120180}
-  level5_s1: {fileID: 894933141}
-  level5_s2: {fileID: 575042953}
-  level5_s3: {fileID: 85568012}
-  level6_lock: {fileID: 1017138493}
-  level6_s0: {fileID: 124827268}
-  level6_s1: {fileID: 443422001}
-  level6_s2: {fileID: 1594045704}
-  level6_s3: {fileID: 1124542074}
-  level7_lock: {fileID: 1002726062}
-  level7_s0: {fileID: 1511780054}
-  level7_s1: {fileID: 689011129}
-  level7_s2: {fileID: 2124087112}
-  level7_s3: {fileID: 1719901325}
-  level8_lock: {fileID: 1663917008}
-  level8_s0: {fileID: 766891937}
-  level8_s1: {fileID: 1823765328}
-  level8_s2: {fileID: 1908001985}
-  level8_s3: {fileID: 1824559854}
-  level9_lock: {fileID: 1298596746}
-  level9_s0: {fileID: 1204183394}
-  level9_s1: {fileID: 1357631044}
-  level9_s2: {fileID: 1145907252}
-  level9_s3: {fileID: 929720970}
-  level10_lock: {fileID: 1662404783}
-  level10_s0: {fileID: 1327161292}
-  level10_s1: {fileID: 479652737}
-  level10_s2: {fileID: 153641530}
-  level10_s3: {fileID: 480568291}
+  level_lock:
+  - {fileID: 0}
+  - {fileID: 622223220}
+  - {fileID: 498414831}
+  - {fileID: 1754407385}
+  - {fileID: 681172163}
+  - {fileID: 1017138493}
+  - {fileID: 1002726062}
+  - {fileID: 1663917008}
+  - {fileID: 1298596746}
+  - {fileID: 1662404783}
+  level_s0:
+  - {fileID: 990435890}
+  - {fileID: 1219436583}
+  - {fileID: 70099684}
+  - {fileID: 532047460}
+  - {fileID: 1816120180}
+  - {fileID: 124827268}
+  - {fileID: 1511780054}
+  - {fileID: 766891937}
+  - {fileID: 1204183394}
+  - {fileID: 1327161292}
+  level_s1:
+  - {fileID: 888587965}
+  - {fileID: 1969361580}
+  - {fileID: 61259333}
+  - {fileID: 383019013}
+  - {fileID: 894933141}
+  - {fileID: 443422001}
+  - {fileID: 689011129}
+  - {fileID: 1823765328}
+  - {fileID: 1357631044}
+  - {fileID: 479652737}
+  level_s2:
+  - {fileID: 847293630}
+  - {fileID: 2019709719}
+  - {fileID: 547968436}
+  - {fileID: 846851175}
+  - {fileID: 575042953}
+  - {fileID: 1594045704}
+  - {fileID: 2124087112}
+  - {fileID: 1908001985}
+  - {fileID: 1145907252}
+  - {fileID: 153641530}
+  level_s3:
+  - {fileID: 1130123355}
+  - {fileID: 1718698493}
+  - {fileID: 13742198}
+  - {fileID: 1743639751}
+  - {fileID: 85568012}
+  - {fileID: 1124542074}
+  - {fileID: 1719901325}
+  - {fileID: 1824559854}
+  - {fileID: 929720970}
+  - {fileID: 480568291}
 --- !u!1 &284886447
 GameObject:
   m_ObjectHideFlags: 0
@@ -12684,9 +12681,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 082ea7058f1bddf4a8f5a8efb34b0016, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  backgroundSlider: {fileID: 1311928684}
+  soundBGSlider: {fileID: 1311928684}
   soundEffectsSlider: {fileID: 1754542077}
-  backgroundAudio: {fileID: 468887044}
+  soundBGAudio: {fileID: 468887044}
   soundEffectsAudio:
   - {fileID: 1570397435}
 --- !u!1 &1431919209
@@ -13009,7 +13006,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 516fd0fd1e074de4190a45400cd56f7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  volumSlider: {fileID: 1311928684}
+  volumeSlider: {fileID: 1311928684}
   effectSlider: {fileID: 1754542077}
 --- !u!1 &1473200507
 GameObject:
@@ -14274,7 +14271,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 200, y: -300}
+  m_AnchoredPosition: {x: 200, y: -325}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &1613684431

@@ -23,7 +23,7 @@ public class BulletDamage : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Enemy") && boxE != null)
         {
-            //if (collision.gameObject.layer == LayerMask.NameToLayer("Enemy"))//k xài
+            //if (collision.gameObject.layer == LayerMask.NameToLayer("Enemy"))//k xài nữa
             collision.gameObject.GetComponent<EnemyHealth>().TakeDamage(damage);
         }
     }
@@ -31,7 +31,7 @@ public class BulletDamage : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            if (boxP != null && collision.gameObject.GetComponent<PlayerHealth>().isHurt)
+            if (collision.gameObject.GetComponent<PlayerHealth>().isHurt && boxP != null)
             {// Nếu Player bị hurt và là boxP
                 Destroy(gameObject);
             }

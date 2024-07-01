@@ -6,13 +6,12 @@ public class EnemyBehavior : MonoBehaviour
 {
     #region Public Variables
     public int atkA, atkB;//kiểu atk thứ . 1 <= atkA <= atkB
-    public float atkDistance, atkDistance2;//
+    public float atkDistance, atkDistance2;
     public float moveSpeed;
-    public float timer;//time hồi chiêu
+    public float timer;////time hồi chiêu giữa các cuộc atk
     public Transform leftLimit, rightLimit;
     [HideInInspector] public Transform target;
     [HideInInspector] public bool inRange;//dk phạm vi atk
-    public Transform CheckRange;//vùng move vs atk
     [HideInInspector] public bool isFlipped = true;
     #endregion
 
@@ -20,9 +19,10 @@ public class EnemyBehavior : MonoBehaviour
     EnemyHealth e_HP;
     Animator animator;
     float distance;
-    bool atkMode;//true thì atk, false thì move
-    bool cooling;
     float intTimer;//lưu trữ gt ban đầu của bộ đếm thời gian
+    bool atkMode;//true là đang atk, false thì move
+    bool cooling;
+    string[] listStates = { "atk1", "atk2", "atk3", "atk4", "hurt" };
     #endregion
 
     // Start is called before the first frame update
@@ -37,48 +37,18 @@ public class EnemyBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Flip();
         if (e_HP.currentHP <= 0)
-        {
             this.enabled = false;
-        }
 
         if (!atkMode)
-        {
             Move();
-        }
 
-        if (!InsideofLimits() && !inRange)
-        {
+        if (!InsideOfLimits())
             SelectTarget();
-        }
 
-        if (inRange)
-        {
+        if (inRange && target != leftLimit && target != rightLimit && !cooling)
             EnemyLogic();
-        }
-    }
-
-    void EnemyLogic()
-    {
-        distance = Vector2.Distance(transform.position, target.position);
-
-        if (distance > atkDistance2 || (atkA == 1 && atkB == 1 && distance > atkDistance))//
-        {
-            StopAttack();
-        }
-        else if (distance <= atkDistance && cooling == false)
-        {
-            animator.SetBool("Attack" + Random.Range(1, atkB + 1), true);
-            AttackAnimation();
-        }
-        else if (distance <= atkDistance2 && cooling == false)//
-        {//nếu ko atk1, mà từ atkA=2 trở đi thì cài atkDistance=0
-            int atkAStart = (atkA > 1) ? atkA : 2;
-            animator.SetBool($"Attack{Random.Range(atkAStart, atkB + 1)}", true);
-            /*if (atkA > 1) animator.SetBool("Attack" + Random.Range(atkA, atkB + 1), true);
-            animator.SetBool("Attack" + Random.Range(2, atkB + 1), true);*/
-            AttackAnimation();
-        }
 
         if (cooling)
         {
@@ -87,9 +57,23 @@ public class EnemyBehavior : MonoBehaviour
         }
     }
 
+    void EnemyLogic()
+    {
+        distance = Vector2.Distance(transform.position, target.position);
+
+        if (distance > atkDistance2 || (distance > atkDistance && atkA == 1 && atkB == 1))
+            StopAttack();
+        else if (distance <= atkDistance)
+            AttackAnimation(1, atkB);
+        else if (distance <= atkDistance2)//
+        {//nếu ko atk1, mà từ atkA=2 trở đi thì cài atkDistance=0
+            int atkAStart = (atkA > 1) ? atkA : 2;
+            AttackAnimation(atkAStart, atkB);
+        }
+    }
+
     void Move()
     {
-        string[] listStates = { "atk1", "atk2", "atk3", "atk4", "hurt" };
         animator.SetBool("Run", true);
         if (!IsInSpecificStates(listStates))
         {
@@ -98,12 +82,12 @@ public class EnemyBehavior : MonoBehaviour
         }
     }
 
-    void AttackAnimation()
+    void AttackAnimation(int atkA, int atkB)
     {
-        //animator.SetBool("Attack" + Random.Range(1, atkType + 1), true);
-        animator.SetBool("Run", false);
-        timer = intTimer;//reset timer when player enter attack range
         atkMode = true;
+        animator.SetBool("Run", false);
+        animator.SetBool($"Attack{Random.Range(atkA, atkB + 1)}", true);
+        //animator.SetBool("Attack" + Random.Range(atkA, atkB + 1), true);
     }
 
     void ResetAtkBoolValues()
@@ -118,11 +102,10 @@ public class EnemyBehavior : MonoBehaviour
     void Cooldown()
     {//reset timer atk
         timer -= Time.deltaTime;
-        if (!inRange && timer > 0) timer = intTimer;//fix lỗi !inRange mà timer chưa trừ hết về 0
-        if (timer <= 0 && cooling && atkMode)
+        if (timer <= 0)
         {
-            cooling = false;
-            timer = intTimer;
+            timer = intTimer;//reset timer when player enter attack range
+            StopAttack();
         }
     }
 
@@ -130,18 +113,14 @@ public class EnemyBehavior : MonoBehaviour
     {
         cooling = false;
         atkMode = false;
-        ResetAtkBoolValues();//
     }
 
-    public void TriggerCooling()
-    {
-        cooling = true;
-    }
-
-    bool InsideofLimits()
+    bool InsideOfLimits()
     {
         return transform.position.x > leftLimit.position.x && transform.position.x < rightLimit.position.x;
     }
+
+    public void TriggerCooling() { cooling = true; }
 
     public void SelectTarget()
     {
@@ -149,20 +128,14 @@ public class EnemyBehavior : MonoBehaviour
         float distanceToRight = Vector2.Distance(transform.position, rightLimit.position);
 
         if (distanceToLeft > distanceToRight)
-        {
             target = leftLimit;
-        }
         else
-        {
             target = rightLimit;
-        }
-        Flip();
     }
 
     public void Flip()
     {
         bool facingLeft = transform.position.x > target.position.x;
-        string[] listStates = { "atk1", "atk2", "atk3", "atk4", "hurt" };
         if (!IsInSpecificStates(listStates))
         {
             if (facingLeft && isFlipped || !facingLeft && !isFlipped)
@@ -179,9 +152,7 @@ public class EnemyBehavior : MonoBehaviour
         foreach (string stateName in stateNames)
         {
             if (stateInfo.IsName(stateName))
-            {
                 return true;
-            }
         }
         return false;
     }

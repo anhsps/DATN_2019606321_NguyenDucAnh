@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class MainMenu : MonoBehaviour
 {
-    public Slider volumSlider, effectSlider;
+    public Slider volumeSlider, effectSlider;
 
     public void PlayGame()
     {
@@ -19,7 +19,7 @@ public class MainMenu : MonoBehaviour
     }
 
     public void StartGame()
-    {
+    {//sau khi ResetGame
         SceneManager.LoadScene("Start");
         Debug.Log("Start game!");
     }
@@ -34,11 +34,10 @@ public class MainMenu : MonoBehaviour
     }
     void SetSliderValues(float value)
     {
-        volumSlider.value = effectSlider.value = value;
+        volumeSlider.value = effectSlider.value = value;
 
         // (k bắt buộc) Kích hoạt sự kiện onValueChanged để đảm bảo rằng các xử lý liên quan đến sự kiện được thực hiện
-        volumSlider.onValueChanged.Invoke(value);
+        volumeSlider.onValueChanged.Invoke(value);
         effectSlider.onValueChanged.Invoke(value);
     }
 }
-

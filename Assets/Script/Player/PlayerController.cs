@@ -4,20 +4,20 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    BoxCollider2D box;
     Rigidbody2D rb;
     Animator animator;
     SpellCooldown sc;
-    public BoxCollider2D boxPlayer;
-    public float runSpeed = 7f;
-    public float jumpSpeed = 12f;
+
     public LayerMask Ground;
+    public float runSpeed = 7f, jumpSpeed = 12f;
     [HideInInspector] public bool faceingRight = true;
-    public GameObject theThan;
-    [SerializeField] AudioSource dash_audio;
+    [SerializeField] private Joystick joystick;
     float move, horizontalInput, joystickInput, verticalMove;
-    [SerializeField] Joystick joystick;
     string[] listStates = { "Player atk2", "Player atk3", "Player atk4" };
 
+    public GameObject theThan;
+    [SerializeField] private AudioSource dash_audio;
     bool canDash = true;
     bool isDashing;
     public float dashingPower = 300f;
@@ -29,6 +29,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        box = GetComponent<BoxCollider2D>();
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         sc = GetComponent<SpellCooldown>();
@@ -112,7 +113,7 @@ public class PlayerController : MonoBehaviour
             {
                 /*faceingRight = !faceingRight;
                 transform.Rotate(0, 180, 0);*/
-                Vector3 localScale = transform.localScale;//
+                Vector3 localScale = transform.localScale;
                 faceingRight = !faceingRight;
                 localScale.x *= -1;
                 transform.localScale = localScale;
@@ -122,7 +123,7 @@ public class PlayerController : MonoBehaviour
 
     private bool IsGrounded()
     {
-        RaycastHit2D ray = Physics2D.BoxCast(boxPlayer.bounds.center, boxPlayer.bounds.size, 0, Vector2.down, 0.1f, Ground);
+        RaycastHit2D ray = Physics2D.BoxCast(box.bounds.center, box.bounds.size, 0, Vector2.down, 0.1f, Ground);
         return ray.collider != null;
     }
 
@@ -149,15 +150,13 @@ public class PlayerController : MonoBehaviour
         canDash = true;
     }
 
-    public bool IsInSpecificStates(params string[] stateNames)
+    bool IsInSpecificStates(params string[] stateNames)
     {//các states cụ thể
         AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
         foreach (string stateName in stateNames)
         {
             if (stateInfo.IsName(stateName))
-            {
                 return true;
-            }
         }
         return false;
     }

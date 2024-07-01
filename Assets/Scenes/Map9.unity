@@ -339,16 +339,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f4a1abc079b5684095c499ee8eca867, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boxPlayer: {fileID: 18656201}
-  runSpeed: 7
-  jumpSpeed: 12
   Ground:
     serializedVersion: 2
     m_Bits: 1024
+  runSpeed: 7
+  jumpSpeed: 12
   faceingRight: 1
+  joystick: {fileID: 102325527}
   theThan: {fileID: 1610542276069100973, guid: d04ac4365aacb714abcbf2652a589a51, type: 3}
   dash_audio: {fileID: 1675827190}
-  joystick: {fileID: 102325527}
   dashingPower: 300
 --- !u!114 &18656203
 MonoBehaviour:
@@ -365,9 +364,9 @@ MonoBehaviour:
   enemyLayer:
     serializedVersion: 2
     m_Bits: 512
-  atkOffset1: {x: 1, y: 0, z: 0}
-  atkRange1: 2
-  atkDamage1: 10
+  pointAtk1: {x: 1, y: 0, z: 0}
+  rangeAtk1: 2
+  damageAtk1: 10
   gunTip2: {fileID: 965151254}
   gunTip4: {fileID: 643848477}
   eye4: {fileID: 2116178330}
@@ -381,21 +380,18 @@ MonoBehaviour:
   bulletAtk4: {fileID: 2658848728497650472, guid: 0532cca76ac3e3c48b27df1aa177e3c0,
     type: 3}
   eyeAtk4: {fileID: 4517673873309665408, guid: 8f6cd7e84448c0d47b96efaeaa1f412e, type: 3}
-  targetE: {fileID: 965151254}
-  rangeAtk3: 0
-  rangeAtk4: 0
   timeAtk1: 0.75
   timeAtk2: 1
   timeAtk3: 1.5
   timeAtk4: 1.5
+  rangeAtk3: 0
+  rangeAtk4: 0
   useAtk3: 1
   useAtk4: 1
   atk1_audio: {fileID: 1114909978}
   atk2_audio: {fileID: 1843370954}
   atk3_audio: {fileID: 1454915949}
   atk4_audio: {fileID: 1609967125}
-  MPSlider: {fileID: 850739732}
-  MPScore: {fileID: 203163662}
 --- !u!114 &18656204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -544,11 +540,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   items: 0
   maxItem: 30
-  boxCollider: {fileID: 18656201}
   collectItemAudio: {fileID: 590677759}
+  tempItemScore: {fileID: 2058719250}
   ItemScore: {fileID: 1742459226}
   textWin: {fileID: 652345765}
-  tempItemScore: {fileID: 2058719250}
 --- !u!114 &18656207
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -561,11 +556,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5a901b6195a30249a5b6782341d5a38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boxCollider: {fileID: 18656201}
   WinAudio: {fileID: 1569043804}
   GameWinUI: {fileID: 2039358005}
   buttonUI: {fileID: 1624342616}
-  tempNumberItems: {fileID: 2058719250}
   zeroStar: {fileID: 1508565269}
   oneStar: {fileID: 1668428117}
   twoStar: {fileID: 962777357}
@@ -5391,7 +5384,7 @@ PrefabInstance:
     - target: {fileID: 7904989338430610555, guid: 201837502da516b4c999e3ccdec9174f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -23
+      value: -25
       objectReference: {fileID: 0}
     - target: {fileID: 7904989338430610555, guid: 201837502da516b4c999e3ccdec9174f,
         type: 3}
@@ -5441,7 +5434,7 @@ PrefabInstance:
     - target: {fileID: 7904989338701505218, guid: 201837502da516b4c999e3ccdec9174f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 201837502da516b4c999e3ccdec9174f, type: 3}
@@ -61561,6 +61554,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1613000042792546089, guid: aee88d72ef220724ba00c0971b57e1a2,
         type: 3}
+      propertyPath: soundBGAudio
+      value: 
+      objectReference: {fileID: 1613000044085641381}
+    - target: {fileID: 1613000042792546089, guid: aee88d72ef220724ba00c0971b57e1a2,
+        type: 3}
+      propertyPath: soundBGSlider
+      value: 
+      objectReference: {fileID: 1122378705}
+    - target: {fileID: 1613000042792546089, guid: aee88d72ef220724ba00c0971b57e1a2,
+        type: 3}
       propertyPath: backgroundSlider
       value: 
       objectReference: {fileID: 1122378705}
@@ -61631,6 +61634,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aee88d72ef220724ba00c0971b57e1a2, type: 3}
+--- !u!82 &1613000044085641381 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1613000042819497538, guid: aee88d72ef220724ba00c0971b57e1a2,
+    type: 3}
+  m_PrefabInstance: {fileID: 1613000044085641380}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3155858337044695358 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6041975889515449751, guid: 5557755f45cbbe449b05bc65e31e487d,
@@ -62377,7 +62386,7 @@ PrefabInstance:
     - target: {fileID: 6041975888345550268, guid: 5557755f45cbbe449b05bc65e31e487d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6041975889008827864, guid: 5557755f45cbbe449b05bc65e31e487d,
         type: 3}
@@ -62413,7 +62422,7 @@ PrefabInstance:
     - target: {fileID: 6041975889515449751, guid: 5557755f45cbbe449b05bc65e31e487d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -65
+      value: -67
       objectReference: {fileID: 0}
     - target: {fileID: 6041975889515449751, guid: 5557755f45cbbe449b05bc65e31e487d,
         type: 3}

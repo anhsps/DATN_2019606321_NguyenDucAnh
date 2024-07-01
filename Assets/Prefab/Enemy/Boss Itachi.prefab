@@ -204,7 +204,6 @@ MonoBehaviour:
   rightLimit: {fileID: 4453480052991654882}
   target: {fileID: 0}
   inRange: 0
-  CheckRange: {fileID: 4453480053344557735}
   isFlipped: 1
 --- !u!114 &4453480052361636736
 MonoBehaviour:
@@ -219,11 +218,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   atkDamage: 10
-  atkOffset: {x: 0.6, y: -0.3, z: 0}
+  atkPoint: {x: 0.6, y: -0.3, z: 0}
   atkRange: 1.4
-  atkLayers:
-    serializedVersion: 2
-    m_Bits: 256
 --- !u!114 &4453480052361636763
 MonoBehaviour:
   m_ObjectHideFlags: 0

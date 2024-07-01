@@ -947,6 +947,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1613000042792546089, guid: aee88d72ef220724ba00c0971b57e1a2,
         type: 3}
+      propertyPath: soundBGAudio
+      value: 
+      objectReference: {fileID: 90659204}
+    - target: {fileID: 1613000042792546089, guid: aee88d72ef220724ba00c0971b57e1a2,
+        type: 3}
+      propertyPath: soundBGSlider
+      value: 
+      objectReference: {fileID: 1710091491}
+    - target: {fileID: 1613000042792546089, guid: aee88d72ef220724ba00c0971b57e1a2,
+        type: 3}
       propertyPath: backgroundSlider
       value: 
       objectReference: {fileID: 1710091491}
@@ -1025,6 +1035,12 @@ PrefabInstance:
 --- !u!82 &90659203 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 3847062267566162034, guid: aee88d72ef220724ba00c0971b57e1a2,
+    type: 3}
+  m_PrefabInstance: {fileID: 90659202}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &90659204 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1613000042819497538, guid: aee88d72ef220724ba00c0971b57e1a2,
     type: 3}
   m_PrefabInstance: {fileID: 90659202}
   m_PrefabAsset: {fileID: 0}
@@ -3995,7 +4011,7 @@ PrefabInstance:
     - target: {fileID: 5062856197112943722, guid: 23230296d9106a5468343b166e443cd9,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 118
+      value: 115.5
       objectReference: {fileID: 0}
     - target: {fileID: 5062856197112943722, guid: 23230296d9106a5468343b166e443cd9,
         type: 3}
@@ -8004,11 +8020,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5a901b6195a30249a5b6782341d5a38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boxCollider: {fileID: 1267065666}
   WinAudio: {fileID: 135899700}
   GameWinUI: {fileID: 1032590370}
   buttonUI: {fileID: 1650000822}
-  tempNumberItems: {fileID: 1254545599}
   zeroStar: {fileID: 1288702485}
   oneStar: {fileID: 985988366}
   twoStar: {fileID: 1660794799}
@@ -8027,11 +8041,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   items: 0
   maxItem: 30
-  boxCollider: {fileID: 1267065666}
   collectItemAudio: {fileID: 229669074}
+  tempItemScore: {fileID: 1254545599}
   ItemScore: {fileID: 775743847}
   textWin: {fileID: 396883993}
-  tempItemScore: {fileID: 1254545599}
 --- !u!114 &1267065662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8075,9 +8088,9 @@ MonoBehaviour:
   enemyLayer:
     serializedVersion: 2
     m_Bits: 512
-  atkOffset1: {x: 1, y: 0, z: 0}
-  atkRange1: 2
-  atkDamage1: 10
+  pointAtk1: {x: 1, y: 0, z: 0}
+  rangeAtk1: 2
+  damageAtk1: 10
   gunTip2: {fileID: 761871826}
   gunTip4: {fileID: 1909540700}
   eye4: {fileID: 7803069}
@@ -8091,21 +8104,18 @@ MonoBehaviour:
   bulletAtk4: {fileID: 2658848728497650472, guid: 2eeeddb7338d7e2418cc0ab84f1f7e2c,
     type: 3}
   eyeAtk4: {fileID: 4517673873309665408, guid: 8f6cd7e84448c0d47b96efaeaa1f412e, type: 3}
-  targetE: {fileID: 761871826}
-  rangeAtk3: 0
-  rangeAtk4: 0
   timeAtk1: 0.75
   timeAtk2: 1
   timeAtk3: 1.5
   timeAtk4: 1.5
+  rangeAtk3: 0
+  rangeAtk4: 0
   useAtk3: 1
   useAtk4: 1
   atk1_audio: {fileID: 1410452479}
   atk2_audio: {fileID: 523510266}
   atk3_audio: {fileID: 243841733}
   atk4_audio: {fileID: 1877445212}
-  MPSlider: {fileID: 805440273}
-  MPScore: {fileID: 1394291163}
 --- !u!114 &1267065664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8118,16 +8128,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f4a1abc079b5684095c499ee8eca867, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boxPlayer: {fileID: 1267065666}
-  runSpeed: 7
-  jumpSpeed: 12
   Ground:
     serializedVersion: 2
     m_Bits: 1024
+  runSpeed: 7
+  jumpSpeed: 12
   faceingRight: 1
+  joystick: {fileID: 823503731}
   theThan: {fileID: 1610542276069100973, guid: d04ac4365aacb714abcbf2652a589a51, type: 3}
   dash_audio: {fileID: 344015535}
-  joystick: {fileID: 823503731}
   dashingPower: 300
 --- !u!96 &1267065665
 TrailRenderer:
@@ -8367,7 +8376,7 @@ Transform:
   - {fileID: 1833141827}
   - {fileID: 762503930}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1267065671
 MonoBehaviour:
@@ -15120,7 +15129,7 @@ Transform:
   - {fileID: 1407527530}
   - {fileID: 1386309750}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &4618916153208731208
 PrefabInstance:
@@ -59027,7 +59036,7 @@ PrefabInstance:
     - target: {fileID: 4593687408720485557, guid: c891afb9c4fc04e419cecedbb24eb8f6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 75
+      value: 79
       objectReference: {fileID: 0}
     - target: {fileID: 4593687408720485557, guid: c891afb9c4fc04e419cecedbb24eb8f6,
         type: 3}
@@ -59077,7 +59086,7 @@ PrefabInstance:
     - target: {fileID: 4593687408806573805, guid: c891afb9c4fc04e419cecedbb24eb8f6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4593687408806573805, guid: c891afb9c4fc04e419cecedbb24eb8f6,
         type: 3}
@@ -60081,7 +60090,7 @@ PrefabInstance:
     - target: {fileID: 4470553286847559193, guid: 068db41163459124cb14162c527f3d21,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 47
+      value: 48
       objectReference: {fileID: 0}
     - target: {fileID: 4470553286847559193, guid: 068db41163459124cb14162c527f3d21,
         type: 3}
@@ -60155,7 +60164,7 @@ PrefabInstance:
     - target: {fileID: 8185921134225184208, guid: ca19f9e9bd3926f4fbcf89b2bd8d3802,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 39
+      value: 36
       objectReference: {fileID: 0}
     - target: {fileID: 8185921134225184208, guid: ca19f9e9bd3926f4fbcf89b2bd8d3802,
         type: 3}
@@ -60235,7 +60244,7 @@ PrefabInstance:
     - target: {fileID: 8185921135936943761, guid: ca19f9e9bd3926f4fbcf89b2bd8d3802,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7
+      value: 5.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca19f9e9bd3926f4fbcf89b2bd8d3802, type: 3}
@@ -62444,7 +62453,7 @@ Transform:
   - {fileID: 592031874}
   - {fileID: 1254839464}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6206073512230036326
 GameObject:

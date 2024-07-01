@@ -30,10 +30,8 @@ public class BossKabuto : MonoBehaviour
     }
     void BulletAtk3()
     {
-        if (bParent.isFlipped)
-            Instantiate(bullet3, pos3.position, Quaternion.Euler(new Vector3(0, 0, 0)));
-        else
-            Instantiate(bullet3, pos3.position, Quaternion.Euler(new Vector3(0, 180, 0)));
+        Vector3 bulletRotation = (bParent.isFlipped) ? Vector3.zero : new Vector3(0, 180, 0);
+        Instantiate(bullet3, pos3.position, Quaternion.Euler(bulletRotation));
     }
     void BulletAtk4_1()
     {

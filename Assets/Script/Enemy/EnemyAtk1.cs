@@ -42,10 +42,7 @@ public class EnemyAtk1 : MonoBehaviour
         {
             // Kiểm tra xem có va chạm giữa SpriteRenderer của Enemy và SpriteRenderer của Player không
             if (IsSpriteRendererCollision(gameObject.GetComponent<SpriteRenderer>(), player.GetComponent<SpriteRenderer>()))
-            {
-                // Gọi phương thức xử lý sát thương cho Player
                 player.GetComponent<PlayerHealth>().TakeDamage(atkDamage);
-            }
         }
     }
 }

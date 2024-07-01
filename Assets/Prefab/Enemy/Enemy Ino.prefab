@@ -434,7 +434,6 @@ MonoBehaviour:
   rightLimit: {fileID: 8185921135936943761}
   target: {fileID: 0}
   inRange: 0
-  CheckRange: {fileID: 8185921134697650102}
   isFlipped: 1
 --- !u!114 &8185921135663194927
 MonoBehaviour:
@@ -451,9 +450,6 @@ MonoBehaviour:
   atkDamage: 10
   atkOffset: {x: 0, y: 0, z: 0}
   atkRange: 1.25
-  atkLayers:
-    serializedVersion: 2
-    m_Bits: 256
 --- !u!114 &5519946676566963788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -466,7 +462,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d81ac534cc7eb645a8670650b894db0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  atk1_audio: {fileID: 0}
+  atk1_1_audio: {fileID: 0}
+  atk1_2_audio: {fileID: 0}
+  atk1_Stab_audio: {fileID: 0}
+  atk2_audio: {fileID: 0}
 --- !u!1 &8185921135936943762
 GameObject:
   m_ObjectHideFlags: 0

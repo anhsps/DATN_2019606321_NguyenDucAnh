@@ -11066,7 +11066,7 @@ Transform:
   m_Children:
   - {fileID: 1679582361}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1214863445
 GameObject:
@@ -11890,6 +11890,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1613000042792546089, guid: aee88d72ef220724ba00c0971b57e1a2,
         type: 3}
+      propertyPath: soundBGAudio
+      value: 
+      objectReference: {fileID: 1302573984}
+    - target: {fileID: 1613000042792546089, guid: aee88d72ef220724ba00c0971b57e1a2,
+        type: 3}
+      propertyPath: soundBGSlider
+      value: 
+      objectReference: {fileID: 397341310}
+    - target: {fileID: 1613000042792546089, guid: aee88d72ef220724ba00c0971b57e1a2,
+        type: 3}
       propertyPath: backgroundSlider
       value: 
       objectReference: {fileID: 397341310}
@@ -11992,6 +12002,12 @@ AudioSource:
 --- !u!82 &1302573983 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 7645414611919806696, guid: aee88d72ef220724ba00c0971b57e1a2,
+    type: 3}
+  m_PrefabInstance: {fileID: 1302573978}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1302573984 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1613000042819497538, guid: aee88d72ef220724ba00c0971b57e1a2,
     type: 3}
   m_PrefabInstance: {fileID: 1302573978}
   m_PrefabAsset: {fileID: 0}
@@ -14165,11 +14181,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5a901b6195a30249a5b6782341d5a38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boxCollider: {fileID: 1620237233}
   WinAudio: {fileID: 537595652}
   GameWinUI: {fileID: 1241656119}
   buttonUI: {fileID: 928256735}
-  tempNumberItems: {fileID: 824112526}
   zeroStar: {fileID: 671812961}
   oneStar: {fileID: 1133050837}
   twoStar: {fileID: 891562644}
@@ -14188,11 +14202,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   items: 0
   maxItem: 30
-  boxCollider: {fileID: 1620237233}
   collectItemAudio: {fileID: 1174736399}
+  tempItemScore: {fileID: 824112526}
   ItemScore: {fileID: 827397736}
   textWin: {fileID: 2141485080}
-  tempItemScore: {fileID: 824112526}
 --- !u!114 &1620237229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14236,9 +14249,9 @@ MonoBehaviour:
   enemyLayer:
     serializedVersion: 2
     m_Bits: 512
-  atkOffset1: {x: 1, y: 0, z: 0}
-  atkRange1: 2
-  atkDamage1: 10
+  pointAtk1: {x: 1, y: 0, z: 0}
+  rangeAtk1: 2
+  damageAtk1: 10
   gunTip2: {fileID: 442963076}
   gunTip4: {fileID: 1191815255}
   eye4: {fileID: 761772234}
@@ -14252,21 +14265,18 @@ MonoBehaviour:
   bulletAtk4: {fileID: 2658848728497650472, guid: 0532cca76ac3e3c48b27df1aa177e3c0,
     type: 3}
   eyeAtk4: {fileID: 4517673873309665408, guid: 8f6cd7e84448c0d47b96efaeaa1f412e, type: 3}
-  targetE: {fileID: 442963076}
-  rangeAtk3: 0
-  rangeAtk4: 0
   timeAtk1: 0.75
   timeAtk2: 1
   timeAtk3: 1.5
   timeAtk4: 1.5
+  rangeAtk3: 0
+  rangeAtk4: 0
   useAtk3: 1
   useAtk4: 1
   atk1_audio: {fileID: 1642248262}
   atk2_audio: {fileID: 1964129134}
   atk3_audio: {fileID: 1438532940}
   atk4_audio: {fileID: 1471409185}
-  MPSlider: {fileID: 1373416354}
-  MPScore: {fileID: 1884917205}
 --- !u!114 &1620237231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14279,16 +14289,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f4a1abc079b5684095c499ee8eca867, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boxPlayer: {fileID: 1620237233}
-  runSpeed: 7
-  jumpSpeed: 12
   Ground:
     serializedVersion: 2
     m_Bits: 1024
+  runSpeed: 7
+  jumpSpeed: 12
   faceingRight: 1
+  joystick: {fileID: 74080422}
   theThan: {fileID: 1610542276069100973, guid: d04ac4365aacb714abcbf2652a589a51, type: 3}
   dash_audio: {fileID: 1346496255}
-  joystick: {fileID: 74080422}
   dashingPower: 300
 --- !u!96 &1620237232
 TrailRenderer:
@@ -14528,7 +14537,7 @@ Transform:
   - {fileID: 1202662341}
   - {fileID: 1578466996}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1620237238
 MonoBehaviour:
@@ -15183,7 +15192,7 @@ Transform:
   m_Children:
   - {fileID: 1076457468}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1732251717
 GameObject:
@@ -103218,7 +103227,7 @@ PrefabInstance:
     - target: {fileID: 8185921134225184208, guid: ca19f9e9bd3926f4fbcf89b2bd8d3802,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 120.43
+      value: 119
       objectReference: {fileID: 0}
     - target: {fileID: 8185921134225184208, guid: ca19f9e9bd3926f4fbcf89b2bd8d3802,
         type: 3}
@@ -103298,7 +103307,7 @@ PrefabInstance:
     - target: {fileID: 8185921135936943761, guid: ca19f9e9bd3926f4fbcf89b2bd8d3802,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.1
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca19f9e9bd3926f4fbcf89b2bd8d3802, type: 3}
@@ -103379,7 +103388,7 @@ PrefabInstance:
     - target: {fileID: 4453480053960752073, guid: 87e82262b8eebbb41b61b4b167a37a8d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 169
+      value: 170
       objectReference: {fileID: 0}
     - target: {fileID: 4453480053960752073, guid: 87e82262b8eebbb41b61b4b167a37a8d,
         type: 3}
@@ -103736,5 +103745,5 @@ Transform:
   - {fileID: 807638637}
   - {fileID: 827964695}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyShoot : MonoBehaviour
 {
     Animator animator;
-    [HideInInspector] public EnemyBehavior eParent;
+    EnemyBehavior eParent;
     public GameObject bullet2, bullet3;
     public Transform pos2, pos3;
 
@@ -19,25 +19,16 @@ public class EnemyShoot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     void BulletAtk()
     {
-        if (animator.GetCurrentAnimatorStateInfo(0).IsName("atk2"))
-        {
-            if (eParent.isFlipped)
-                Instantiate(bullet2, pos2.position, Quaternion.Euler(new Vector3(0, 0, 0)));
-            else
-                Instantiate(bullet2, pos2.position, Quaternion.Euler(new Vector3(0, 180, 0)));
-        }
-
-        else if (animator.GetCurrentAnimatorStateInfo(0).IsName("atk3"))
-        {
-            if (eParent.isFlipped)
-                Instantiate(bullet3, pos3.position, Quaternion.Euler(new Vector3(0, 0, 0)));
-            else
-                Instantiate(bullet3, pos3.position, Quaternion.Euler(new Vector3(0, 180, 0)));
-        }
+        AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
+        Vector3 bulletRotation = (eParent.isFlipped) ? Vector3.zero : new Vector3(0, 180, 0);
+        if (stateInfo.IsName("atk2"))
+            Instantiate(bullet2, pos2.position, Quaternion.Euler(bulletRotation));
+        else if (stateInfo.IsName("atk3"))
+            Instantiate(bullet3, pos3.position, Quaternion.Euler(bulletRotation));
     }
 }

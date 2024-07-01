@@ -1431,11 +1431,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5a901b6195a30249a5b6782341d5a38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boxCollider: {fileID: 174195036}
   WinAudio: {fileID: 129940225}
   GameWinUI: {fileID: 598869051}
   buttonUI: {fileID: 1864038966}
-  tempNumberItems: {fileID: 860615405}
   zeroStar: {fileID: 174781432}
   oneStar: {fileID: 1546797272}
   twoStar: {fileID: 1077819854}
@@ -1454,11 +1452,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   items: 0
   maxItem: 30
-  boxCollider: {fileID: 174195036}
   collectItemAudio: {fileID: 1759744542}
+  tempItemScore: {fileID: 860615405}
   ItemScore: {fileID: 1775270210}
   textWin: {fileID: 1848481940}
-  tempItemScore: {fileID: 860615405}
 --- !u!114 &174195032
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1502,9 +1499,9 @@ MonoBehaviour:
   enemyLayer:
     serializedVersion: 2
     m_Bits: 512
-  atkOffset1: {x: 1, y: 0, z: 0}
-  atkRange1: 2
-  atkDamage1: 10
+  pointAtk1: {x: 1, y: 0, z: 0}
+  rangeAtk1: 2
+  damageAtk1: 10
   gunTip2: {fileID: 1615013738}
   gunTip4: {fileID: 1363016705}
   eye4: {fileID: 593184610}
@@ -1518,21 +1515,18 @@ MonoBehaviour:
   bulletAtk4: {fileID: 2658848728497650472, guid: 0532cca76ac3e3c48b27df1aa177e3c0,
     type: 3}
   eyeAtk4: {fileID: 4517673873309665408, guid: 8f6cd7e84448c0d47b96efaeaa1f412e, type: 3}
-  targetE: {fileID: 1615013738}
-  rangeAtk3: 0
-  rangeAtk4: 0
   timeAtk1: 0.75
   timeAtk2: 1
   timeAtk3: 1.5
   timeAtk4: 1.5
+  rangeAtk3: 0
+  rangeAtk4: 0
   useAtk3: 1
   useAtk4: 0
   atk1_audio: {fileID: 1100965603}
   atk2_audio: {fileID: 1100965602}
   atk3_audio: {fileID: 1100965601}
   atk4_audio: {fileID: 1100965600}
-  MPSlider: {fileID: 428668047}
-  MPScore: {fileID: 1269398670}
 --- !u!114 &174195034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1545,16 +1539,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f4a1abc079b5684095c499ee8eca867, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boxPlayer: {fileID: 174195036}
-  runSpeed: 7
-  jumpSpeed: 12
   Ground:
     serializedVersion: 2
     m_Bits: 1024
+  runSpeed: 7
+  jumpSpeed: 12
   faceingRight: 1
+  joystick: {fileID: 1639428154}
   theThan: {fileID: 1610542276069100973, guid: d04ac4365aacb714abcbf2652a589a51, type: 3}
   dash_audio: {fileID: 1100965599}
-  joystick: {fileID: 1639428154}
   dashingPower: 300
 --- !u!96 &174195035
 TrailRenderer:
@@ -1794,7 +1787,7 @@ Transform:
   - {fileID: 1300297384}
   - {fileID: 950025084}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &174195041
 MonoBehaviour:
@@ -2136,7 +2129,7 @@ Transform:
   - {fileID: 587578352}
   - {fileID: 1495646560}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &211996728
 GameObject:
@@ -7275,7 +7268,7 @@ PrefabInstance:
     - target: {fileID: 4470553286847559193, guid: 068db41163459124cb14162c527f3d21,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 50.37
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 4470553286847559193, guid: 068db41163459124cb14162c527f3d21,
         type: 3}
@@ -8820,6 +8813,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1613000042792546089, guid: aee88d72ef220724ba00c0971b57e1a2,
         type: 3}
+      propertyPath: soundBGAudio
+      value: 
+      objectReference: {fileID: 1100965610}
+    - target: {fileID: 1613000042792546089, guid: aee88d72ef220724ba00c0971b57e1a2,
+        type: 3}
+      propertyPath: soundBGSlider
+      value: 
+      objectReference: {fileID: 606700199}
+    - target: {fileID: 1613000042792546089, guid: aee88d72ef220724ba00c0971b57e1a2,
+        type: 3}
       propertyPath: backgroundSlider
       value: 
       objectReference: {fileID: 606700199}
@@ -8958,6 +8961,12 @@ AudioSource:
 --- !u!82 &1100965609 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 7645414611919806696, guid: aee88d72ef220724ba00c0971b57e1a2,
+    type: 3}
+  m_PrefabInstance: {fileID: 1100965598}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1100965610 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1613000042819497538, guid: aee88d72ef220724ba00c0971b57e1a2,
     type: 3}
   m_PrefabInstance: {fileID: 1100965598}
   m_PrefabAsset: {fileID: 0}
@@ -15400,7 +15409,7 @@ Transform:
   - {fileID: 188953042}
   - {fileID: 1688333579}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1943197157
 PrefabInstance:
@@ -49874,5 +49883,5 @@ Transform:
   - {fileID: 1446431517}
   - {fileID: 1114202796}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

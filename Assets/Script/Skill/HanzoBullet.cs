@@ -6,6 +6,7 @@ public class HanzoBullet : MonoBehaviour
 {
     EnemyBehavior eParent;
     Animator animator;
+    float rotateY;
     public GameObject bullet3, bullet3_2;
     public Transform pos3, pos3_2;
 
@@ -24,20 +25,15 @@ public class HanzoBullet : MonoBehaviour
 
     void BulletAtk3()
     {
+        rotateY = (eParent.isFlipped) ? 0 : 180;
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("atk3"))
-        {
-            if (eParent.isFlipped)
-                Instantiate(bullet3, pos3.position, Quaternion.Euler(new Vector3(0, 0, 0)));
-            else
-                Instantiate(bullet3, pos3.position, Quaternion.Euler(new Vector3(0, 180, 0)));
-        }
+            Instantiate(bullet3, pos3.position, Quaternion.Euler(new Vector3(0, rotateY, 0)));
         Invoke("BulletAtk3_2", 0.5f);
     }
     void BulletAtk3_2()
     {
-        if (eParent.isFlipped)
-            Instantiate(bullet3_2, pos3_2.position, Quaternion.Euler(new Vector3(0, 0, 0)));
-        else
-            Instantiate(bullet3_2, pos3_2.position, Quaternion.Euler(new Vector3(0, 180, 0)));
+        if (eParent.isFlipped && rotateY == 0 || !eParent.isFlipped && rotateY != 0)
+            Instantiate(bullet3_2, pos3_2.position, Quaternion.Euler(new Vector3(0, rotateY, 0)));
+        else return;
     }
 }
