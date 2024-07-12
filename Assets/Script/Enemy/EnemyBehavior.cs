@@ -131,6 +131,13 @@ public class EnemyBehavior : MonoBehaviour
             target = leftLimit;
         else
             target = rightLimit;
+
+        #region c2
+        /*if (transform.position == leftLimit.position)
+            target = rightLimit;
+        if (transform.position == rightLimit.position)
+            target = leftLimit;*/
+        #endregion
     }
 
     public void Flip()

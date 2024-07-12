@@ -9,7 +9,7 @@ public class PlayerHealth : MonoBehaviour
     Rigidbody2D rb;
 
     public int maxHP = 200, maxMP = 50, currentMP = 10;
-    [HideInInspector] public float currentHP;
+    [HideInInspector] public int currentHP;
     [HideInInspector] public bool isHurt;
 
     public Slider SliderHP, SliderMP;

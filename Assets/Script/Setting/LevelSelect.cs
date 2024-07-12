@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class LevelSelect : MonoBehaviour
 {
-    public int maxItem = 30;
+    private int maxItem = 30;
 
     private static readonly string FirstPlay = "FirstPlay";
     private static readonly string[] LevelPoints = {
